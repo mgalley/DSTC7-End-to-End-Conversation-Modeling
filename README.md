@@ -4,9 +4,17 @@ This [DST7](http://workshop.colips.org/dstc7/) track proposes an end-to-end conv
 
 A full description of the task and the dataset is available [here](http://workshop.colips.org/dstc7/proposals/DSTC7-MSR_end2end.pdf)
 
-## Setup Steps
+## Task, Data and Evaluate
+We extend the knowledge-grounded setting, with each system input consisting of two parts: 
+* Conversational input, from Reddit
+* Contextually-relevant “facts”, from WWW
 
-(TODO)
+The data extraction scripts are available [here](https://github.com/DSTC-MSR/DSTC7-End-to-End-Conversation-Modeling/tree/master/data_extraction). 
+We will evaluate response quality using both automatic and human evaluation on two criteria .
+* Appropriateness
+* Informativeness & Utility
+
+A baseline model is provided [here](https://github.com/DSTC-MSR/DSTC7-End-to-End-Conversation-Modeling/tree/master/baseline). 
 
 ## Contact Information
 You can get the latest updates and participate in discussions on DSTC mailing list. To join the mailing list, send an email to listserv@lists.research.microsoft.com with "subscribe DSTC" in the body of the message (without the quotes). 
