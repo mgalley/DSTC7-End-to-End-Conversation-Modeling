@@ -10,6 +10,7 @@ We extend the knowledge-grounded setting, with each system input consisting of t
 * Contextually-relevant “facts”, from WWW
 
 The data extraction scripts are available [here](https://github.com/DSTC-MSR/DSTC7-End-to-End-Conversation-Modeling/tree/master/data_extraction). 
+
 We will evaluate response quality using both automatic and human evaluation on two criteria .
 * Appropriateness
 * Informativeness & Utility
