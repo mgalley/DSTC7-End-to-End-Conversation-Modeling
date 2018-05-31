@@ -4,4 +4,4 @@ For the baseline, we consider the task without "facts" input. Then it is similar
 * Model: the previous model from DSTC6 [(link)](https://github.com/dialogtekgeek/DSTC6-End-to-End-Conversation-Modeling/tree/master/ChatbotBaseline)
 * Data: the current DSTC7 dataset [(link)](https://github.com/DSTC-MSR-NLP/DSTC7-End-to-End-Conversation-Modeling/tree/master/data_extraction)
 
-
+A simple seq2seq baseline model implemented using Keras will be available shortly
