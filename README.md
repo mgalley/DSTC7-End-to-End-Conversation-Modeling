@@ -36,6 +36,6 @@ A simple seq2seq [baseline model](https://github.com/DSTC-MSR/DSTC7-End-to-End-C
 ## Organizers
 * [Michel Galley](https://www.microsoft.com/en-us/research/people/mgalley/)
 * [Chris Brockett](https://www.microsoft.com/en-us/research/people/chrisbkt/)
-* [Sean Gao](https://www.linkedin.com/in/gxiang1228/)
+* [Sean Xiang Gao](https://www.linkedin.com/in/gxiang1228/)
 * [Bill Dolan](https://www.microsoft.com/en-us/research/people/billdol/)
 * [Jianfeng Gao](https://www.microsoft.com/en-us/research/people/jfgao/)
