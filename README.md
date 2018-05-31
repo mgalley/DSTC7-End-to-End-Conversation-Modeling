@@ -29,5 +29,5 @@ A  [baseline model](https://github.com/DSTC-MSR/DSTC7-End-to-End-Conversation-Mo
 
 
 ## Contact Information
-* You can get the latest updates and participate in discussions on [DSTC mailing list](http://workshop.colips.org/dstc7/contact.html)
 * You can contact us at <dstc7-task2@microsoft.com>
+* You can get the latest updates and participate in discussions on [DSTC mailing list](http://workshop.colips.org/dstc7/contact.html)
