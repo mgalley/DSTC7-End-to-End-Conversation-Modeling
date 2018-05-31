@@ -3,7 +3,7 @@
 ## Moving beyond Chitchat
 This [DST7](http://workshop.colips.org/dstc7/) track proposes an end-to-end conversational modeling task, where the goal is to generate conversational responses that go beyond chitchat, by injecting informational responses that are grounded in external knowledge (e.g.,Foursquare, or possibly also Wikipedia, Goodreads, or TripAdvisor). There is no specific or predefined goal (e.g., booking a flight, or reserving a table at a restaurant), so this task does not constitute what is commonly called either goal-oriented, task-oriented, or task-completion dialog, but target human-human dialogs where the underlying goal is often ill-defined or not known in advance, even at work and other productive environments (e.g.,brainstorming meetings).
 
-Please check the [proposal](http://workshop.colips.org/dstc7/proposals/DSTC7-MSR_end2end.pdf) for a full description of the task, which follows our previous work ["A Knowledge-Grounded Neural Conversation Model"](https://arxiv.org/abs/1702.01932)
+Please check the [proposal](https://github.com/DSTC-MSR-NLP/DSTC7-End-to-End-Conversation-Modeling/blob/master/doc/proposal.pdf) for a full description of the task, which follows our previous work ["A Knowledge-Grounded Neural Conversation Model"](https://arxiv.org/abs/1702.01932)
 
 ## Task, Data and Evaluate
 We extend the knowledge-grounded setting, with each system input consisting of two parts: 
