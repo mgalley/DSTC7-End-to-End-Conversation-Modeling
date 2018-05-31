@@ -5,13 +5,14 @@ This [DST7](http://workshop.colips.org/dstc7/) track proposes an end-to-end conv
 
 Please check the [proposal](https://github.com/DSTC-MSR-NLP/DSTC7-End-to-End-Conversation-Modeling/blob/master/doc/proposal.pdf) for a full description of the task, which follows our previous work ["A Knowledge-Grounded Neural Conversation Model"](https://arxiv.org/abs/1702.01932)
 
-## Task, Data and Evaluate
+## Data
 We extend the knowledge-grounded setting, with each system input consisting of two parts: 
 * Conversational input, from Reddit
 * Contextually-relevant “facts”, from WWW
 
 Please check the [data extraction](https://github.com/DSTC-MSR/DSTC7-End-to-End-Conversation-Modeling/tree/master/data_extraction) for the input data pipeline.
 
+## Evaluation and Baseline
 We will evaluate response quality using both automatic and human evaluation on two criteria .
 * Appropriateness
 * Informativeness & Utility
