@@ -1,5 +1,5 @@
 # DSTC7: End-to-End Conversation Modeling
-Organizers: [Michel Galley](https://www.microsoft.com/en-us/research/people/mgalley/), [Chris Brockett](https://www.microsoft.com/en-us/research/people/chrisbkt/), [Sean Gao](https://www.linkedin.com/in/gxiang1228/), [Bill Dolan](https://www.microsoft.com/en-us/research/people/billdol/) and [Jianfeng Gao](https://www.microsoft.com/en-us/research/people/jfgao/) from [Microsoft Research](https://www.microsoft.com/en-us/research/lab/microsoft-research-ai/)
+
 ## Moving beyond Chitchat
 This [DST7](http://workshop.colips.org/dstc7/) track proposes an end-to-end conversational modeling task, where the goal is to generate conversational responses that go beyond chitchat, by injecting informational responses that are grounded in external knowledge (e.g.,Foursquare, or possibly also Wikipedia, Goodreads, or TripAdvisor). There is no specific or predefined goal (e.g., booking a flight, or reserving a table at a restaurant), so this task does not constitute what is commonly called either goal-oriented, task-oriented, or task-completion dialog, but target human-human dialogs where the underlying goal is often ill-defined or not known in advance, even at work and other productive environments (e.g.,brainstorming meetings).
 
@@ -31,3 +31,9 @@ A  [baseline model](https://github.com/DSTC-MSR/DSTC7-End-to-End-Conversation-Mo
 ## Contact Information
 * You can contact us at <dstc7-task2@microsoft.com>
 * You can get the latest updates and participate in discussions on [DSTC mailing list](http://workshop.colips.org/dstc7/contact.html)
+## Organizers: 
+* [Michel Galley](https://www.microsoft.com/en-us/research/people/mgalley/)
+* [Chris Brockett](https://www.microsoft.com/en-us/research/people/chrisbkt/)
+* [Sean Gao](https://www.linkedin.com/in/gxiang1228/)
+* [Bill Dolan](https://www.microsoft.com/en-us/research/people/billdol/)
+* [Jianfeng Gao](https://www.microsoft.com/en-us/research/people/jfgao/)
