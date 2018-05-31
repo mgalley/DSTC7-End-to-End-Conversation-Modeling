@@ -12,11 +12,12 @@ We extend the knowledge-grounded setting, with each system input consisting of t
 
 Please check the [data extraction](https://github.com/DSTC-MSR/DSTC7-End-to-End-Conversation-Modeling/tree/master/data_extraction) for the input data pipeline.
 
-## Evaluation and Baseline
+## Evaluation
 We will evaluate response quality using both automatic and human evaluation on two criteria .
 * Appropriateness
 * Informativeness & Utility
 
+## Baseline
 A simple seq2seq [baseline model](https://github.com/DSTC-MSR/DSTC7-End-to-End-Conversation-Modeling/tree/master/baseline) will be provided shortly.
 
 ## Timeline
