@@ -6,7 +6,7 @@ Note: In the original proposal, we planned to use Twitter data (conversational d
 
 This page provides scripts to extract the data from a Reddit [dump](http://files.pushshift.io/reddit/comments/), avoiding legal difficulties of releasing data ourselves. 
 
-[b]**Under construction. Scripts will be be made available on June 1 or shortly thereafter.**[/b]
+**Under construction. Scripts will be be made available on June 1 or shortly thereafter.**
 
 ## Requirements
 Python 3
