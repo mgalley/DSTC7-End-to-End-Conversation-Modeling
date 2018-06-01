@@ -1,7 +1,7 @@
 # DSTC7: End-to-End Conversation Modeling
 
 ## News
-* Registration for DSTC7 Task 2 is now open. To register, simply email us at <dstc7-task2@microsoft.com>.
+* 6/1/2018: Registration for DSTC7 Task 2 is now open. To register, simply email us at <dstc7-task2@microsoft.com>.
 
 ## Task
 This [DSTC7](http://workshop.colips.org/dstc7/) track presents an end-to-end conversational modeling task, in which the goal is to generate conversational responses that go beyond trivial chitchat by injecting informative responses that are grounded in external knowledge. This task is distinct from what is commonly thought of as goal-oriented, task-oriented, or task-completion dialog in that there is no specific or predefined goal (e.g., booking a flight, or reserving a table at a restaurant). Instead, it targets human-like interactions where the underlying goal is often ill-defined or not known in advance, of the kind seen, for example, in work and other productive environments (e.g.,brainstorming meetings) where people share information.
@@ -27,8 +27,8 @@ A standard seq2seq [baseline model](https://github.com/DSTC-MSR/DSTC7-End-to-End
 |Phase|Dates|
 | ------ | -------------- |
 |1. Development Phase|June 1 – Sept 9|
-|1.1 Code (data extraction code, seq2seq baseline), trial data made available|June 1st|
-|1.2 Training data made available|July 1st|
+|1.1 Code (data extraction code, seq2seq baseline), trial training data made available|June 1st|
+|1.2 Official training data made available|July 1st|
 |2. Evaluation Phase|Sept 10 – 24|
 |2.1 Test data made available|Sept 10|
 
