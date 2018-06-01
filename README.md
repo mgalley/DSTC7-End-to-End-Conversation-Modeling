@@ -1,12 +1,13 @@
 # DSTC7: End-to-End Conversation Modeling
 
 ## News
+* 6/1/2018: [Task description](https://github.com/DSTC-MSR-NLP/DSTC7-End-to-End-Conversation-Modeling/blob/master/doc/DSTC7_task2.pdf) is up.
 * 6/1/2018: Registration for DSTC7 Task 2 is now open. To register, simply email us at <dstc7-task2@microsoft.com>.
 
 ## Task
 This [DSTC7](http://workshop.colips.org/dstc7/) track presents an end-to-end conversational modeling task, in which the goal is to generate conversational responses that go beyond trivial chitchat by injecting informative responses that are grounded in external knowledge. This task is distinct from what is commonly thought of as goal-oriented, task-oriented, or task-completion dialog in that there is no specific or predefined goal (e.g., booking a flight, or reserving a table at a restaurant). Instead, it targets human-like interactions where the underlying goal is often ill-defined or not known in advance, of the kind seen, for example, in work and other productive environments (e.g.,brainstorming meetings) where people share information.
 
-Please check the [proposal](https://github.com/DSTC-MSR-NLP/DSTC7-End-to-End-Conversation-Modeling/blob/master/doc/proposal.pdf) for a full description of the task, which follows our previous work ["A Knowledge-Grounded Neural Conversation Model"](https://arxiv.org/abs/1702.01932).
+Please check this [description](https://github.com/DSTC-MSR-NLP/DSTC7-End-to-End-Conversation-Modeling/blob/master/doc/DSTC7_task2.pdf) for a more detailed description of the task, which follows our previous work ["A Knowledge-Grounded Neural Conversation Model"](https://arxiv.org/abs/1702.01932) and our original task [proposal](https://github.com/DSTC-MSR-NLP/DSTC7-End-to-End-Conversation-Modeling/blob/master/doc/proposal.pdf).
 
 ## Data
 We extend the [knowledge-grounded](https://arxiv.org/abs/1702.01932) setting, with each system input consisting of two parts: 
