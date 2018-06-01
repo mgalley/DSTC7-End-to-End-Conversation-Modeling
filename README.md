@@ -33,7 +33,7 @@ A standard seq2seq [baseline model](https://github.com/DSTC-MSR/DSTC7-End-to-End
 |2. Evaluation Phase|Sept 10 – 24|
 |2.1 Test data made available|Sept 10|
 
-Note: We are providing scripts to extract the data from a Reddit [dump](http://files.pushshift.io/reddit/comments/), avoiding legal difficulties of releasing data ourselves. 
+Note: We are providing scripts to extract the data from a Reddit [dump](http://files.pushshift.io/reddit/comments/), as we are unable to release the data directly ourselves. 
 
 ## Organizers
 * [Michel Galley](https://www.microsoft.com/en-us/research/people/mgalley/)
