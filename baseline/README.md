@@ -8,13 +8,16 @@ The scripts are tested on [Python 3.6](https://www.python.org/downloads/) with t
 
 ## Input files
 Trial data files will be available soon [(here)](../blob/master/data_extract). A dataset will include the following input files.
+
 |generated file|description|
 |---|---|
 |dict.txt|The vocab list. The line number is the `word id` (starting from 1) of the word in this line. The words are ordered by their frequencies appeared in the raw input file|
 |source_num.txt|The list of source sentences where words are replaced by their `word id`|
 |target_num.txt|The list of corresponding target sentences where words are replaced by their `word id`|
+
 ## Parameters
 Some key parameters can be specified in the main() function of [baseline.py](../blob/master/baseline/baseline.py)
+
 |parameter|description|
 |---------|-------|
 |`token_embed_dim` | length of word embedding vector |
@@ -23,6 +26,7 @@ Some key parameters can be specified in the main() function of [baseline.py](../
 |`decoder_depth`| number of GRU cells stacked in the decoder|
 |`dropout_rate`| dropout probability|
 |`learning_rate`| learning rate|
+
 ## Run
 Simply use the command
 ```
