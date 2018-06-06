@@ -16,7 +16,7 @@ Trial data files will be available soon [(here)](../blob/master/data_extract). A
 |target_num.txt|The list of corresponding target sentences where words are replaced by their `word id`|
 
 ## Parameters
-Some key parameters can be specified in the main() function of [baseline.py](../blob/master/baseline/baseline.py)
+Some key parameters can be specified in the main() function of [baseline.py](baseline.py)
 
 |parameter|description|
 |---------|-------|
