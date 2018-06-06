@@ -33,6 +33,7 @@ Simply use the command
 python baseline.py [mode]
 ```
 where mode can be one of the following values
+
 |mode|description|
 |---------|-------|
 |`train` | train the model on randomly selected training data. Trained model is saved after each epoch |
