@@ -7,7 +7,7 @@ The scripts are tested on [Python 3.6](https://www.python.org/downloads/) with t
 * [numpy](http://www.numpy.org/)
 
 ## Input files
-Trial data files will be available soon [(here)](../blob/master/data_extract). A dataset will include the following input files.
+Trial data files will be available soon [(here)](https://github.com/DSTC-MSR-NLP/DSTC7-End-to-End-Conversation-Modeling/tree/master/data_extraction). A dataset will include the following input files.
 
 |generated file|description|
 |---|---|
