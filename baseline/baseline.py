@@ -1,4 +1,4 @@
-	import os, random, sys
+import os, random, sys
 import numpy as np
 from keras.models import Model
 from keras.layers import Input, GRU, Dense, Embedding, Dropout
