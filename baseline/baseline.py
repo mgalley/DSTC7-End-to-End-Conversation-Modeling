@@ -182,7 +182,7 @@ class Seq2Seq:
 	def _stacked_rnn(self, rnns, inputs, initial_state=None):
 		outputs, state = rnns[0](inputs, initial_state=initial_state)
 		for i in range(1, len(rnns)):
-			outputs, state = rnns[i](outputs, initial_state=state)
+			outputs, state = rnns[i](outputs)
 		return outputs, state
 
 
