@@ -179,11 +179,15 @@ class Seq2Seq:
 		self.build_model_test()
 
 
-	def _stacked_rnn(self, rnns, inputs, initial_state=None):
-		outputs, state = rnns[0](inputs, initial_state=initial_state)
+	def _stacked_rnn(self, rnns, inputs, initial_states=None):
+		if initial_states is None:
+			initial_states = [None] * len(rnns)
+		outputs, state = rnns[0](inputs, initial_state=initial_states[0])
+		states = [state]
 		for i in range(1, len(rnns)):
-			outputs, state = rnns[i](outputs)
-		return outputs, state
+			outputs, state = rnns[i](outputs, initial_state=initial_states[i])
+			states.append(state)
+		return outputs, states
 
 
 	def build_model_train(self):
@@ -220,11 +224,11 @@ class Seq2Seq:
 
 		# set connections: teacher forcing
 
-		encoder_outputs, encoder_state = self._stacked_rnn(
+		encoder_outputs, encoder_states = self._stacked_rnn(
 				encoder_rnns, embeding(encoder_inputs))
 
-		decoder_outputs, decoder_state = self._stacked_rnn(
-				decoder_rnns, embeding(decoder_inputs), encoder_state)
+		decoder_outputs, decoder_states = self._stacked_rnn(
+				decoder_rnns, embeding(decoder_inputs), [encoder_states[-1]] * self.decoder_depth)
 
 		decoder_outputs = Dropout(self.dropout_rate)(decoder_outputs)
 		decoder_outputs = decoder_dense(decoder_outputs)
@@ -249,25 +253,28 @@ class Seq2Seq:
 		
 		encoder_inputs = Input(shape=(None,), name='encoder_inputs')
 		decoder_inputs = Input(shape=(None,), name='decoder_inputs')
-		decoder_state_prev = Input(shape=(self.rnn_units,), name="decoder_state_prev")
+		decoder_inital_states = []
+		for i in range(self.decoder_depth):
+			decoder_inital_states.append(Input(shape=(self.rnn_units,), name="decoder_inital_state_%i"%i))
 
 		# set connections: autoregressive
 
-		encoder_outputs, encoder_state = self._stacked_rnn(
+		encoder_outputs, encoder_states = self._stacked_rnn(
 				[reused['encoder_rnn_%i'%i] for i in range(self.encoder_depth)], 
 				reused['embeding'](encoder_inputs))
-		self.model_infer_encoder = Model(encoder_inputs, encoder_state)
+		self.model_infer_encoder = Model(encoder_inputs, encoder_states[-1])
 
-		decoder_outputs, decoder_state = self._stacked_rnn(
+		decoder_outputs, decoder_states = self._stacked_rnn(
 				[reused['decoder_rnn_%i'%i] for i in range(self.decoder_depth)], 
 				reused['embeding'](decoder_inputs),
-				decoder_state_prev)
+				decoder_inital_states)
 
 		decoder_outputs = Dropout(self.dropout_rate)(decoder_outputs)
 		decoder_outputs = reused['decoder_dense'](decoder_outputs)
 		self.model_infer_decoder = Model(
-				[decoder_inputs, decoder_state_prev],
-				[decoder_outputs, decoder_state])
+				[decoder_inputs] + decoder_inital_states,
+				[decoder_outputs] + decoder_states)
+
 
 	def save_model(self, name):
 		path = os.path.join(self.model_dir, name)
@@ -300,7 +307,7 @@ class Seq2Seq:
 		self.save_model('model.h5')
 
 
-	def test(self, samples_per_load=1000, print_step=1):
+	def test(self, samples_per_load=1000, print_step=100):
 
 		self.dataset.reset()
 		avg_NLL = 0.
@@ -332,10 +339,10 @@ class Seq2Seq:
 
 					s = '\n'.join([
 						'%i'%(n+i)+'-'*20,
-						'source: ' + source_texts[i],
-						'target: ' + target_text,
-						'predicted: ' + decoded_sentence,
-						'word-avg NNL: %.1f'%NLL,
+						'source: \t' + source_texts[i],
+						'target: \t' + target_text,
+						'pred:   \t' + decoded_sentence,
+						'avg NNL:\t%.1f'%NLL,
 						'',
 						])
 					print(s)
@@ -353,22 +360,24 @@ class Seq2Seq:
 			f.write(s)
 
 
-	def _infer(self, source_seq_mat):
+	def _infer(self, source_seq_int):
 
-		state = self.model_infer_encoder.predict(source_seq_mat)
+		state = self.model_infer_encoder.predict(source_seq_int)
 		prev_word = np.atleast_2d([self.dataset.SOS])
-
+		states = [state] * self.decoder_depth
 		decoded_sentence = ''
-		n_token = 0
+		t = 0
 		while True:
 
-			tokens_proba, state = self.model_infer_decoder.predict([prev_word, state])
+			out = self.model_infer_decoder.predict([prev_word] + states)
+			tokens_proba = out[0]
+			states = out[1:]
 			sampled_token_index = np.argmax(tokens_proba[0, -1, :])
 			sampled_token = self.dataset.index2token[sampled_token_index]
 			decoded_sentence += sampled_token+' '
 
-			n_token += 1
-			if sampled_token_index == self.dataset.EOS or n_token > self.dataset.max_seq_len:
+			t += 1
+			if sampled_token_index == self.dataset.EOS or t > self.dataset.max_seq_len:
 				break
 
 			prev_word = np.atleast_2d([sampled_token_index])
@@ -376,15 +385,17 @@ class Seq2Seq:
 		return decoded_sentence
 
 
-	def _find_likelihood(self, source_seq_mat, target_seq_tokens):
+	def _find_likelihood(self, source_seq_int, target_seq_tokens):
 
-		state = self.model_infer_encoder.predict(source_seq_mat)
+		state = self.model_infer_encoder.predict(source_seq_int)
 		prev_word = np.atleast_2d([self.dataset.SOS])
-
+		states = [state] * self.decoder_depth
 		likelihood = 1.
 		for token in target_seq_tokens:
 
-			tokens_proba, state = self.model_infer_decoder.predict([prev_word, state])
+			out = self.model_infer_decoder.predict([prev_word] + states)
+			tokens_proba = out[0]
+			states = out[1:]
 			token_index = self.dataset.token2index[token]
 			likelihood *= tokens_proba.ravel()[token_index]
 			prev_word = np.atleast_2d([token_index])
@@ -413,19 +424,19 @@ class Seq2Seq:
 def main(mode):
 
 
-	token_embed_dim = 128	
-	rnn_units = 512  
+	token_embed_dim = 32	
+	rnn_units = 128
 	encoder_depth = 2
 	decoder_depth = 2
 	dropout_rate = 0.5
 	learning_rate = 1e-4
 
 	batch_size = 64
-	epochs = 20
+	epochs = 10
 
-	path_source = 'example data/source_num.txt'
-	path_target = 'example data/target_num.txt'
-	path_vocab = 'example data/dict.txt'
+	path_source = 'example_data/source_num.txt'
+	path_target = 'example_data/target_num.txt'
+	path_vocab = 'example_data/dict.txt'
 
 	dataset = Dataset(path_source, path_target, path_vocab)
 	model_dir = 'model'
@@ -435,7 +446,7 @@ def main(mode):
 
 	if mode == 'train':
 		s2s.build_model_train()
-		s2s.train(batch_size, epochs, batch_per_load, lr=learning_rate)
+		s2s.train(batch_size, epochs, lr=learning_rate)
 	else:
 		s2s.load_models()
 		if mode == 'test':
