@@ -1,4 +1,4 @@
-import os, random, sys
+	import os, random, sys
 import numpy as np
 from keras.models import Model
 from keras.layers import Input, GRU, Dense, Embedding, Dropout
@@ -17,12 +17,13 @@ NOTE:
 * 	no attention mechanism
 * 	no beam search
 
-author/contact: Sean Xiang Gao (xiag@microsoft.com) at Microsoft Research
+AUTHOR/CONTACT: 
+Sean Xiang Gao (xiag@microsoft.com) at Microsoft Research
 """
 
 
-SOS_token = 'SOS'
-EOS_token = 'EOS'
+SOS_token = 'SOS'	# start of sentence
+EOS_token = 'EOS'	# end of sentence
 
 def set_random_seed(seed=912):
 	random.seed(seed)
