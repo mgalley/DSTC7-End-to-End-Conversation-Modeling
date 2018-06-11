@@ -1,5 +1,5 @@
 # Baseline Model
-This is a baseline model for [DSTC task 2](https://github.com/DSTC-MSR-NLP/DSTC7-End-to-End-Conversation-Modeling). It is an GRU-based seq2seq generation system. This model does not use grounding information ("facts"), as it is only meant to be a baseline. There is no attention mechanism, and no beam search. This is a Python implementation, adapted from a Keras [tutorial](https://blog.keras.io/a-ten-minute-introduction-to-sequence-to-sequence-learning-in-keras.html). 
+This is a baseline model for [DSTC task 2](https://github.com/DSTC-MSR-NLP/DSTC7-End-to-End-Conversation-Modeling). This is a GRU-based seq2seq generation system. Since it is a baseline, the model does not use grounding information ("facts"), attention or beam search. The implementation is in Python, adapted from a Keras [tutorial](https://blog.keras.io/a-ten-minute-introduction-to-sequence-to-sequence-learning-in-keras.html). 
 
 ## Requirement
 The scripts are tested on [Python 3.6](https://www.python.org/downloads/) with the following libaries
@@ -7,7 +7,7 @@ The scripts are tested on [Python 3.6](https://www.python.org/downloads/) with t
 * [numpy](http://www.numpy.org/)
 
 ## Input files
-Trial data files will be available soon [(here)](https://github.com/DSTC-MSR-NLP/DSTC7-End-to-End-Conversation-Modeling/tree/master/data_extraction). A dataset will include the following input files.
+Trial data files will be available soon [(here)](https://github.com/DSTC-MSR-NLP/DSTC7-End-to-End-Conversation-Modeling/tree/master/data_extraction). The dataset will include the following input files.
 
 |generated file|description|
 |---|---|
@@ -16,7 +16,7 @@ Trial data files will be available soon [(here)](https://github.com/DSTC-MSR-NLP
 |target_num.txt|The list of corresponding target sentences where words are replaced by their `word id`|
 
 ## Parameters
-Some key parameters can be specified in the main() function of [baseline.py](baseline.py)
+Key parameters can be specified in the main() function of [baseline.py](baseline.py)
 
 |parameter|description|
 |---------|-------|
@@ -28,7 +28,7 @@ Some key parameters can be specified in the main() function of [baseline.py](bas
 |`learning_rate`| learning rate|
 
 ## Run
-Simply use the command
+Use the command:
 ```
 python baseline.py [mode]
 ```
@@ -36,6 +36,6 @@ where mode can be one of the following values
 
 |mode|description|
 |---------|-------|
-|`train` | train the model on randomly selected training data. Trained model is saved after each epoch |
-|`test`| test the model on hold-out data. Negative likelihood is printed|
-|`interact`| play with the trained model interactively|
+|`train` | train the model on randomly selected training data. The trained model is saved after each epoch |
+|`test`| test the model on held-out data. Negative likelihood is printed|
+|`interact`| explore the trained model interactively|
