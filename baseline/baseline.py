@@ -329,13 +329,6 @@ class Seq2Seq:
 				decoded_sentence = self._infer(source_seq_mat)
 				target_text = target_texts[i]
 
-				target_seq_tokens = target_text.split(' ')
-				likelihood = self._find_likelihood(source_seq_mat, target_seq_tokens)
-				NLL = - np.log(likelihood)/len(target_seq_tokens)
-				perplexity = np.exp(NLL)
-
-				avg_NLL += NLL
-
 				if i%print_step==0:
 
 					s = '\n'.join([
@@ -343,22 +336,12 @@ class Seq2Seq:
 						'source: \t' + source_texts[i],
 						'target: \t' + target_text,
 						'pred:   \t' + decoded_sentence,
-						'avg NNL:\t%.1f'%NLL,
 						'',
 						])
 					print(s)
 					with open(path_log, 'a') as f:
 						f.write(s)
 
-			n += len(source_texts)
-
-		s = '\n'.join([
-			'\n'+'='*20,
-			'avg_NLL: %.1f'%(avg_NLL/n),
-			])
-		print(s)
-		with open(path_log, 'a') as f:
-			f.write(s)
 
 
 	def _infer(self, source_seq_int):
@@ -385,23 +368,6 @@ class Seq2Seq:
 
 		return decoded_sentence
 
-
-	def _find_likelihood(self, source_seq_int, target_seq_tokens):
-
-		state = self.model_infer_encoder.predict(source_seq_int)
-		prev_word = np.atleast_2d([self.dataset.SOS])
-		states = [state] * self.decoder_depth
-		likelihood = 1.
-		for token in target_seq_tokens:
-
-			out = self.model_infer_decoder.predict([prev_word] + states)
-			tokens_proba = out[0]
-			states = out[1:]
-			token_index = self.dataset.token2index[token]
-			likelihood *= tokens_proba.ravel()[token_index]
-			prev_word = np.atleast_2d([token_index])
-
-		return likelihood
 
 
 	def dialog(self, input_text):
