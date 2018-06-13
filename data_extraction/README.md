@@ -4,7 +4,7 @@ Task 2 uses conversational data extracted from Reddit, along with the text of th
 
 Note: In the original proposal, we planned to use Twitter data (conversational data) and Foursquare (grounded data), but decided to use Reddit, owing to the volatility of Twitter data, as well the technical difficulties of aligning Twitter content with data from other sources.  Reddit provides an intuitive direct link to external data in the submissions that can be utilized for this task. More details will be provided in a forthcoming update.
 
-**Under construction. Scripts will be be made available on June 1 or shortly thereafter.**
+**Under construction. Scripts will be be made available by June 15. **
 
 ## Requirements
 Python 3
