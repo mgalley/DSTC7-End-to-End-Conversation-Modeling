@@ -41,16 +41,9 @@ Each line of `trial.convos.txt` contains a Reddit response and its preceding con
 4. conversational context (input of the model)
 5. response (output of the model)
 
-#### Sample:
-
-```todayilearned <tab> f2ruz <tab> 145 <tab> START EOS til a woman fell 30,000 feet from an airplane and survived . <tab> the page states that a 2009 report found the plane only fell several hundred meters .```
-
-
-1. subreddit name: `TodayILearned`
-2. conversation ID: `f2ruz`
-3. response score: `145`
-4. conversational context: `START EOS til a woman fell 30,000 feet from an airplane and survived .`
-5. response: `the page states that a 2009 report found the plane only fell several hundred meters .`
+The converational context may contain:
+* EOS: special symbol indicating a turn transition
+* START: special symbol indicating the start of the conversation
 
 ### Facts file:
 
@@ -62,13 +55,34 @@ Each line of `trial.facts.txt` contains a "fact", either a sentence, paragraph (
 
 To produce the facts relevant to each conversation, we took the text of the page using an html-to-text converter ([BeautifulSoup]{https://www.crummy.com/software/BeautifulSoup/}), but kept the most important tags intact (`<title>, <h1-6>, <p>, etc`). As web formatting differs substantially from domain to domain and common tags like `<p>` may not be used in some domains, we kept all the text of the page even when it is not surrounded by these common tags (however, we do remove javascript and style code). As some of the facts data tend to be noisy, you may want restrict yourself to facts that contain tags.
 
-#### Sample:
-
-```todayilearned f2ruz <p> four years later , peter hornung-andersen and pavel theiner , two prague-based journalists , claimed that flight 367 had been mistaken for an enemy aircraft and shot down by the czechoslovak air force at an altitude of 800 metres ( 2,600 ft ) . </p>```
 
 #### Labeled anchors
 
 A substantial number of URLs contain labeled achors, for example:
+
 ```http://en.wikipedia.org/wiki/John_Rhys-Davies#The_Lord_of_the_Rings_trilogy```
 
 which here refers to the label `The_Lord_of_the_Rings_trilogy`. This information is preserved in the facts, and indicated with the tags `<anchor>` and `</anchor>`. As many web pages in this dataset are lengthy, this is helpful information, indicating what text the model should likely attend to in order to produce a good response.
+
+
+### Sample data:
+
+#### Sample conversation turn (from trial.convos.txt):
+
+```todayilearned \t f2ruz \t 145 \t START EOS til a woman fell 30,000 feet from an airplane and survived . \t the page states that a 2009 report found the plane only fell several hundred meters .```
+
+Maps to:
+1. subreddit name: `TodayILearned`
+2. conversation ID: `f2ruz`
+3. response score: `145`
+4. conversational context: `START EOS til a woman fell 30,000 feet from an airplane and survived .`
+5. response: `the page states that a 2009 report found the plane only fell several hundred meters .`
+
+#### Sample fact (from trial.facts.txt):
+
+```todayilearned \t f2ruz \t <p> four years later , peter hornung-andersen and pavel theiner , two prague-based journalists , claimed that flight 367 had been mistaken for an enemy aircraft and shot down by the czechoslovak air force at an altitude of 800 metres ( 2,600 ft ) . </p>```
+
+Maps to:
+1. subreddit name: `TodayILearned`
+2. conversation ID: `f2ruz`
+3. fact: `<p> four years later , peter hornung-andersen and pavel theiner , two prague-based journalists , claimed that flight 367 had been mistaken for an enemy aircraft and shot down by the czechoslovak air force at an altitude of 800 metres ( 2,600 ft ) . </p>`
