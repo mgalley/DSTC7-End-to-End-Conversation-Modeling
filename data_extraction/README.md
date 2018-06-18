@@ -7,7 +7,7 @@ Note: In the original proposal, we planned to use Twitter data (conversational d
 **Under construction. Scripts will be be made available by June 15. **
 
 ## Requirements
-Python 3
+Python 3.x
 
 ## How to use
 TBA
