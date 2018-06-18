@@ -27,7 +27,9 @@ This will create two tab-separated (tsv) files `data/trial.convos.txt` and `data
 * **Data split**: The official data will be divided into train/dev/test, but the trial data isn't.
 * **Offensive language**: We restricted the data to subreddits that are generally inoffensive. However, even the most "well behaved" subreddits occasionally contain offensive and explicit language, and the trial-version of the data does not attempt to remove it.
 
-## Data format:
+## Data description:
+
+Each conversation in this dataset consist of Reddit `submission` and its following discussion-like `comments`. In this data, we restrict ourselves to submissions that provide an `url` along with a `title` (see [example]{https://www.reddit.com/r/todayilearned/comments/f2ruz/til_a_woman_fell_30000_feet_from_an_airplane_and/}). The web page scraped from the url provides grounding or context to the conversation, and is additional (non-conversational) input that models can take in order to produce responses that are more informative and contentful. 
 
 ### Conversation file:
 
@@ -39,6 +41,34 @@ Each line of `trial.convos.txt` contains a Reddit response and its preceding con
 4. conversational context (input of the model)
 5. response (output of the model)
 
-Sample:
-TODO
+#### Sample:
 
+```todayilearned <tab> f2ruz <tab> 145 <tab> START EOS til a woman fell 30,000 feet from an airplane and survived . <tab> the page states that a 2009 report found the plane only fell several hundred meters .```
+
+
+1. subreddit name: `TodayILearned`
+2. conversation ID: `f2ruz`
+3. response score: `145`
+4. conversational context: `START EOS til a woman fell 30,000 feet from an airplane and survived .`
+5. response: `the page states that a 2009 report found the plane only fell several hundred meters .`
+
+### Facts file:
+
+Each line of `trial.facts.txt` contains a "fact", either a sentence, paragraph (or other snippet of text) relevant to the current conversation. Use conversation IDs to find the facts relevant to each conversation. Note: facts relevant to a given conversation are ordered as they appear on the web page from which they have been extracted. The file contains 3 columns:
+
+1. subreddit name
+2. conversation ID
+3. fact
+
+To produce the facts relevant to each conversation, we took the text of the page using an html-to-text converter ([BeautifulSoup]{https://www.crummy.com/software/BeautifulSoup/}), but kept the most important tags intact (`<title>, <h1-6>, <p>, etc`). As web formatting differs substantially from domain to domain and common tags like `<p>` may not be used in some domains, we kept all the text of the page even when it is not surrounded by these common tags (however, we do remove javascript and style code). As some of the facts data tend to be noisy, you may want restrict yourself to facts that contain tags.
+
+#### Sample:
+
+```todayilearned f2ruz <p> four years later , peter hornung-andersen and pavel theiner , two prague-based journalists , claimed that flight 367 had been mistaken for an enemy aircraft and shot down by the czechoslovak air force at an altitude of 800 metres ( 2,600 ft ) . </p>```
+
+#### Labeled anchors
+
+A substantial number of URLs contain labeled achors, for example:
+```http://en.wikipedia.org/wiki/John_Rhys-Davies#The_Lord_of_the_Rings_trilogy```
+
+which here refers to the label `The_Lord_of_the_Rings_trilogy`. This information is preserved in the facts, and indicated with the tags `<anchor>` and `</anchor>`. As many web pages in this dataset are lengthy, this is helpful information, indicating what text the model should likely attend to in order to produce a good response.
