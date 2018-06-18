@@ -38,7 +38,7 @@ Each line of `trial.convos.txt` contains a Reddit response and its preceding con
 1. subreddit name
 2. conversation ID
 3. response score
-4. conversational context (input of the model)
+4. conversational context, usually multiple turns (input of the model)
 5. response (output of the model)
 
 The converational context may contain:
