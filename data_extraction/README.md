@@ -29,11 +29,11 @@ This will create two tab-separated (tsv) files `data/trial.convos.txt` and `data
 
 ## Data description:
 
-Each conversation in this dataset consist of Reddit `submission` and its following discussion-like `comments`. In this data, we restrict ourselves to submissions that provide an `url` along with a `title` (see [example]{https://www.reddit.com/r/todayilearned/comments/f2ruz/til_a_woman_fell_30000_feet_from_an_airplane_and/}). The web page scraped from the url provides grounding or context to the conversation, and is additional (non-conversational) input that models can take in order to produce responses that are more informative and contentful. 
+Each conversation in this dataset consist of Reddit `submission` and its following discussion-like `comments`. In this data, we restrict ourselves to submissions that provide an `URL` along with a `title` (see [example](https://www.reddit.com/r/todayilearned/comments/f2ruz/til_a_woman_fell_30000_feet_from_an_airplane_and/)). The web page scraped from the URL provides grounding or context to the conversation, and is additional (non-conversational) input that models can condition on to produce responses that are more informative and contentful. 
 
 ### Conversation file:
 
-Each line of `trial.convos.txt` contains a Reddit response and its preceding conversational context. Long conversational contexts are truncated by keeping the last 100 words. The file contains 4 columns:
+Each line of `trial.convos.txt` contains a Reddit response and its preceding conversational context. Long conversational contexts are truncated by keeping the last 100 words. The file contains 5 columns:
 
 1. subreddit name
 2. conversation ID
@@ -47,13 +47,13 @@ The converational context may contain:
 
 ### Facts file:
 
-Each line of `trial.facts.txt` contains a "fact", either a sentence, paragraph (or other snippet of text) relevant to the current conversation. Use conversation IDs to find the facts relevant to each conversation. Note: facts relevant to a given conversation are ordered as they appear on the web page from which they have been extracted. The file contains 3 columns:
+Each line of `trial.facts.txt` contains a "fact", either a sentence, paragraph (or other snippet of text) relevant to the current conversation. Use conversation IDs to find the facts relevant to each conversation. Note: facts relevant to a given conversation are ordered as they appear on the original web page. The file contains 3 columns:
 
 1. subreddit name
 2. conversation ID
 3. fact
 
-To produce the facts relevant to each conversation, we took the text of the page using an html-to-text converter ([BeautifulSoup]{https://www.crummy.com/software/BeautifulSoup/}), but kept the most important tags intact (`<title>, <h1-6>, <p>, etc`). As web formatting differs substantially from domain to domain and common tags like `<p>` may not be used in some domains, we kept all the text of the page even when it is not surrounded by these common tags (however, we do remove javascript and style code). As some of the facts data tend to be noisy, you may want restrict yourself to facts that contain tags.
+To produce the facts relevant to each conversation, we extracted the text of the page using an html-to-text converter ([BeautifulSoup]{https://www.crummy.com/software/BeautifulSoup/}), but kept the most important tags intact (`<title>, <h1-6>, <p>, etc`). As web formatting differs substantially from domain to domain and common tags like `<p>` may not be used in some domains, we decided to keep all the text of the original page (however, we do remove javascript and style code). As some of the fact data tend to be noisy, you may want restrict yourself to facts delimited by these tags.
 
 
 #### Labeled anchors
@@ -62,7 +62,7 @@ A substantial number of URLs contain labeled achors, for example:
 
 ```http://en.wikipedia.org/wiki/John_Rhys-Davies#The_Lord_of_the_Rings_trilogy```
 
-which here refers to the label `The_Lord_of_the_Rings_trilogy`. This information is preserved in the facts, and indicated with the tags `<anchor>` and `</anchor>`. As many web pages in this dataset are lengthy, this is helpful information, indicating what text the model should likely attend to in order to produce a good response.
+which here refers to the label `The_Lord_of_the_Rings_trilogy`. This information is preserved in the facts, and indicated with the tags `<anchor>` and `</anchor>`. As many web pages in this dataset are lengthy, anchors are probably useful information, as they indicate what text the model should likely attend to in order to produce a good response.
 
 
 ### Sample data:
