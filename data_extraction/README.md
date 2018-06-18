@@ -6,6 +6,8 @@ Note: In the original proposal, we planned to use Twitter data (conversational d
 
 ## Requirements
 Python 3.x
+nltk
+beautifulsoup4
 
 ## How to use
 To create the trial data, please run src/create_trial_data.sh. Details will be available shortly (Note: thiw script crawls data from the web, but it reads and respect robots.txt files).
