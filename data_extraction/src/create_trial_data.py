@@ -329,7 +329,7 @@ def save_triples(submissions, comments):
             sid = get_linked_submission_id(comment) 
             if sid in submissions.keys():
                 convo = get_convo(id, submissions, comments)
-                context = " EOS ".join(convo[:-2])
+                context = " EOS ".join(convo[:-1])
                 response = convo[-1]
                 cwords = re.split("\s+", context)
                 if len(cwords) > args.max_context_len:
