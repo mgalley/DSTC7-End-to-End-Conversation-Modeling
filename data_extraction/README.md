@@ -53,7 +53,7 @@ Each line of `trial.facts.txt` contains a "fact", either a sentence, paragraph (
 2. conversation ID
 3. fact
 
-To produce the facts relevant to each conversation, we extracted the text of the page using an html-to-text converter ([BeautifulSoup]{https://www.crummy.com/software/BeautifulSoup/}), but kept the most important tags intact (`<title>, <h1-6>, <p>, etc`). As web formatting differs substantially from domain to domain and common tags like `<p>` may not be used in some domains, we decided to keep all the text of the original page (however, we do remove javascript and style code). As some of the fact data tend to be noisy, you may want restrict yourself to facts delimited by these tags.
+To produce the facts relevant to each conversation, we extracted the text of the page using an html-to-text converter ([BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/)), but kept the most important tags intact (`<title>, <h1-6>, <p>, etc`). As web formatting differs substantially from domain to domain and common tags like `<p>` may not be used in some domains, we decided to keep all the text of the original page (however, we do remove javascript and style code). As some of the fact data tend to be noisy, you may want restrict yourself to facts delimited by these tags.
 
 
 #### Labeled anchors
