@@ -1,6 +1,7 @@
 # DSTC7: End-to-End Conversation Modeling
 
 ## News
+* 6/18/2018: [Trial data](https://github.com/DSTC-MSR-NLP/DSTC7-End-to-End-Conversation-Modeling/tree/master/data_extraction) is up.
 * 6/1/2018: [Task description](https://github.com/DSTC-MSR-NLP/DSTC7-End-to-End-Conversation-Modeling/blob/master/doc/DSTC7_task2.pdf) is up.
 * 6/1/2018: [Registration](https://docs.google.com/forms/d/e/1FAIpQLSf4aoCdtLsnFr_AKfp3tnTy4OUCITy5avcEEpUHJ9oZ5ZFvbg/viewform) for DSTC7 is now open.
 
