@@ -29,7 +29,7 @@ This will create two tab-separated (tsv) files `data/trial.convos.txt` and `data
 
 ## Data description:
 
-Each conversation in this dataset consist of Reddit `submission` and its following discussion-like `comments`. In this data, we restrict ourselves to submissions that provide an `URL` along with a `title` (see [example](https://www.reddit.com/r/todayilearned/comments/f2ruz/til_a_woman_fell_30000_feet_from_an_airplane_and/)). The web page scraped from the URL provides grounding or context to the conversation, and is additional (non-conversational) input that models can condition on to produce responses that are more informative and contentful. 
+Each conversation in this dataset consist of Reddit `submission` and its following discussion-like `comments`. In this data, we restrict ourselves to submissions that provide an `URL` along with a `title` (see [example Reddit submission](https://www.reddit.com/r/todayilearned/comments/f2ruz/til_a_woman_fell_30000_feet_from_an_airplane_and/), which refers to [this web page](https://en.wikipedia.org/wiki/Vesna_Vulovi%C4%87)). The web page scraped from the URL provides grounding or context to the conversation, and is additional (non-conversational) input that models can condition on to produce responses that are more informative and contentful. 
 
 ### Conversation file:
 
