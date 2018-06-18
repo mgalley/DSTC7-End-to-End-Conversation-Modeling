@@ -15,12 +15,14 @@ We extend the [knowledge-grounded](https://arxiv.org/abs/1702.01932) setting, wi
 * Conversational data from Reddit.  
 * Contextually-relevant “facts”, taken from the website that started the (Reddit) conversation.
 
-Please check the [data extraction](https://github.com/DSTC-MSR/DSTC7-End-to-End-Conversation-Modeling/tree/master/data_extraction) for the input data pipeline.
+Please check the [data extraction](https://github.com/DSTC-MSR/DSTC7-End-to-End-Conversation-Modeling/tree/master/data_extraction) for the input data pipeline. Note: We are providing scripts to extract the data from a Reddit [dump](http://files.pushshift.io/reddit/comments/), as we are unable to release the data directly ourselves. 
 
 ## Evaluation
 We will evaluate response quality using both automatic and human evaluations on two criteria.
 * Appropriateness;
 * Informativeness & Utility.
+
+We will use automatic evaluation metrics such as BLEU and METEOR prior to the human evaluation. Participants can also use these metrics for their own evaluations during the development phase. 
 
 ## Baseline
 A standard seq2seq [baseline model](https://github.com/DSTC-MSR/DSTC7-End-to-End-Conversation-Modeling/tree/master/baseline) will be provided soon.
@@ -34,8 +36,6 @@ A standard seq2seq [baseline model](https://github.com/DSTC-MSR/DSTC7-End-to-End
 |1.3 Official training data made available| By July 1|
 |2. Evaluation Phase|Sept 10 – 24|
 |2.1 Test data made available|Sept 10|
-
-Note: We are providing scripts to extract the data from a Reddit [dump](http://files.pushshift.io/reddit/comments/), as we are unable to release the data directly ourselves. 
 
 ## Organizers
 * [Michel Galley](https://www.microsoft.com/en-us/research/people/mgalley/)
