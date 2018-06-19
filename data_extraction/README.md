@@ -64,6 +64,15 @@ A substantial number of URLs contain labeled achors, for example:
 
 which here refers to the label `The_Lord_of_the_Rings_trilogy`. This information is preserved in the facts, and indicated with the tags `<anchor>` and `</anchor>`. As many web pages in this dataset are lengthy, anchors are probably useful information, as they indicate what text the model should likely attend to in order to produce a good response.
 
+### Data statistics:
+
+|                   | Trial data    | Train set | Dev set | Test set |
+| ----              | ----          | ----      | ----    | ----     |
+|# dialogue turns   |   649,866     | -         | -       | -        |
+|# facts            | 4,320,438     | -         | -       | -        |
+|# tagged facts (1) |   998,032     | -         | -       | -        |
+
+(1): facts tagged with html markup (e.g., <title>) and therefore potentially important.
 
 ### Sample data:
 
