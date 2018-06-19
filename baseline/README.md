@@ -26,7 +26,7 @@ Key parameters can be specified in the `main()` function of [baseline.py](baseli
 |`rnn_units`| number of hidden units of each GRU cell|512|
 |`encoder_depth`| number of GRU cells stacked in the encoder|2|
 |`decoder_depth`| number of GRU cells stacked in the decoder|2|
-|`dropout_rate`| dropout probability|0,5|
+|`dropout_rate`| dropout probability|0.5|
 |`max_num_token`| if not None, only use top `max_num_token` most frequent tokens|20000|
 |`max_seq_len`| tokens after the first `max_seq_len` tokens will be discarded |32|
 
