@@ -12,9 +12,6 @@ data/trial.convos.txt: $(TRIAL_CONVOS)
 data/trial.facts.txt: $(TRIAL_FACTS)
 	cat $+ > data/trial.facts.txt
 
-#data/%.facts.txt: data/%.convos.txt
-#	echo $@
-
 data/%.facts.txt data/%.convos.txt: reddit/RC_%.bz2 reddit/RS_%.bz2
 	python src/create_trial_data.py --rsinput=reddit/RS_$(*F).bz2 --rcinput=reddit/RC_$(*F).bz2 --subreddit_filter=lists/subreddits.txt --domain_filter=lists/domains.txt --pickle=data/$(*F).pkl --facts=data/$(*F).facts.txt --convos=data/$(*F).convos.txt > logs/$(*F).log 2> logs/$(*F).err
 
