@@ -4,6 +4,7 @@ from keras.models import Model
 from keras.layers import Input, GRU, Dense, Embedding, Dropout
 from keras.models import load_model
 from keras.optimizers import Adam
+from create_input_files import SOS_token, EOS_token
 
 """
 a simple seq2seq model prepared as a baseline model for DSTC7
@@ -17,13 +18,9 @@ NOTE:
 * 	no attention mechanism
 * 	no beam search
 
-AUTHOR/CONTACT: 
+CONTACT: 
 Sean Xiang Gao (xiag@microsoft.com) at Microsoft Research
 """
-
-
-SOS_token = 'SOS'	# start of sentence
-EOS_token = 'EOS'	# end of sentence
 
 def set_random_seed(seed=912):
 	random.seed(seed)
@@ -46,6 +43,7 @@ class Dataset:
 		path_source, path_target, path_vocab, 
 		max_num_sample=None,
 		max_num_token=None,
+		max_seq_len=32,
 		test_split=0.2,		# how many hold out as test data
 		):
 
@@ -54,8 +52,9 @@ class Dataset:
 
 		self.index2token = {0: ''}
 		self.token2index = {'': 0}
+		self.max_seq_len = max_seq_len
 
-		with open(path_vocab) as f:
+		with open(path_vocab, encoding="utf-8") as f:
 			lines = f.readlines()
 		if max_num_token is not None:
 			lines = lines[:max_num_token]
@@ -68,18 +67,17 @@ class Dataset:
 		assert(SOS_token in self.token2index)
 		assert(EOS_token in self.token2index)
 
-		self.SOS = self.token2index['SOS']
-		self.EOS = self.token2index['EOS']
+		self.SOS = self.token2index[SOS_token]
+		self.EOS = self.token2index[EOS_token]
 		self.num_tokens = len(self.token2index) - 1	# not including 0-th
 
 
 		# load source-target pairs, tokenized
 
 		seqs = dict()
-		max_seq_len = 0
 		for k, path in [('source', path_source), ('target', path_target)]:
 			seqs[k] = []
-			with open(path) as f:
+			with open(path, encoding="utf-8") as f:
 				lines = f.readlines()
 			if max_num_sample is not None:
 				lines = lines[:min(max_num_sample, len(lines))]
@@ -89,10 +87,9 @@ class Dataset:
 					i = int(c)
 					if i <= self.num_tokens:	# delete the "unkown" words
 						seq.append(i)
-				seqs[k].append(seq)
+				seqs[k].append(seq[:min(self.max_seq_len - 2, len(seq))])
 				max_seq_len = max(max_seq_len, len(seq))
 		self.pairs = list(zip(seqs['source'], seqs['target']))
-		self.max_seq_len = max_seq_len + 2		# +2 as SOS and EOS
 
 		# train-test split
 
@@ -169,7 +166,6 @@ class Seq2Seq:
 		self.decoder_depth = decoder_depth
 		self.dropout_rate = dropout_rate
 		self.dataset = dataset
-		self.model_names = ['model_train','model_infer_encoder','model_infer_decoder']
 
 		makedirs(model_dir)
 		self.model_dir = model_dir
@@ -285,7 +281,7 @@ class Seq2Seq:
 
 	def train(self, 
 		batch_size, epochs, 
-		batch_per_load=100,
+		batch_per_load=10,
 		lr=0.001):
 
 
@@ -304,7 +300,7 @@ class Seq2Seq:
 					decoder_target_data,
 					batch_size=batch_size,)
 
-			self.save_model('model_epoch%i.h5'%(epoch + 1))
+				self.save_model('model_epoch%i.h5'%(epoch + 1))
 		self.save_model('model.h5')
 
 
@@ -314,32 +310,44 @@ class Seq2Seq:
 		avg_NLL = 0.
 		avg_perplexity = 0.
 		path_log = os.path.join(self.model_dir, 'test_results.txt')
-		open(path_log, 'w')
+		open(path_log, 'w', encoding="utf-8")
 		n = 0
+		sum_loss = 0.
 
 		if samples_per_load is None:
 			samples_per_load = len(self.dataset.pairs) - self.dataset.n_train
 
 		while not self.dataset.all_loaded('test'):
 
-			encoder_input_data, _, _, source_texts, target_texts = self.dataset.load_data('test', samples_per_load)
+			encoder_input_data, decoder_input_data, decoder_target_data, source_texts, target_texts = self.dataset.load_data('test', samples_per_load)
 			for i in range(len(source_texts)):
 
 				source_seq_mat = encoder_input_data[i: i + 1]
 				decoded_sentence = self._infer(source_seq_mat)
 				target_text = target_texts[i]
 
-				if i%print_step==0:
+				loss = self.model_train.evaluate(
+					x=[encoder_input_data[i:i+1,:], decoder_input_data[i:i+1,:]], 
+					y=decoder_target_data[i:i+1,:,:],
+					verbose=0)
+
+				if not np.isnan(loss):
+					sum_loss += loss
+					n += 1
+
+				if n%print_step==0:
 
 					s = '\n'.join([
-						'%i'%(n+i)+'-'*20,
+						'%i'%n+'-'*20,
 						'source: \t' + source_texts[i],
 						'target: \t' + target_text,
 						'pred:   \t' + decoded_sentence,
+						'loss:   \t%.2f'%loss,
+						'avg loss\t%.2f'%(sum_loss/n),
 						'',
 						])
 					print(s)
-					with open(path_log, 'a') as f:
+					with open(path_log, 'a', encoding="utf-8") as f:
 						f.write(s)
 
 
@@ -391,21 +399,24 @@ class Seq2Seq:
 def main(mode):
 
 
-	token_embed_dim = 32	
-	rnn_units = 128
+	token_embed_dim = 100
+	rnn_units = 512
 	encoder_depth = 2
 	decoder_depth = 2
 	dropout_rate = 0.5
-	learning_rate = 1e-4
+	learning_rate = 1e-3
+	max_num_token = 20000
+	max_seq_len = 32
 
-	batch_size = 64
+	batch_size = 100
 	epochs = 10
 
-	path_source = 'example_data/source_num.txt'
-	path_target = 'example_data/target_num.txt'
-	path_vocab = 'example_data/dict.txt'
+	path_source = os.path.join('trial','source_num.txt')
+	path_target = os.path.join('trial','target_num.txt')
+	path_vocab = os.path.join('trial','dict.txt')
 
-	dataset = Dataset(path_source, path_target, path_vocab)
+	dataset = Dataset(path_source, path_target, path_vocab, 
+		max_num_token=max_num_token, max_seq_len=max_seq_len)
 	model_dir = 'model'
 	
 	s2s = Seq2Seq(dataset, model_dir, 
@@ -419,7 +430,7 @@ def main(mode):
 		if mode == 'test':
 			s2s.build_model_test()
 			s2s.test()
-		else:
+		elif mode == 'interact':
 			s2s.interact()
 	
 
