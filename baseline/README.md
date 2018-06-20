@@ -40,6 +40,7 @@ where  `mode` can be one of the following values
 
 |mode|description|
 |---------|-------|
-|`train` | train the model. The trained model is saved after each epoch |
-|`test`| test the model on held-out data. Negative log likelihood loss is printed|
+|`train` | train a new model. The trained model is saved after each epoch |
+|`continue` | load existing model and continue the training |
+|`eval`| evaluate the model on held-out data. Negative log likelihood loss is printed|
 |`interact`| explore the trained model interactively|
