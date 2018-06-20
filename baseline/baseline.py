@@ -1,10 +1,9 @@
-import os, random, sys
+import os, random, sys, io
 import numpy as np
 from keras.models import Model
 from keras.layers import Input, GRU, Dense, Embedding, Dropout
 from keras.models import load_model
 from keras.optimizers import Adam
-from create_input_files import SOS_token, EOS_token
 
 """
 a simple seq2seq model prepared as a baseline model for DSTC7
@@ -21,6 +20,10 @@ NOTE:
 CONTACT: 
 Sean Xiang Gao (xiag@microsoft.com) at Microsoft Research
 """
+
+SOS_token = '_SOS_'
+EOS_token = '_EOS_'
+
 
 def set_random_seed(seed=912):
 	random.seed(seed)
@@ -54,7 +57,7 @@ class Dataset:
 		self.token2index = {'': 0}
 		self.max_seq_len = max_seq_len
 
-		with open(path_vocab, encoding="utf-8") as f:
+		with io.open(path_vocab, encoding="utf-8") as f:
 			lines = f.readlines()
 		if max_num_token is not None:
 			lines = lines[:max_num_token]
@@ -77,7 +80,7 @@ class Dataset:
 		seqs = dict()
 		for k, path in [('source', path_source), ('target', path_target)]:
 			seqs[k] = []
-			with open(path, encoding="utf-8") as f:
+			with io.open(path, encoding="utf-8") as f:
 				lines = f.readlines()
 			if max_num_sample is not None:
 				lines = lines[:min(max_num_sample, len(lines))]
@@ -215,9 +218,9 @@ class Seq2Seq:
 				name='decoder_rnn_%i'%i,
 				))
 
-		decoder_dense = Dense(
+		decoder_softmax = Dense(
 			self.dataset.num_tokens + 1, 		# +1 as mask_zero
-			activation='softmax', name='decoder_dense')
+			activation='softmax', name='decoder_softmax')
 
 		# set connections: teacher forcing
 
@@ -228,7 +231,7 @@ class Seq2Seq:
 				decoder_rnns, embeding(decoder_inputs), [encoder_states[-1]] * self.decoder_depth)
 
 		decoder_outputs = Dropout(self.dropout_rate)(decoder_outputs)
-		decoder_outputs = decoder_dense(decoder_outputs)
+		decoder_outputs = decoder_softmax(decoder_outputs)
 		self.model_train = Model(
 				[encoder_inputs, decoder_inputs], 	# [input sentences, ground-truth target sentences],
 				decoder_outputs)					# shifted ground-truth sentences
@@ -238,7 +241,7 @@ class Seq2Seq:
 
 		# load/build layers
 
-		names = ['embeding', 'decoder_dense']
+		names = ['embeding', 'decoder_softmax']
 		for i in range(self.encoder_depth):
 			names.append('encoder_rnn_%i'%i)
 		for i in range(self.decoder_depth):
@@ -267,7 +270,7 @@ class Seq2Seq:
 				decoder_inital_states)
 
 		decoder_outputs = Dropout(self.dropout_rate)(decoder_outputs)
-		decoder_outputs = reused['decoder_dense'](decoder_outputs)
+		decoder_outputs = reused['decoder_softmax'](decoder_outputs)
 		self.model_infer_decoder = Model(
 				[decoder_inputs] + decoder_inital_states,
 				[decoder_outputs] + decoder_states)
@@ -304,51 +307,27 @@ class Seq2Seq:
 		self.save_model('model.h5')
 
 
-	def test(self, samples_per_load=1000, print_step=100):
+	def evaluate(self, samples_per_load=640):
 
 		self.dataset.reset()
-		avg_NLL = 0.
-		avg_perplexity = 0.
-		path_log = os.path.join(self.model_dir, 'test_results.txt')
-		open(path_log, 'w', encoding="utf-8")
-		n = 0
 		sum_loss = 0.
-
-		if samples_per_load is None:
-			samples_per_load = len(self.dataset.pairs) - self.dataset.n_train
+		sum_n = 0
 
 		while not self.dataset.all_loaded('test'):
+			encoder_input_data, decoder_input_data, decoder_target_data, _, _ = self.dataset.load_data('test', samples_per_load)
 
-			encoder_input_data, decoder_input_data, decoder_target_data, source_texts, target_texts = self.dataset.load_data('test', samples_per_load)
-			for i in range(len(source_texts)):
+			print('evaluating')
+			loss = self.model_train.evaluate(
+				x=[encoder_input_data, decoder_input_data], 
+				y=decoder_target_data,
+				verbose=0)
 
-				source_seq_mat = encoder_input_data[i: i + 1]
-				decoded_sentence = self._infer(source_seq_mat)
-				target_text = target_texts[i]
+			n = encoder_input_data.shape[0]
+			sum_loss += loss * n
+			sum_n += n
+			print('avg loss: %.2f'%(sum_loss/sum_n))
+		print('done')
 
-				loss = self.model_train.evaluate(
-					x=[encoder_input_data[i:i+1,:], decoder_input_data[i:i+1,:]], 
-					y=decoder_target_data[i:i+1,:,:],
-					verbose=0)
-
-				if not np.isnan(loss):
-					sum_loss += loss
-					n += 1
-
-				if n%print_step==0:
-
-					s = '\n'.join([
-						'%i'%n+'-'*20,
-						'source: \t' + source_texts[i],
-						'target: \t' + target_text,
-						'pred:   \t' + decoded_sentence,
-						'loss:   \t%.2f'%loss,
-						'avg loss\t%.2f'%(sum_loss/n),
-						'',
-						])
-					print(s)
-					with open(path_log, 'a', encoding="utf-8") as f:
-						f.write(s)
 
 
 
@@ -377,7 +356,6 @@ class Seq2Seq:
 		return decoded_sentence
 
 
-
 	def dialog(self, input_text):
 
 		source_seq_int = []
@@ -385,6 +363,7 @@ class Seq2Seq:
 			if token in self.dataset.token2index:
 				source_seq_int.append(self.dataset.token2index[token])
 		return self._infer(np.atleast_2d(source_seq_int))
+
 
 	def interact(self):
 		while True:
@@ -424,12 +403,15 @@ def main(mode):
 
 	if mode == 'train':
 		s2s.build_model_train()
-		s2s.train(batch_size, epochs, lr=learning_rate)
 	else:
 		s2s.load_models()
-		if mode == 'test':
+
+	if mode in ['train', 'continue']:
+		s2s.train(batch_size, epochs, lr=learning_rate)
+	else:
+		if mode == 'eval':
 			s2s.build_model_test()
-			s2s.test()
+			s2s.evaluate()
 		elif mode == 'interact':
 			s2s.interact()
 	

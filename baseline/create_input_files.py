@@ -1,7 +1,6 @@
 import os, queue
+from baseline import SOS_token, EOS_token
 
-SOS_token = '_SOS_'
-EOS_token = '_EOS_'
 
 def main(path_txt, fld_out,
 	delimiter='\t'
