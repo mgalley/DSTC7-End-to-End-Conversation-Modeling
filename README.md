@@ -18,11 +18,13 @@ We extend the [knowledge-grounded](https://arxiv.org/abs/1702.01932) setting, wi
 Please check the [data extraction](https://github.com/DSTC-MSR/DSTC7-End-to-End-Conversation-Modeling/tree/master/data_extraction) for the input data pipeline. Note: We are providing scripts to extract the data from a Reddit [dump](http://files.pushshift.io/reddit/comments/), as we are unable to release the data directly ourselves. 
 
 ## Evaluation
-We will evaluate response quality using both automatic and human evaluations on two criteria.
+As described in the [task description](http://workshop.colips.org/dstc7/proposals/DSTC7-MSR_end2end.pdf) (Section 4), We will evaluate response quality using both automatic and human evaluations on two criteria.
 * Appropriateness;
-* Informativeness & Utility.
+* Informativeness.
 
-We will use automatic evaluation metrics such as BLEU and METEOR prior to the human evaluation. Participants can also use these metrics for their own evaluations during the development phase. 
+We will use automatic evaluation metrics such as BLEU and METEOR to have preliminary score for each submission prior to the human evaluation. Participants can also use these metrics for their own evaluations during the development phase. We will allow participants to submit multiple system outputs with one system marked as “primary” for human evaluation. We will provide a BLEU scoring script to help participants decide which system they want to select as primary. 
+
+We will use crowdsourcing for human evaluation. For each response, we ask humans if it is an (1) appropriate and (2) informative response, on a scale from 1 to 5. The system with best average Appropriateness and Informativeness will be determined the winner.
 
 ## Baseline
 A standard seq2seq [baseline model](https://github.com/DSTC-MSR/DSTC7-End-to-End-Conversation-Modeling/tree/master/baseline) will be provided soon.
