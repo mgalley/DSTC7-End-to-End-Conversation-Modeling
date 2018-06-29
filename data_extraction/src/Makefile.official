@@ -11,7 +11,7 @@ data-official/train.facts.txt: $(OFFICIAL_TRAIN_FACTS)
 	cat $+ > $@
 
 data-official/%.facts.txt data-official/%.convos.txt: reddit/RC_%.bz2 reddit/RS_%.bz2
-	python src/create_official_data.py --rsinput=reddit/RS_$(*F).bz2 --rcinput=reddit/RC_$(*F).bz2 --subreddit_filter=lists/subreddits.v2.txt --domain_filter=lists/domains.v2.txt --pickle=data-official/$(*F).pkl --facts=data-official/$(*F).facts.txt --convos=data-official/$(*F).convos.txt --anchoronly=True > logs/$(*F).log 2> logs/$(*F).err
+	python src/create_official_data.py --rsinput=reddit/RS_$(*F).bz2 --rcinput=reddit/RC_$(*F).bz2 --subreddit_filter=lists/subreddits-official.txt --domain_filter=lists/domains-official.txt --pickle=data-official/$(*F).pkl --facts=data-official/$(*F).facts.txt --convos=data-official/$(*F).convos.txt --anchoronly=True > logs/$(*F).log 2> logs/$(*F).err
 
 reddit/RS_%.bz2:
 	wget https://files.pushshift.io/reddit/submissions/RS_$(*F).bz2 -O reddit/RS_$(*F).bz2 -o logs/RS_$(*F).bz2.log -c
