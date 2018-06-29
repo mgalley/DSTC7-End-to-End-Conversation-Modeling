@@ -18,7 +18,7 @@ class CommonCrawl:
     error_service_unavailable = 503
     error_bad_gateway = 502
     error_not_found = 404
-    max_retry = 3
+    max_retry = 5
     retry_wait = 3
 
     def __init__(self, month_offset):
