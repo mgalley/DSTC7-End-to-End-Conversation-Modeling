@@ -52,9 +52,10 @@ class CommonCrawl:
 
     def download(self, url, year=None, month=None, backward=True):
         """
-        Returns html from a url using Commow Crawl (CC).
-            url = page to retrieve
-            month = month of the page in format = YYYY-MM
+        Returns html from a url using Common Crawl (CC).
+            url = identifies page to retrieve
+            year = of the page
+            month = month of the page
             backward = whether to search backward in time if page isn't found (if false, search forward)
             Returns (response, date), where response is the html as a string, and the date the page
             was originally retrieved (datetime object).
