@@ -1,5 +1,12 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+"""
+commoncrawl.py
+Class to download web pages from Common Crawl, optionally specifying a target year and month.
+Author: Michel Galley, Microsoft Research NLP Group (dstc7-task2@microsoft.com)
+"""
+
+
 
 import sys
 import time
