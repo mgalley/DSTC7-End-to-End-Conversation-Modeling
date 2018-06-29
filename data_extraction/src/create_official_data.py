@@ -159,10 +159,10 @@ def add_cc_webpage(submission, year, month):
         src, date = cc.download(url, year, month, True)
         sys.stdout.flush()
         if src == None:
-            print("Can't fetch: [%s] month: [%s-%s]" % (url, year, month))
+            print("Can't fetch: [%s] submission month: [%s-%s]" % (url, year, month))
             sys.stdout.flush()
             return None
-    print("Fetching url: [%s] month: [%s-%s] page date: [%s]" % (url, year, month, str(date)))
+    print("Fetching url: [%s] submission month: [%s-%s] commoncrawl date: [%s]" % (url, year, month, str(date)))
     submission["source"] = src
     return submission
 
