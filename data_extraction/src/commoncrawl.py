@@ -44,7 +44,9 @@ class CommonCrawl:
             Returns (response, date), where response is the html as a string, and the date the page
             was originally retrieved (datetime object).
         """
-        idx = self._get_month_id(year, month)
+        idx = 0
+        if year != None and month != None:
+            idx = self._get_month_id(year, month)
         step = int(backward)*2-1
         while 0 <= idx and idx < len(self.month_keys):
             month_id = self.month_ids[idx]
@@ -69,10 +71,13 @@ class CommonCrawl:
 
                 data = f.read()
                 enc = chardet.detect(data)
-                warc, header, response = data.decode(enc['encoding']).strip().split('\r\n\r\n', 2)
-                date = datetime.strptime(page['timestamp'],'%Y%m%d%H%M%S')
-                return response, date
-                #return response, warc, header
+                els = data.decode(enc['encoding']).strip().split('\r\n\r\n', 2)
+                if len(els) != 3:
+                    idx = idx + step
+                else: 
+                    warc, header, response = els
+                    date = datetime.strptime(page['timestamp'],'%Y%m%d%H%M%S')
+                    return response, date
             except UnicodeDecodeError:
                 idx = idx + step
             except urllib.error.HTTPError:
@@ -87,6 +92,7 @@ if __name__== "__main__":
     else:
         url = sys.argv[1]
         month = None
+        year = None
         if len(sys.argv) == 4:
             year = sys.argv[2]
             month = sys.argv[3]
