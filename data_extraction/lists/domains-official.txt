@@ -143,7 +143,6 @@ npr.org
 nydailynews.com
 nypost.com
 oglobo.globo.com
-online.wsj.com
 oregonlive.com
 orlandosentinel.com
 pbs.org
@@ -177,7 +176,6 @@ si.com
 skysports.com
 slate.com
 smashboards.com
-smbc-comics.com
 smh.com.au
 smithsonianmag.com
 snopes.com

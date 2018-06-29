@@ -1,4 +1,5 @@
 import sys
+import time
 import gzip
 import json
 import urllib.parse
@@ -14,6 +15,11 @@ class CommonCrawl:
     index_url_prefix = 'http://index.commoncrawl.org/CC-MAIN-'
     data_url = 'https://commoncrawl.s3.amazonaws.com/'
     index_url_suffix = '%2F&output=json'
+    error_service_unavailable = 503
+    error_bad_gateway = 502
+    error_not_found = 404
+    max_retry = 3
+    retry_wait = 3
 
     def __init__(self, month_offset):
         self.month_keys_dic = dict([ (self.month_keys[i], i) for i in range(0, len(self.month_keys))])
@@ -32,7 +38,6 @@ class CommonCrawl:
         else:
             idx = 0 # >= 2018
         idx += self.month_offset
-        #print(self.month_keys[idx])
         return max(0, min(idx, len(self.month_keys)-1))
 
     def download(self, url, year=None, month=None, backward=True):
@@ -48,9 +53,11 @@ class CommonCrawl:
         if year != None and month != None:
             idx = self._get_month_id(year, month)
         step = int(backward)*2-1
+        retry = 0
         while 0 <= idx and idx < len(self.month_keys):
             month_id = self.month_ids[idx]
             iurl = self.index_url_prefix + month_id + '-index?url=' + urllib.parse.quote_plus(url) + self.index_url_suffix
+            #print(" --> try: %s [%s]" % (url, self.month_keys[idx]))
             try:
                 # Find page in index:
                 u = urllib.request.urlopen(iurl)
@@ -60,8 +67,8 @@ class CommonCrawl:
                 # Get data from warc file:
                 offset, length = int(page['offset']), int(page['length'])
                 offset_end = offset + length - 1
-                url = self.data_url + page['filename']
-                request = urllib.request.Request(url)
+                dataurl = self.data_url + page['filename']
+                request = urllib.request.Request(dataurl)
                 rangestr = 'bytes={}-{}'.format(offset, offset_end)
                 request.add_header('Range', rangestr)
                 u = urllib.request.urlopen(request)
@@ -80,13 +87,31 @@ class CommonCrawl:
                     return response, date
             except UnicodeDecodeError:
                 idx = idx + step
-            except urllib.error.HTTPError:
-                #traceback.print_exc(file=sys.stderr)
-                idx = idx + step
+            except urllib.error.HTTPError as err:
+                if err.code == self.error_service_unavailable or err.code == self.error_bad_gateway:
+                    if retry >= self.max_retry:
+                        idx = idx + step
+                        retry = 0
+                    else:
+                        retry += 1
+                        time.sleep(self.retry_wait) 
+                        msg = "Common Crawl error code %d, waiting %d seconds... (retry attempt %d/%d), url: %s"
+                        print(msg % (err.code, self.retry_wait, retry, self.max_retry, iurl), file=sys.stderr)
+                        sys.stderr.flush()
+                elif err.code == self.error_not_found:
+                    idx = idx + step
+                    retry = 0
+                else:
+                    idx = idx + step
+                    retry = 0
+                    print("Unexpected error code: %d" % err.code, file=sys.stderr)
+                    sys.stderr.flush()
+            except Exception:
+                    traceback.print_exc()
         return None, None
 
 if __name__== "__main__":
-    cc = CommonCrawl(0)
+    cc = CommonCrawl(-2)
     if len(sys.argv) != 2 and len(sys.argv) != 4:
         print("Usage: python %s URL [YEAR] [MONTH]\n\nArguments YEAR and MONTH must have the following format: YYYY and MM" % sys.argv[0], file=sys.stderr)
     else:

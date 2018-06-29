@@ -27,6 +27,7 @@ from bs4.element import NavigableString
 from bs4.element import CData
 from multiprocessing import Pool
 from nltk.tokenize import TweetTokenizer
+from commoncrawl import CommonCrawl
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--rsinput", help="Submission (RS) file to load.")
@@ -48,6 +49,7 @@ parser.add_argument("--delay", help="Seconds of delay when crawling web pages", 
 parser.add_argument("--tokenize", help="Whether to tokenize facts and conversations.", default=True, type=bool)
 parser.add_argument("--anchoronly", help="Filter out URLs with no named anchors.", default=False, type=bool)
 parser.add_argument("--use_robots_txt", help="Whether to respect robots.txt (disable this only if urls have been previously checked by other means!)", default=True, type=bool)
+parser.add_argument("--use_cc", help="Whether to download pages from Common Crawl.", default=False, type=bool)
 parser.add_argument("--dryrun", help="Just collect stats about data; don't create any data.", default=False, type=bool)
 args = parser.parse_args()
 
@@ -59,6 +61,7 @@ deleted_str = '[deleted]'
 batch_download_facts = False
 robotparsers = {}
 tokenizer = TweetTokenizer(preserve_case=False)
+cc = CommonCrawl(-2)
 
 def get_subreddit(submission):
     return submission["subreddit"]
@@ -142,12 +145,28 @@ def norm_sentence(t):
         t = t.replace('[ deleted ]','[deleted]');
     return t
 
-def add_webpage(submission):
-    """Retrive sentences ('facts') from submission["url"]. 
-       Note: For the final version, of the training/dev/test data, we will rely on 
-       the Common Crawl so that we can ensure the data is the same for each participant.
-       This will also speed up data creation."""
-    sys.stderr.flush()
+def add_webpage(submission, year, month):
+    """Retrive sentences ('facts') from submission["url"]. """
+    if args.use_cc:
+        return add_cc_webpage(submission, year, month)
+    return add_live_webpage(submission)
+
+def add_cc_webpage(submission, year, month):
+    url = get_url(submission)
+    src, date = cc.download(url, year, month, False)
+    sys.stdout.flush()
+    if src == None:
+        src, date = cc.download(url, year, month, True)
+        sys.stdout.flush()
+        if src == None:
+            print("Can't fetch: [%s] month: [%s-%s]" % (url, year, month))
+            sys.stdout.flush()
+            return None
+    print("Fetching url: [%s] month: [%s-%s] page date: [%s]" % (url, year, month, str(date)))
+    submission["source"] = src
+    return submission
+
+def add_live_webpage(submission):
     url = get_url(submission)
     domain = get_domain(submission)
     try:
@@ -160,13 +179,13 @@ def add_webpage(submission):
                 rp = urllib.robotparser.RobotFileParser()
                 robotparsers[domain] = rp
                 rurl = "http://" + domain + "/robots.txt"
-                print("Fetching robots.txt: [%s]" % rurl, file=sys.stderr)
+                print("Fetching robots.txt: [%s]" % rurl)
                 rp.set_url(rurl)
                 rp.read()
             if not rp.can_fetch("*", url):
-                print("Can't download url due to robots.txt: [%s] domain: [%s]" % (url, domain), file=sys.stderr)
+                print("Can't download url due to robots.txt: [%s] domain: [%s]" % (url, domain))
                 return None
-        print("Fetching url: [%s] domain: [%s]" % (url, domain), file=sys.stderr)
+        print("Fetching url: [%s] domain: [%s]" % (url, domain))
         u = urllib.request.urlopen(url)
         src = u.read()
         submission["source"] = src
@@ -183,13 +202,17 @@ def add_webpage(submission):
 
 def add_webpages(submissions):
     """Use multithreading to retrieve multiple webpages at once."""
-    print("Downloading %d pages:" % len(submissions), file=sys.stderr)
-    sys.stderr.flush()
+    print("Downloading %d pages:" % len(submissions))
     pool = Pool()
     submissions = pool.map(add_webpage, submissions)
-    print("\nDone.", file=sys.stderr)
-    sys.stderr.flush()
+    print("\nDone.")
     return [s for s in submissions if s is not None]
+
+def get_date(file_name):
+    m = re.search(r'(\d\d\d\d)-(\d\d)', file_name)
+    year = m.group(1)
+    month = m.group(2)
+    return year, month
 
 def get_submissions(rs_file, subreddit_file, domain_file):
     """Return all submissions from a dump submission file rs_file (RS_*.bz2),
@@ -197,6 +220,7 @@ def get_submissions(rs_file, subreddit_file, domain_file):
     submissions = []
     subreddit_dic = None
     domain_dic = None
+    year, month = get_date(rs_file)
     if subreddit_file != None:
         with open(subreddit_file) as f:
             subreddit_dic = dict([ (el.strip(), 1) for el in f.readlines() ])
@@ -219,8 +243,10 @@ def get_submissions(rs_file, subreddit_file, domain_file):
                         if args.dryrun:
                             continue
                         if not batch_download_facts:
-                            s = add_webpage(s)
+                            s = add_webpage(s, year, month)
                         submissions.append(s)
+                        sys.stdout.flush()
+                        sys.stderr.flush()
                         i += 1
                         if i == args.nsubmissions:
                             break
@@ -291,15 +317,14 @@ def save_facts(submissions, sids = None):
             s = submissions[id] 
             url = get_url(s)
             label = get_anchor(url)
-            print("Processing submission %s...\n\turl: %s\n\tanchor: %s\n\tpermalink: http://reddit.com%s" % (id, url, str(label), get_permalink(s)), file=sys.stderr)
-            sys.stdout.flush()
+            print("Processing submission %s...\n\turl: %s\n\tanchor: %s\n\tpermalink: http://reddit.com%s" % (id, url, str(label), get_permalink(s)))
             subs[id] = s
             if sids == None or id in sids.keys():
                 b = BeautifulSoup(s["source"],'html.parser')
                 # If there is any anchor in the url, locate it in the facts:
                 if label != "":
                     if not insert_escaped_tags(b.find_all(True, attrs={"id": label}), 'anchor'):
-                        print("\t(couldn't find anchor on page: %s)" % label, file=sys.stderr)
+                        print("\t(couldn't find anchor on page: %s)" % label)
                 # Remove tags whose text we don't care about (javascript, etc.):
                 for el in b(notext_tags):
                     el.decompose()
