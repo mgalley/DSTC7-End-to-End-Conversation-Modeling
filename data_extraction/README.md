@@ -79,20 +79,25 @@ which here refers to the label `The_Lord_of_the_Rings_trilogy`. This information
 
 #### Sample conversation turn (from train.convos.txt):
 
-```todayilearned \t f2ruz \t 145 \t START EOS til a woman fell 30,000 feet from an airplane and survived . \t the page states that a 2009 report found the plane only fell several hundred meters .```
+```<hash> \t todayilearned \t f2ruz \t 145 \t 2 \t START EOS til a woman fell 30,000 feet from an airplane and survived . \t the page states that a 2009 report found the plane only fell several hundred meters .```
 
 Maps to:
-1. subreddit name: `TodayILearned`
-2. conversation ID: `f2ruz`
-3. response score: `145`
-4. conversational context: `START EOS til a woman fell 30,000 feet from an airplane and survived .`
-5. response: `the page states that a 2009 report found the plane only fell several hundred meters .`
+
+1. hash value: ...
+2. subreddit name: `TodayILearned`
+3. conversation ID: `f2ruz`
+4. response score: `145`
+5. dialogue turn number: `2`
+6. conversational context: `START EOS til a woman fell 30,000 feet from an airplane and survived .`
+7. response: `the page states that a 2009 report found the plane only fell several hundred meters .`
 
 #### Sample fact (from train.facts.txt):
 
-```todayilearned \t f2ruz \t <p> four years later , peter hornung-andersen and pavel theiner , two prague-based journalists , claimed that flight 367 had been mistaken for an enemy aircraft and shot down by the czechoslovak air force at an altitude of 800 metres ( 2,600 ft ) . </p>```
+```<hash> \t todayilearned \t en.wikipedia.org \t f2ruz \t <p> four years later , peter hornung-andersen and pavel theiner , two prague-based journalists , claimed that flight 367 had been mistaken for an enemy aircraft and shot down by the czechoslovak air force at an altitude of 800 metres ( 2,600 ft ) . </p>```
 
 Maps to:
-1. subreddit name: `TodayILearned`
-2. conversation ID: `f2ruz`
-3. fact: `<p> four years later , peter hornung-andersen and pavel theiner , two prague-based journalists , claimed that flight 367 had been mistaken for an enemy aircraft and shot down by the czechoslovak air force at an altitude of 800 metres ( 2,600 ft ) . </p>`
+1. hash value: ...
+2. subreddit name: `TodayILearned`
+3. domain name: `en.wikipedia.org`
+4. conversation ID: `f2ruz`
+5. fact: `<p> four years later , peter hornung-andersen and pavel theiner , two prague-based journalists , claimed that flight 367 had been mistaken for an enemy aircraft and shot down by the czechoslovak air force at an altitude of 800 metres ( 2,600 ft ) . </p>`
