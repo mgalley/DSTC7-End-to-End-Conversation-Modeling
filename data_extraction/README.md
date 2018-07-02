@@ -75,8 +75,8 @@ Each line of `train.facts.txt` and `dev.facts.txt` contains a "fact", either a s
 
 1. hash value (only for sanity check)
 2. subreddit name
-3. domain name
-4. conversation ID
+3. conversation ID
+4. domain name
 5. fact
 
 To produce the facts relevant to each conversation, we extracted the text of the page using an html-to-text converter ([BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/)), but kept the most important tags intact (`<title>, <h1-6>, <p>, etc`). As web formatting differs substantially from domain to domain and common tags like `<p>` may not be used in some domains, we decided to keep all the text of the original page (however, we do remove javascript and style code). As some of the fact data tend to be noisy, you may want restrict yourself to facts delimited by these tags.
@@ -118,11 +118,11 @@ Maps to:
 
 #### Sample fact:
 
-```<hash> \t todayilearned \t en.wikipedia.org \t f2ruz \t <p> four years later , peter hornung-andersen and pavel theiner , two prague-based journalists , claimed that flight 367 had been mistaken for an enemy aircraft and shot down by the czechoslovak air force at an altitude of 800 metres ( 2,600 ft ) . </p>```
+```<hash> \t todayilearned \t f2ruz \t en.wikipedia.org \t <p> four years later , peter hornung-andersen and pavel theiner , two prague-based journalists , claimed that flight 367 had been mistaken for an enemy aircraft and shot down by the czechoslovak air force at an altitude of 800 metres ( 2,600 ft ) . </p>```
 
 Maps to:
 1. hash value: ...
 2. subreddit name: `TodayILearned`
-3. domain name: `en.wikipedia.org`
-4. conversation ID: `f2ruz`
+3. conversation ID: `f2ruz`
+4. domain name: `en.wikipedia.org`
 5. fact: `<p> four years later , peter hornung-andersen and pavel theiner , two prague-based journalists , claimed that flight 367 had been mistaken for an enemy aircraft and shot down by the czechoslovak air force at an altitude of 800 metres ( 2,600 ft ) . </p>`
