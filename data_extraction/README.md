@@ -2,7 +2,7 @@
 
 Task 2 uses conversational data extracted from Reddit. Each conversation in this setup is _grounded_, as each conversation in this data is about a specific web page that was linked at the start of the conversation. This page provides code to extract the data from a Reddit [dump](http://files.pushshift.io/reddit/comments/) and from [Common Crawl](http://commoncrawl.org/). The former data provides the conversation, while the latter offers the grounding. We provide code instead of actual data, as we are unable to directly release this data.
 
-(Note: the older and now obsolete setup to create the "trial" can be found [here](https://github.com/DSTC-MSR/DSTC7-End-to-End-Conversation-Modeling/tree/master/data_extraction/trial).)
+(Note: the older and now obsolete setup to create the "trial" data can be found [here](https://github.com/DSTC-MSR/DSTC7-End-to-End-Conversation-Modeling/tree/master/data_extraction/trial).)
 
 ## Requirements
 
@@ -96,13 +96,13 @@ which here refers to the label `The_Lord_of_the_Rings_trilogy`. This information
 | ----              | ----          |   ----      | ----    |
 |# dialogue turns   |   649,866     |   2,364,228 | -       |
 |# facts            | 4,320,438     |  15,180,800 | -       |
-|# tagged facts (1) |   998,032     |   -         | -       |
+|# tagged facts (1) |   998,032     |   2,185,893 | -       |
 
 (1): facts tagged with html markup (e.g., <title>) and therefore potentially important.
 
 ### Sample data:
 
-#### Sample conversation turn (from train.convos.txt):
+#### Sample conversation turn:
 
 ```<hash> \t todayilearned \t f2ruz \t 145 \t 2 \t START EOS til a woman fell 30,000 feet from an airplane and survived . \t the page states that a 2009 report found the plane only fell several hundred meters .```
 
@@ -116,7 +116,7 @@ Maps to:
 6. conversational context: `START EOS til a woman fell 30,000 feet from an airplane and survived .`
 7. response: `the page states that a 2009 report found the plane only fell several hundred meters .`
 
-#### Sample fact (from train.facts.txt):
+#### Sample fact:
 
 ```<hash> \t todayilearned \t en.wikipedia.org \t f2ruz \t <p> four years later , peter hornung-andersen and pavel theiner , two prague-based journalists , claimed that flight 367 had been mistaken for an enemy aircraft and shot down by the czechoslovak air force at an altitude of 800 metres ( 2,600 ft ) . </p>```
 
