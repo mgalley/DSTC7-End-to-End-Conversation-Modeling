@@ -14,15 +14,38 @@ This page assumes you are running a UNIX environment (Linux, macOS, etc.) If you
    * `chardet`
 * `make`
 
-## Create trial data:
+To install the above Python modules, you can run:
 
-To create the official training data, please run:
+```pip install -r src\requirements.txt```
 
-```make -j7```
+## Create official data (train and dev):
 
-This will run the extraction pipeline with 7 processes. Depending on your number of cores and machine, you might want to increase or descrease that number. This will take 2-4 days to run, depending on the number of processes selected. This will create two tab-separated (tsv) files `data/train.convos.txt` and `data/train.facts.txt`, which respectively contain the conversational data and grounded text ("facts").
+First, make sure that Python and all required modules are installed, for example by generating a subset of the data (January 2011):
+
+```make data-official/2011-01.convos.txt```
+
+If the target file is missing after running that command, that probably means Python or one of its modules is missing, is the wrong version, or is misconfigured. Please inspect logs files in `logs/*.log` or `logs/*.err` find the root of the problem (please refer to Section Requirements above). 
+
+If everything is setup properly, please run the following command to create the official training data:
+
+```make -j4```
+
+This will run the extraction pipeline with 4 processes. Depending on your number of cores and machine, you might want to increase or descrease that number. This will take 2-5 days to run, depending on the number of processes selected. This will create two tab-separated (tsv) files `data/train.convos.txt` and `data/train.facts.txt`, which respectively contain the conversational data and grounded text ("facts"). 
 
 The data is generated from Reddit and the web, so some of it is noisy and occasionally contains offensive language. While we mostly selected Reddit boards (i.e., "subreddits") and web domains that are mostly safe, explicit and offensive language sometimes appears in the data and we did not attempt to eliminate that (for the sake of simplicity and reproducibility of our pipeline).
+
+Note: if you set a large number of processes, the server hosting the Reddit data (`files.pushshift.io`) might complain about "too many open connections". If so, you might want to use the makefile to first create all `reddit\*.bz2` files and only then run e.g. `make -j7`.
+
+Final files (see data description below):
+1. `train.convos.txt`: Conversations of the training set
+2. `train.facts.txt`: Facts of the training set
+3. `dev.convos.txt`: Conversations of the dev set
+4. `dev.facts.txt`: Facts of the dev set
+
+Role of each dataset:
+1. TRAIN: do anything you want with this data (train, analyze, etc.);
+2. DEV: you may tune model hyperparameters on this data, but you may not train any model directly on that;
+3. TEST (official release Sept 10): The blind test set will provide facts and conversational contexts, but the gold responses will be hidden (replaced with `__UNDISCLOSED__`). 
 
 ## Data description:
 
@@ -30,7 +53,7 @@ Each conversation in this dataset consist of Reddit `submission` and its followi
 
 ### Conversation file:
 
-Each line of `train.convos.txt` contains a Reddit response and its preceding conversational context. Long conversational contexts are truncated by keeping the last 100 words. The file contains 5 columns:
+Each line of `train.convos.txt` and `dev.convos.txt` contains a Reddit response and its preceding conversational context. Long conversational contexts are truncated by keeping the last 100 words. The file contains 5 columns:
 
 1. hash value (only for sanity check)
 2. subreddit name
@@ -46,7 +69,7 @@ The converational context may contain:
 
 ### Facts file:
 
-Each line of `train.facts.txt` contains a "fact", either a sentence, paragraph (or other snippet of text) relevant to the current conversation. Use conversation IDs to find the facts relevant to each conversation. Note: facts relevant to a given conversation are ordered as they appear on the original web page. The file contains 3 columns:
+Each line of `train.facts.txt` and `dev.facts.txt` contains a "fact", either a sentence, paragraph (or other snippet of text) relevant to the current conversation. Use conversation IDs to find the facts relevant to each conversation. Note: facts relevant to a given conversation are ordered as they appear on the original web page. The file contains 3 columns:
 
 1. hash value (only for sanity check)
 2. subreddit name
