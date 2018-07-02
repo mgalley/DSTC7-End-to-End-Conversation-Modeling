@@ -24,19 +24,19 @@ First, make sure that Python and all required modules are installed, for example
 
 ```make data-official/2011-01.convos.txt```
 
-If the target file is missing after running that command, that probably means Python or one of its modules is missing, is the wrong version, or is misconfigured. Please inspect logs files in `logs/*.log` or `logs/*.err` find the root of the problem (please refer to Section Requirements above). 
+If the target file is missing after running that command, that probably means Python or one of its modules is missing, is the wrong version, or is misconfigured. Please inspect logs files in `logs/*.log` or `logs/*.err` to find the cause of the problem (please refer to the "Requirements" section above). 
 
 If everything is setup properly, please run the following command to create the official training data:
 
 ```make -j4```
 
-This will run the extraction pipeline with 4 processes. Depending on your number of cores and machine, you might want to increase or descrease that number. This will take 2-5 days to run, depending on the number of processes selected. This will create two tab-separated (tsv) files `data/train.convos.txt` and `data/train.facts.txt`, which respectively contain the conversational data and grounded text ("facts"). 
+This will run the extraction pipeline with 4 processes. Depending on your number of cores on your machine, you might want to increase or descrease that number. This will take 2-5 days to run, depending on the number of processes selected. This will create two tab-separated (tsv) files `data/train.convos.txt` and `data/train.facts.txt`, which respectively contain the conversational data and grounded text ("facts"). This will also create two files for the dev set.
 
-The data is generated from Reddit and the web, so some of it is noisy and occasionally contains offensive language. While we mostly selected Reddit boards (i.e., "subreddits") and web domains that are mostly safe, explicit and offensive language sometimes appears in the data and we did not attempt to eliminate that (for the sake of simplicity and reproducibility of our pipeline).
+The data is generated from Reddit and the web, so some of it is noisy and occasionally contains offensive language. While we mostly selected Reddit boards (i.e., "subreddits") and web domains that are mostly "safe for work", explicit and offensive language sometimes appears in the data and we did not attempt to eliminate it further (for the sake of simplicity and reproducibility of our pipeline).
 
 Note: if you set a large number of processes, the server hosting the Reddit data (`files.pushshift.io`) might complain about "too many open connections". If so, you might want to use the makefile to first create all `reddit\*.bz2` files and only then run e.g. `make -j7`.
 
-Final files (see data description below):
+Generated data files (see data description below):
 1. `train.convos.txt`: Conversations of the training set
 2. `train.facts.txt`: Facts of the training set
 3. `dev.convos.txt`: Conversations of the dev set
@@ -44,8 +44,10 @@ Final files (see data description below):
 
 Role of each dataset:
 1. TRAIN: do anything you want with this data (train, analyze, etc.);
-2. DEV: you may tune model hyperparameters on this data, but you may not train any model directly on that;
+2. DEV: you may tune model hyperparameters on this data, but you may NOT train any model directly on that;
 3. TEST (official release Sept 10): The blind test set will provide facts and conversational contexts, but the gold responses will be hidden (replaced with `__UNDISCLOSED__`). 
+
+If you participate in the challenge and plan to send us system outputs, **please do NOT use any other training data**, other than the data provided on this page.
 
 ## Data description:
 
@@ -90,11 +92,11 @@ which here refers to the label `The_Lord_of_the_Rings_trilogy`. This information
 
 ### Data statistics:
 
-|                   | Trial data    | Train set | Dev set | Test set |
-| ----              | ----          | ----      | ----    | ----     |
-|# dialogue turns   |   649,866     | -         | -       | -        |
-|# facts            | 4,320,438     | -         | -       | -        |
-|# tagged facts (1) |   998,032     | -         | -       | -        |
+|                   | Trial data    |   Train set | Dev set |
+| ----              | ----          |   ----      | ----    |
+|# dialogue turns   |   649,866     |   2,364,228 | -       |
+|# facts            | 4,320,438     |  15,180,800 | -       |
+|# tagged facts (1) |   998,032     |   -         | -       |
 
 (1): facts tagged with html markup (e.g., <title>) and therefore potentially important.
 
