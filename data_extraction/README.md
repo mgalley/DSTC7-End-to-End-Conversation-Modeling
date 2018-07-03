@@ -18,6 +18,9 @@ To install the above Python modules, you can run:
 
 ```pip install -r src\requirements.txt```
 
+Please also run set `PYTHONIOENCODING=UTF-8` in your environment, e.g., by running this in bash:
+```export PYTHONIOENCODING=UTF-8``
+
 ## Create official data (train and dev):
 
 First, make sure that Python and all required modules are installed, for example by generating a subset of the data (January 2011):
