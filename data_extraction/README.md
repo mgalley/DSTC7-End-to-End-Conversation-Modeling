@@ -4,7 +4,7 @@ Task 2 uses conversational data extracted from Reddit. Each conversation in this
 
 (Note: the older and now obsolete setup to create the "trial" data can be found [here](https://github.com/DSTC-MSR/DSTC7-End-to-End-Conversation-Modeling/tree/master/data_extraction/trial).)
 
-If you run into any problem creating the data, please check the FAQ section below. Otherwise, feel free to contact us at: <dstc7-task2@microsoft.com> (if so, please email us a zip file of all the log files in the `logs` directory).
+If you run into any problem creating the data, please check the [FAQ](https://github.com/DSTC-MSR-NLP/DSTC7-End-to-End-Conversation-Modeling/tree/master/data_extraction#FAQ) section below. Otherwise, feel free to contact us at: <dstc7-task2@microsoft.com> (if so, please email us a zip file of all the log files in the `logs` directory).
 
 ## Requirements
 
