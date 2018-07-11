@@ -4,6 +4,8 @@ Task 2 uses conversational data extracted from Reddit. Each conversation in this
 
 (Note: the older and now obsolete setup to create the "trial" data can be found [here](https://github.com/DSTC-MSR/DSTC7-End-to-End-Conversation-Modeling/tree/master/data_extraction/trial).)
 
+If you run into any problem creating the data, please check the FAQ section below. Otherwise, feel free to contact us at: <dstc7-task2@microsoft.com> (if so, please email us a zip file of all the log files in the `logs` directory).
+
 ## Requirements
 
 This page assumes you are running a UNIX environment (Linux, macOS, etc.) If you are on Windows, please either use its Ubuntu subsystem (instructions [here](https://docs.microsoft.com/en-us/windows/wsl/install-win10)) or any third-party UNIX-like environment such as [Cygwin](https://www.cygwin.com/). Creating the data requires a fair amount of disk space to store Reddit dump files locally, i.e., 500 GB total. You will also need the following programs:
@@ -129,3 +131,18 @@ Maps to:
 3. conversation ID: `f2ruz`
 4. domain name: `en.wikipedia.org`
 5. fact: `<p> four years later , peter hornung-andersen and pavel theiner , two prague-based journalists , claimed that flight 367 had been mistaken for an enemy aircraft and shot down by the czechoslovak air force at an altitude of 800 metres ( 2,600 ft ) . </p>`
+
+## FAQ
+
+**Q:** `make` crashed and returned some non-zero code(s), e.g.: `make: *** [reddit/RC_2013-05.bz2] Error 8`
+<br>
+**A:** It might be a temporary network connection problem. If you rerun the same `make` command, the scripts will resume data download and creation from where it left off. If restarting multiple times doesn't solve your problem, you can email us at <dstc7-task2@microsoft.com> (if so, please email us a zip file of all the log files in the `logs` directory).
+
+**Q:** Creating the data with these scripts is inconvenient. Instead, could you please send us the data directly?
+<br>
+**A:** The data (either Reddit or web) is not our own, so we are unable to redistribute it. The same situtation happended last year for [DSTC6 Task 2](https://github.com/dialogtekgeek/DSTC6-End-to-End-Conversation-Modeling), and the organizers then also provided scraping code that let participants construct the data themselves.
+
+**Q:** I have trouble running the download script because of Internet control in my country. 
+<br>
+**A:** You might want to consider VPN solutions. Alternatively, you could try to team up with other people or team who live in a different country. Participants from different institutions can collaborate and submit system outputs together. 
+
