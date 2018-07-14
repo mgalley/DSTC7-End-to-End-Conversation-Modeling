@@ -138,6 +138,8 @@ Maps to:
 **Q:** `make` crashed and returned some non-zero code(s), e.g.: `make: *** [reddit/RC_2013-05.bz2] Error 8`
 <br>
 **A:** It might be a temporary network connection problem. If you rerun the same `make` command, the scripts will resume data download and creation from where it left off. If restarting multiple times doesn't solve your problem, you can email us at <dstc7-task2@microsoft.com> (if so, please email us a zip file of all the log files in the `logs` directory).
+<br>
+**A:** Alternatively, it might be because you ran `make` with a large number of processes (> 4). The server hosting the Reddit data doesn't allow more than 4 simultaneous connections from the same IP address.
 
 **Q:** Creating the data with these scripts is inconvenient. Instead, could you please send us the data directly?
 <br>
