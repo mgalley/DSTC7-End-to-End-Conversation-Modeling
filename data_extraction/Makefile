@@ -1,9 +1,17 @@
 .SECONDARY:
 
+all: train dev
+
+dev: data-official/dev.convos.txt data-official/dev.facts.txt
 train: data-official/train.convos.txt data-official/train.facts.txt
 
 include src/Makefile.official.targets
 
+data-official/dev.convos.txt: $(OFFICIAL_DEV_CONVOS)
+	cat $+ > $@
+
+data-official/dev.facts.txt: $(OFFICIAL_DEV_FACTS)
+	cat $+ > $@
 
 data-official/train.convos.txt: $(OFFICIAL_TRAIN_CONVOS)
 	cat $+ > $@
