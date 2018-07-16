@@ -1,9 +1,15 @@
 # DSTC7: End-to-End Conversation Modeling
 
 ## News
-* 6/18/2018: [Trial data](https://github.com/DSTC-MSR-NLP/DSTC7-End-to-End-Conversation-Modeling/tree/master/data_extraction) is up.
+* 7/11/2018: An [FAQ](https://github.com/DSTC-MSR-NLP/DSTC7-End-to-End-Conversation-Modeling/tree/master/data_extraction#FAQ) section has been added to the data extraction page. 
+* 7/1/2018: [Official training data](https://github.com/DSTC-MSR-NLP/DSTC7-End-to-End-Conversation-Modeling/tree/master/data_extraction) is up.
+* 6/18/2018: [Trial data](https://github.com/DSTC-MSR-NLP/DSTC7-End-to-End-Conversation-Modeling/tree/master/data_extraction/trial) is up.
 * 6/1/2018: [Task description](https://github.com/DSTC-MSR-NLP/DSTC7-End-to-End-Conversation-Modeling/blob/master/doc/DSTC7_task2.pdf) is up.
 * 6/1/2018: [Registration](https://docs.google.com/forms/d/e/1FAIpQLSf4aoCdtLsnFr_AKfp3tnTy4OUCITy5avcEEpUHJ9oZ5ZFvbg/viewform) for DSTC7 is now open.
+
+## Registration
+
+Please register [here](https://docs.google.com/forms/d/e/1FAIpQLSf4aoCdtLsnFr_AKfp3tnTy4OUCITy5avcEEpUHJ9oZ5ZFvbg/viewform).
 
 ## Task
 This [DSTC7](http://workshop.colips.org/dstc7/) track presents an end-to-end conversational modeling task, in which the goal is to generate conversational responses that go beyond trivial chitchat by injecting informative responses that are grounded in external knowledge. This task is distinct from what is commonly thought of as goal-oriented, task-oriented, or task-completion dialog in that there is no specific or predefined goal (e.g., booking a flight, or reserving a table at a restaurant). Instead, it targets human-like interactions where the underlying goal is often ill-defined or not known in advance, of the kind seen, for example, in work and other productive environments (e.g.,brainstorming meetings) where people share information.
