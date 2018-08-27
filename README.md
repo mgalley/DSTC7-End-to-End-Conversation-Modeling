@@ -38,13 +38,16 @@ A standard seq2seq [baseline model](https://github.com/DSTC-MSR/DSTC7-End-to-End
 ## Timeline
 |Phase|Dates|
 | ------ | -------------- |
-|1. Development Phase|June 1 – Sept 9|
+|1. Development Phase|June 1 – September 9|
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.1 Code (data extraction code, seq2seq baseline)|June 1|
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.2 "Trial" data made available|June 18|
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.3 Official training data made available| By July 1|
-|2. Evaluation Phase|Sept 10 – Oct 1|
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.1 Test data made available|Sept 10|
-|3. Overall results are released|Oct 8|
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.3 Official training data made available| July 1|
+|2. Evaluation Phase|September 10 – 24|
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.1 Test data made available|September 10|
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.2 Participants submit their system outputs|September 24|
+|3. Results are released|October|
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.1 Automatic scores (BLEU, etc.)|October 1|
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.2 Human evaluation|October 8|
 
 ## Organizers
 * [Michel Galley](https://www.microsoft.com/en-us/research/people/mgalley/)
