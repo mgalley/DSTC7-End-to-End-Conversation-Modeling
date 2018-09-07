@@ -15,7 +15,7 @@ https://blog.keras.io/a-ten-minute-introduction-to-sequence-to-sequence-learning
 NOTE:
 *	word-level, GRU-based
 * 	no attention mechanism
-* 	no beam search
+* 	no beam search. greedy decoding, UNK disabled
 
 CONTACT: 
 Sean Xiang Gao (xiag@microsoft.com) at Microsoft Research
@@ -345,7 +345,7 @@ class Seq2Seq:
 
 			out = self.model_infer_decoder.predict([prev_word] + states)
 			tokens_proba = out[0].ravel()
-			tokens_proba[self.dataset.UNK] = 0
+			tokens_proba[self.dataset.UNK] = 0	# UNK disabled
 			tokens_proba = tokens_proba/sum(tokens_proba)
 			states = out[1:]
 			sampled_token_index = np.argmax(tokens_proba)
