@@ -76,25 +76,11 @@ def main(path_txt, fld_out,
 		f.write('\n'.join(nums))
 
 
-def extract_head(path, n=30):
-	lines = []
-	for line in open(path, encoding='utf-8'):
-		lines.append(line)
-		if len(lines) == n:
-			break
-	with open(path+'.head', 'w', encoding='utf-8') as f:
-		f.write(''.join(lines))
-
-
 
 if __name__ == '__main__':
-	#fld_out = 'trial'
-	#path_txt = os.path.join('trial','trial.convos.txt')
 	fld_out = 'official'
 	path_txt = 'F:/DSTC/data-official/train.convos.txt'
-	#extract_head(path_txt)
 	main(path_txt, fld_out)
-	#build_vocab(path_txt, fld_out)
 	print('done!')
 
 
