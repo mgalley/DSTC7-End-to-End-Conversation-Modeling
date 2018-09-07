@@ -1,5 +1,5 @@
 # Baseline Model
-This is a baseline model for [DSTC task 2](https://github.com/DSTC-MSR-NLP/DSTC7-End-to-End-Conversation-Modeling). This is a GRU-based seq2seq generation system. Since it is a baseline, the model does not use grounding information ("facts"), attention or beam search. The implementation is in Python, adapted from a Keras [tutorial](https://blog.keras.io/a-ten-minute-introduction-to-sequence-to-sequence-learning-in-keras.html). 
+This is a baseline model for [DSTC task 2](https://github.com/DSTC-MSR-NLP/DSTC7-End-to-End-Conversation-Modeling). This is a GRU-based seq2seq generation system. Since it is a baseline, the model does not use grounding information ("facts"), attention or beam search. It uses greedy decoding (unkown token disabled). The implementation is in Python, adapted from a Keras [tutorial](https://blog.keras.io/a-ten-minute-introduction-to-sequence-to-sequence-learning-in-keras.html). 
 
 ## Requirement
 The scripts are tested on [Python 3.6.4](https://www.python.org/downloads/) with the following libaries
