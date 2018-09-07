@@ -47,6 +47,7 @@ class Dataset:
 		path_source, path_target, path_vocab, 
 		max_seq_len=32,
 		test_split=0.2,		# how many hold out as vali data
+		read_txt=True,
 		):
 
 
@@ -65,15 +66,18 @@ class Dataset:
 			self.index2token[i + 1] = token
 			self.token2index[token] = i + 1
 
-		assert(SOS_token in self.token2index)
-		assert(EOS_token in self.token2index)
-
 		self.SOS = self.token2index[SOS_token]
 		self.EOS = self.token2index[EOS_token]
+		self.UNK = self.token2index[UNK_token]
 		self.num_tokens = len(self.token2index) - 1	# not including 0-th (padding)
 		print('num_tokens: %i'%self.num_tokens)
 
+		if read_txt:
+			self.read_txt(path_source, path_target, test_split)
 
+
+	def read_txt(self, path_source, path_target, test_split):
+		print('loading data from txt files...')
 		# load source-target pairs, tokenized
 
 		seqs = dict()
@@ -307,6 +311,7 @@ class Seq2Seq:
 
 	def evaluate(self, samples_per_load=640):
 
+		self.model_train.compile(optimizer=Adam(lr=1e-3), loss='categorical_crossentropy')
 		self.dataset.reset()
 		sum_loss = 0.
 		sum_n = 0
@@ -339,9 +344,11 @@ class Seq2Seq:
 		while True:
 
 			out = self.model_infer_decoder.predict([prev_word] + states)
-			tokens_proba = out[0]
+			tokens_proba = out[0].ravel()
+			tokens_proba[self.dataset.UNK] = 0
+			tokens_proba = tokens_proba/sum(tokens_proba)
 			states = out[1:]
-			sampled_token_index = np.argmax(tokens_proba[0, -1, :])
+			sampled_token_index = np.argmax(tokens_proba)
 			sampled_token = self.dataset.index2token[sampled_token_index]
 			decoded_sentence += sampled_token+' '
 
@@ -358,8 +365,7 @@ class Seq2Seq:
 
 		source_seq_int = []
 		for token in input_text.strip().strip('\n').split(' '):
-			if token in self.dataset.token2index:
-				source_seq_int.append(self.dataset.token2index[token])
+			source_seq_int.append(self.dataset.token2index.get(token, self.dataset.UNK))
 		return self._infer(np.atleast_2d(source_seq_int))
 
 
@@ -391,7 +397,7 @@ def main(mode):
 	path_target = os.path.join('official','target_num.txt')
 	path_vocab = os.path.join('official','dict.txt')
 
-	dataset = Dataset(path_source, path_target, path_vocab, max_seq_len=max_seq_len)
+	dataset = Dataset(path_source, path_target, path_vocab, max_seq_len=max_seq_len, read_txt=(mode!='interact'))
 	model_dir = 'model'
 	
 	s2s = Seq2Seq(dataset, model_dir, 
@@ -414,4 +420,5 @@ def main(mode):
 
 if __name__ == '__main__':
 	set_random_seed()
-	main(sys.argv[1])
+	mode = sys.argv[1]		# one of [train, continue, eval, interact]
+	main(mode)
