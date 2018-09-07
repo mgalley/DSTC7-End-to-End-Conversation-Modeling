@@ -23,6 +23,7 @@ Sean Xiang Gao (xiag@microsoft.com) at Microsoft Research
 
 SOS_token = '_SOS_'
 EOS_token = '_EOS_'
+UNK_token = '_UNK_'
 
 
 def set_random_seed(seed=912):
@@ -44,10 +45,8 @@ class Dataset:
 
 	def __init__(self, 
 		path_source, path_target, path_vocab, 
-		max_num_sample=None,
-		max_num_token=None,
 		max_seq_len=32,
-		test_split=0.2,		# how many hold out as test data
+		test_split=0.2,		# how many hold out as vali data
 		):
 
 
@@ -59,11 +58,10 @@ class Dataset:
 
 		with io.open(path_vocab, encoding="utf-8") as f:
 			lines = f.readlines()
-		if max_num_token is not None:
-			lines = lines[:max_num_token]
 		for i, line in enumerate(lines):
 			token = line.strip('\n').strip()
-			assert(len(token)>0)
+			if len(token) == 0:
+				break
 			self.index2token[i + 1] = token
 			self.token2index[token] = i + 1
 
@@ -72,7 +70,8 @@ class Dataset:
 
 		self.SOS = self.token2index[SOS_token]
 		self.EOS = self.token2index[EOS_token]
-		self.num_tokens = len(self.token2index) - 1	# not including 0-th
+		self.num_tokens = len(self.token2index) - 1	# not including 0-th (padding)
+		print('num_tokens: %i'%self.num_tokens)
 
 
 		# load source-target pairs, tokenized
@@ -82,16 +81,13 @@ class Dataset:
 			seqs[k] = []
 			with io.open(path, encoding="utf-8") as f:
 				lines = f.readlines()
-			if max_num_sample is not None:
-				lines = lines[:min(max_num_sample, len(lines))]
 			for line in lines:
 				seq = []
 				for c in line.strip('\n').strip().split(' '):
 					i = int(c)
 					if i <= self.num_tokens:	# delete the "unkown" words
 						seq.append(i)
-				seqs[k].append(seq[:min(self.max_seq_len - 2, len(seq))])
-				max_seq_len = max(max_seq_len, len(seq))
+				seqs[k].append(seq[-min(self.max_seq_len - 2, len(seq)):])
 		self.pairs = list(zip(seqs['source'], seqs['target']))
 
 		# train-test split
@@ -175,7 +171,8 @@ class Seq2Seq:
 
 
 	def load_models(self):
-		self.model_train = load_model(os.path.join(self.model_dir, 'model.h5'))
+		self.build_model_train()
+		self.model_train.load_weights(os.path.join(self.model_dir, 'model.h5'))
 		self.build_model_test()
 
 
@@ -278,7 +275,7 @@ class Seq2Seq:
 
 	def save_model(self, name):
 		path = os.path.join(self.model_dir, name)
-		self.model_train.save(path)
+		self.model_train.save_weights(path)
 		print('saved to: '+path)
 
 
@@ -289,13 +286,14 @@ class Seq2Seq:
 
 
 		self.model_train.compile(optimizer=Adam(lr=lr), loss='categorical_crossentropy')
+		max_load = np.ceil(self.dataset.n_train/batch_size/batch_per_load)
 
 		for epoch in range(epochs):
 			load = 0
 			self.dataset.reset()
 			while not self.dataset.all_loaded('train'):
 				load += 1
-				print('\n***** Epoch %i/%i - load %i/%i *****'%(epoch + 1, epochs, load, np.ceil(self.dataset.n_train/batch_size/batch_per_load)))
+				print('\n***** Epoch %i/%i - load %.2f perc *****'%(epoch + 1, epochs, 100*load/max_load))
 				encoder_input_data, decoder_input_data, decoder_target_data, _, _ = self.dataset.load_data('train', batch_size * batch_per_load)
 
 				self.model_train.fit(
@@ -384,18 +382,16 @@ def main(mode):
 	decoder_depth = 2
 	dropout_rate = 0.5
 	learning_rate = 1e-3
-	max_num_token = 20000
 	max_seq_len = 32
 
 	batch_size = 100
 	epochs = 10
 
-	path_source = os.path.join('trial','source_num.txt')
-	path_target = os.path.join('trial','target_num.txt')
-	path_vocab = os.path.join('trial','dict.txt')
+	path_source = os.path.join('official','source_num.txt')
+	path_target = os.path.join('official','target_num.txt')
+	path_vocab = os.path.join('official','dict.txt')
 
-	dataset = Dataset(path_source, path_target, path_vocab, 
-		max_num_token=max_num_token, max_seq_len=max_seq_len)
+	dataset = Dataset(path_source, path_target, path_vocab, max_seq_len=max_seq_len)
 	model_dir = 'model'
 	
 	s2s = Seq2Seq(dataset, model_dir, 
