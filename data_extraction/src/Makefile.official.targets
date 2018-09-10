@@ -5,3 +5,13 @@ OFFICIAL_TRAIN_FACTS=data-official/2011-01.facts.txt data-official/2011-02.facts
 OFFICIAL_DEV_CONVOS=data-official/2017-01.convos.txt data-official/2017-02.convos.txt data-official/2017-03.convos.txt 
 
 OFFICIAL_DEV_FACTS=data-official/2017-01.facts.txt data-official/2017-02.facts.txt data-official/2017-03.facts.txt 
+
+# Note: validation == dev set, but validation is a subset used for automatic evaluation
+OFFICIAL_VALID_CONVOS=data-official-valid/2017-01.convos.txt data-official-valid/2017-02.convos.txt data-official-valid/2017-03.convos.txt 
+
+OFFICIAL_VALID_FACTS=data-official-valid/2017-01.facts.txt data-official-valid/2017-02.facts.txt data-official-valid/2017-03.facts.txt 
+
+OFFICIAL_TEST_CONVOS=data-official-test/2017-04.convos.txt data-official-test/2017-05.convos.txt data-official-test/2017-06.convos.txt data-official-test/2017-07.convos.txt data-official-test/2017-08.convos.txt data-official-test/2017-09.convos.txt data-official-test/2017-10.convos.txt data-official-test/2017-11.convos.txt
+
+OFFICIAL_TEST_FACTS=data-official-test/2017-04.facts.txt data-official-test/2017-05.facts.txt data-official-test/2017-06.facts.txt data-official-test/2017-07.facts.txt data-official-test/2017-08.facts.txt data-official-test/2017-09.facts.txt data-official-test/2017-10.facts.txt data-official-test/2017-11.facts.txt
+

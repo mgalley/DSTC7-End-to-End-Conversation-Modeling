@@ -32,6 +32,7 @@ from commoncrawl import CommonCrawl
 parser = argparse.ArgumentParser()
 parser.add_argument("--rsinput", help="Submission (RS) file to load.")
 parser.add_argument("--rcinput", help="Comments (RC) file to load.")
+parser.add_argument("--test", help="Hashes of test set convos.", default="")
 parser.add_argument("--facts", help="Facts file to create.")
 parser.add_argument("--convos", help="Convo file to create.")
 parser.add_argument("--pickle", help="Pickle that contains conversations and facts.", default="data.pkl")
@@ -51,12 +52,14 @@ parser.add_argument("--anchoronly", help="Filter out URLs with no named anchors.
 parser.add_argument("--use_robots_txt", help="Whether to respect robots.txt (disable this only if urls have been previously checked by other means!)", default=True, type=bool)
 parser.add_argument("--use_cc", help="Whether to download pages from Common Crawl.", default=False, type=bool)
 parser.add_argument("--dryrun", help="Just collect stats about data; don't create any data.", default=False, type=bool)
+parser.add_argument("--blind", help="Don't print out responses.", default=False, type=bool)
 args = parser.parse_args()
 
 fields = [ "id", "subreddit", "score", "num_comments", "domain", "title", "url", "permalink" ]
 important_tags = ['title', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'hr', 'p']
 notext_tags = ['script', 'style']
 deleted_str = '[deleted]'
+undisclosed_str = '__UNDISCLOSED__'
 
 batch_download_facts = False
 robotparsers = {}
@@ -363,7 +366,7 @@ def get_convo(id, submissions, comments, depth=args.max_depth):
     els.append(norm_sentence(get_text(c)))
     return els
 
-def save_tuple(f, subreddit, sid, pos, user, context, message, response, score):
+def save_tuple(f, subreddit, sid, pos, user, context, message, response, score, test_hashes):
     cwords = re.split("\s+", context)
     mwords = re.split("\s+", message)
     max_len = max(args.max_context_len, len(mwords)+1)
@@ -376,9 +379,14 @@ def save_tuple(f, subreddit, sid, pos, user, context, message, response, score):
             if score >= args.minscore:
                 out_str = "\t".join([subreddit, sid, str(score), str(pos), context, response])
                 hash_str = hashlib.sha224(out_str.encode("utf-8")).hexdigest()
-                f.write(hash_str + "\t" + out_str + "\n")
+                if test_hashes == None or hash_str in test_hashes.keys():
+                    if args.blind:
+                        ## Note: there is no point in removing the '--blind' flag in order to peek at the reference responses (gold), 
+                        ## as the organizers will rely on different responses to compute BLEU, etc.
+                        out_str = "\t".join([subreddit, sid, str(score), str(pos), context, undisclosed_str])
+                    f.write(hash_str + "\t" + out_str + "\n")
 
-def save_tuples(submissions, comments):
+def save_tuples(submissions, comments, test_hashes):
     has_firstturn = {}
     with open(args.convos, 'wt', encoding="utf-8") as f:
         for id in sorted(comments.keys()):
@@ -394,11 +402,22 @@ def save_tuples(submissions, comments):
                 message = convo[-2]
                 response = convo[-1]
                 if len(convo) == 3 and not sid in has_firstturn.keys():
-                    save_tuple(f, get_subreddit(s), sid, pos-1, "", convo[-3], convo[-3], message, 1)
+                    save_tuple(f, get_subreddit(s), sid, pos-1, "", convo[-3], convo[-3], message, 1, test_hashes)
                     has_firstturn[sid] = 1
-                save_tuple(f, get_subreddit(s), sid, pos, user, context, message, response, score)
+                save_tuple(f, get_subreddit(s), sid, pos, user, context, message, response, score, test_hashes)
+
+def read_test_hashes(hash_file):
+    hashes = {}
+    with open(hash_file, 'r') as f:
+        for line in f:
+            hash_str = line.rstrip()
+            hashes[hash_str] = 1
+    return hashes
 
 if __name__== "__main__":
+    test_hashes = None
+    if args.test != "":
+        test_hashes = read_test_hashes(args.test)
     submissions, comments = load_data()
     submissions = save_facts(submissions)
-    save_tuples(submissions, comments)
+    save_tuples(submissions, comments, test_hashes)
