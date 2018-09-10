@@ -1,7 +1,7 @@
 # Evaluation
 
 ## Important Dates
-* 9/10/2018 (5:00pm PST): Task organizers release test data
+* 9/10/2018: Task organizers release test data
 * 10/1/2018 (11:59pm PST): Deadline for sending system outputs to task organizers (email to <dstc7-task2@microsoft.com>)
 * 10/8/2018: Task organizers release automatic evaluation results (BLEU, METEOR, etc.)
 * 10/16/2018: Task organizers release human evaluation results
