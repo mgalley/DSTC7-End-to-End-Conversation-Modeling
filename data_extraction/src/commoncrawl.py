@@ -117,8 +117,10 @@ class CommonCrawl:
                     retry = 0
                     print("Unexpected error code: %d" % err.code, file=sys.stderr)
                     sys.stderr.flush()
-            except Exception:
-                    traceback.print_exc()
+            except Exception as err:
+                    print("Unexpected error: %s" % err, file=sys.stderr)
+                    sys.stderr.flush()
+                    time.sleep(self.retry_wait)
         return None, None
 
 if __name__== "__main__":
