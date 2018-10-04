@@ -35,11 +35,13 @@ Due to the way the data is created by querying Common Crawl, there may be small 
 
 ## Create system outputs (estimated time: 2 weeks maximum)
 
-By October 1st, please email us at <dstc7-task2@microsoft.com> a modification of ``test.convos.txt`` where ``__UNDISCLOSED__`` has been replaced by your own system output, which is an output based on the query, subreddit, and conversation ID specified on the same line.
+**By October 8th**, please send us a modification of ``test.convos.txt`` where ``__UNDISCLOSED__`` has been replaced by your own system output, which is an output based on the query, subreddit, and conversation ID specified on the same line. On October 4th, we sent an email to registered participants with a URL to the system output submission site. If you registed but didn't receive such an email, please contact us at <dstc7-task2@microsoft.com>.
 
-In order for us to process these files automatically, please ensure the following:
-* Other than replacing ``__UNDISCLOSED__`` with your own output, the rest of the file should not be altered in any way. That is, it needs to have exactly 7 columns on each line, and columns 1-6 should be exactly the same as the test.convos.txt file created by our scripts. These other columns are also important as they will help us sort out differences between the test sets of the different participants.
+In order for us to process these files automatically, please ensure the following about file format:
+* **Other than replacing ``__UNDISCLOSED__`` with your own output, the rest of the file should not be altered in any way.** That is, it needs to have exactly 7 columns on each line, and columns 1-6 should be exactly the same as the test.convos.txt file created by our scripts. These other columns are also important as they will help us sort out differences between the test sets of the different participants.
 * You may submit multiple systems, in which case we ask that you: (1) Please give a different name to each file (e.g., system1.convos.txt, system2.convos.txt, ...). (2) Please identify one of your system as primary, as we may only be able to use one of them for human evaluation.
 * Please do not send us any other files (e.g., we do not need validation sets, and any facts files.) 
+
+*Before submitting, **please check the format of your files** and make sure they are as described above, as we will process submissions automatically for metric evaluation (and semi-automatically for human evaluation). Formatting your data correctly as described above will minimize problems in the evaluation pipeline and the risk of getting lower metric scores. If you are not sure about the format, just ask.*
 
 If you have any questions, again please email us at <dstc7-task2@microsoft.com>.
