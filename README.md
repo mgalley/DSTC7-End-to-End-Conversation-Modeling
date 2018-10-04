@@ -10,7 +10,7 @@
 
 ## Registration
 
-Please register [here](https://docs.google.com/forms/d/e/1FAIpQLSf4aoCdtLsnFr_AKfp3tnTy4OUCITy5avcEEpUHJ9oZ5ZFvbg/viewform).
+~~Please register [here]~~ Registration has now closed.
 
 ## Task
 This [DSTC7](http://workshop.colips.org/dstc7/) track presents an end-to-end conversational modeling task, in which the goal is to generate conversational responses that go beyond trivial chitchat by injecting informative responses that are grounded in external knowledge. This task is distinct from what is commonly thought of as goal-oriented, task-oriented, or task-completion dialog in that there is no specific or predefined goal (e.g., booking a flight, or reserving a table at a restaurant). Instead, it targets human-like interactions where the underlying goal is often ill-defined or not known in advance, of the kind seen, for example, in work and other productive environments (e.g.,brainstorming meetings) where people share information.
@@ -43,12 +43,12 @@ A standard seq2seq [baseline model](https://github.com/DSTC-MSR/DSTC7-End-to-End
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.1 Code (data extraction code, seq2seq baseline)|June 1|
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.2 "Trial" data made available|June 18|
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.3 Official training data made available| July 1|
-|2. Evaluation Phase|September 10 – 24|
+|2. Evaluation Phase|September 10 – October 8|
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.1 Test data made available|September 10|
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.2 Participants submit their system outputs|September 24|
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.2 Participants submit their system outputs|October 8|
 |3. Results are released|October|
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.1 Automatic scores (BLEU, etc.)|October 1|
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.2 Human evaluation|October 8|
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.1 Automatic scores (BLEU, etc.)|October 16|
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.2 Human evaluation|October 23|
 
 ## Organizers
 * [Michel Galley](https://www.microsoft.com/en-us/research/people/mgalley/)
