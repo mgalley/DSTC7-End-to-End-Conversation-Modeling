@@ -2,7 +2,7 @@
 
 ## System submissions
 
-*Dear registered participants:* you should have received a URL to submit your system outputs. If you didn't, please contact us at <dstc7-task2@microsoft.com>. The submission deadline in **October 8th, 2018**.
+*Dear registered participants:* you should have received a URL to submit your system outputs. If you didn't, please contact us at <dstc7-task2@microsoft.com>. The submission deadline is **October 8th, 2018**.
 
 ## News
 * 9/10/2018: **The evaluation phase has started**. Please read instructions [here](https://github.com/DSTC-MSR-NLP/DSTC7-End-to-End-Conversation-Modeling/tree/master/evaluation).
