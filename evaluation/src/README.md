@@ -15,7 +15,7 @@ Important: the results printed by dstc.py might differ slightly from the officia
 
 
 # What does it do?
-(Based on this [repo](https://github.com/golsun/NLP-tools) by [Sean Xiang Gao](https://www.linkedin.com/feed/))
+(Based on this [repo](https://github.com/golsun/NLP-tools) by [Sean Xiang Gao](https://www.linkedin.com/in/gxiang1228/))
 
 *  **evaluation**: calculate automated NLP metrics (BLEU, NIST, METEOR, entropy, etc...)
 ```python
