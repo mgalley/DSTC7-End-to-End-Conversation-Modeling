@@ -1,6 +1,6 @@
-# Automatic evaluation script for DSTC7 Task 2
 
-Author: Sean Gao
+# Automatic evaluation script for DSTC7 Task 2
+(Based on this [repo](https://github.com/golsun/NLP-tools) by [Sean Xiang Gao](https://www.linkedin.com/feed/))
 
 Steps:
 1) Make sure you 'git pull' the latest changes (from October 15, 2018), including changes in ../../data_extraction.
@@ -13,7 +13,10 @@ python dstc.py -c [SUBMISSION] --refs ../../data_extraction/test.refs
 
 Important: the results printed by dstc.py might differ slightly from the official results, if part of your test set failed to download.
 
+
+
 # What does it do?
+
 *  **evaluation**: calculate automated NLP metrics (BLEU, NIST, METEOR, entropy, etc...)
 ```python
 from metrics import nlp_metrics
