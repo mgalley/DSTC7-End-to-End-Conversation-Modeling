@@ -1,6 +1,5 @@
 
 # Automatic evaluation script for DSTC7 Task 2
-(Based on this [repo](https://github.com/golsun/NLP-tools) by [Sean Xiang Gao](https://www.linkedin.com/feed/))
 
 Steps:
 1) Make sure you 'git pull' the latest changes (from October 15, 2018), including changes in ../../data_extraction.
@@ -16,6 +15,7 @@ Important: the results printed by dstc.py might differ slightly from the officia
 
 
 # What does it do?
+(Based on this [repo](https://github.com/golsun/NLP-tools) by [Sean Xiang Gao](https://www.linkedin.com/feed/))
 
 *  **evaluation**: calculate automated NLP metrics (BLEU, NIST, METEOR, entropy, etc...)
 ```python
