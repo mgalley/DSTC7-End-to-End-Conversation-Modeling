@@ -15,3 +15,4 @@ OFFICIAL_TEST_CONVOS=data-official-test/2017-04.convos.txt data-official-test/20
 
 OFFICIAL_TEST_FACTS=data-official-test/2017-04.facts.txt data-official-test/2017-05.facts.txt data-official-test/2017-06.facts.txt data-official-test/2017-07.facts.txt data-official-test/2017-08.facts.txt data-official-test/2017-09.facts.txt data-official-test/2017-10.facts.txt data-official-test/2017-11.facts.txt
 
+OFFICIAL_TEST_REFS=data-official-test/2017-04.refs.txt data-official-test/2017-05.refs.txt data-official-test/2017-06.refs.txt data-official-test/2017-07.refs.txt data-official-test/2017-08.refs.txt data-official-test/2017-09.refs.txt data-official-test/2017-10.refs.txt data-official-test/2017-11.refs.txt

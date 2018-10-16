@@ -315,6 +315,8 @@ def insert_escaped_tags(tags, label=None):
 def save_facts(submissions, sids = None):
     subs = {}
     i = 0
+    if args.facts == '-':
+        return submissions
     with open(args.facts, 'wt', encoding="utf-8") as f:
         for id in sorted(submissions.keys()):
             s = submissions[id] 
