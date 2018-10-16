@@ -3,7 +3,7 @@
 Author: Sean Gao
 
 Steps:
-1) Make sure you 'git pull' the latest changes (from October 15, 2018).
+1) Make sure you 'git pull' the latest changes (from October 15, 2018), including changes in ../../data_extraction.
 2) cd to `../../data_extraction` and type make. This will create the multi-reference file used by the metrics (`../../data_extraction/test.refs`).
 3) Install 3rd party software as instructed below (METEOR and mteval-v14c.pl).
 5) Run the following command, where `[SUBMISSION]` is the submission file you want to evaluate: (same format as the one you submitted on Oct 8.)
