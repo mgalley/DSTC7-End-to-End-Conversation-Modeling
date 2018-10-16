@@ -1,11 +1,10 @@
 # DSTC7: End-to-End Conversation Modeling
 
-## System submissions
-
-*Dear registered participants:* you should have received a URL to submit your system outputs. If you didn't, please contact us at <dstc7-task2@microsoft.com>. The submission deadline is **October 8th, 2018**.
 
 ## News
-* 9/10/2018: **The evaluation phase has started**. Please read instructions [here](https://github.com/DSTC-MSR-NLP/DSTC7-End-to-End-Conversation-Modeling/tree/master/evaluation).
+* 10/15/2018: Automatic evaluation results sent to primary contacts of all participating teams. The code to reproduce those results can be found [here](https://github.com/DSTC-MSR-NLP/DSTC7-End-to-End-Conversation-Modeling/blob/master/evaluation/src/README.md). 
+* 10/8/2018: Participants submitted system outputs.
+* 9/10/2018-10/8/2018: Evaluation phase, instructions [here](https://github.com/DSTC-MSR-NLP/DSTC7-End-to-End-Conversation-Modeling/tree/master/evaluation).
 * 7/11/2018: An [FAQ](https://github.com/DSTC-MSR-NLP/DSTC7-End-to-End-Conversation-Modeling/tree/master/data_extraction#FAQ) section has been added to the data extraction page. 
 * 7/1/2018: [Official training data](https://github.com/DSTC-MSR-NLP/DSTC7-End-to-End-Conversation-Modeling/tree/master/data_extraction) is up.
 * 6/18/2018: [Trial data](https://github.com/DSTC-MSR-NLP/DSTC7-End-to-End-Conversation-Modeling/tree/master/data_extraction/trial) is up.
