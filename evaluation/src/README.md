@@ -1,5 +1,6 @@
 # Automatic evaluation script for DSTC7 Task 2
-# Author: Sean Gao
+
+Author: Sean Gao
 
 Steps:
 1) Make sure you 'git pull' the latest changes (from October 15, 2018).
