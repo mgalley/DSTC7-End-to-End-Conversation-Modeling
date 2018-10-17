@@ -2,7 +2,7 @@
 
 
 ## News
-* 10/15/2018: Automatic evaluation results sent to primary contacts of all participating teams. The code to reproduce those results can be found [here](https://github.com/DSTC-MSR-NLP/DSTC7-End-to-End-Conversation-Modeling/blob/master/evaluation/src/README.md). 
+* 10/15/2018: Automatic evaluation [results](https://github.com/DSTC-MSR-NLP/DSTC7-End-to-End-Conversation-Modeling/blob/master/evaluation/dstc7-task2-automatic_scores.xlsx) sent to primary contacts of all participating teams. The code to reproduce those results can be found [here](https://github.com/DSTC-MSR-NLP/DSTC7-End-to-End-Conversation-Modeling/blob/master/evaluation/src/README.md). 
 * 10/8/2018: Participants submitted system outputs.
 * 9/10/2018-10/8/2018: Evaluation phase, instructions [here](https://github.com/DSTC-MSR-NLP/DSTC7-End-to-End-Conversation-Modeling/tree/master/evaluation).
 * 7/11/2018: An [FAQ](https://github.com/DSTC-MSR-NLP/DSTC7-End-to-End-Conversation-Modeling/tree/master/data_extraction#FAQ) section has been added to the data extraction page. 
