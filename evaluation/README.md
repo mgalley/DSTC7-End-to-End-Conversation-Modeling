@@ -3,7 +3,7 @@
 ## Evaluation results
 
 * [Spreadsheet](https://github.com/DSTC-MSR-NLP/DSTC7-End-to-End-Conversation-Modeling/blob/master/evaluation/dstc7-task2-scores.xlsx) with overall scores for automatic (BLEU, METEOR, and NIST) and human evaluation for each team (anonymized).
-* [Spreadsheet](https://github.com/DSTC-MSR-NLP/DSTC7-End-to-End-Conversation-Modeling/blob/master/evaluation/dstc7-task2-individual_judgments.xlsx) containing judgments (averaged over 3 crowdworkers) of relevance and interest for each response of each system and baseline (test set of 1k responses).
+* [Spreadsheet](https://github.com/DSTC-MSR-NLP/DSTC7-End-to-End-Conversation-Modeling/blob/master/evaluation/dstc7-task2-individual_judgments.xlsx) containing judgments (averaged over 3 crowdworkers) of relevance and interest for each response of each system and baseline (test set of 1k responses). Note that this document is currently only useful to DSTC7 Task2 participants, as it maps a sentence ID (hash) to the responses' numerical scores. The responses themselves are not provided at the moment.
 
 ## Important Dates
 * 9/10/2018: Task organizers release test data
