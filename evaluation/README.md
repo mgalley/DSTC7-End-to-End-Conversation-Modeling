@@ -1,5 +1,10 @@
 # Evaluation
 
+## Evaluation results
+
+* [Spreadsheet](https://github.com/DSTC-MSR-NLP/DSTC7-End-to-End-Conversation-Modeling/blob/master/evaluation/dstc7-task2-scores.xlsx) with overall scores for automatic (BLEU, METEOR, and NIST) and human evaluation for each team (anonymized).
+* [Spreadsheet](https://github.com/DSTC-MSR-NLP/DSTC7-End-to-End-Conversation-Modeling/blob/master/evaluation/dstc7-task2-individual_judgments.xlsx) containing judgments (averaged over 3 crowdworkers) of relevance and interest for each response of each system and baseline (test set of 1k responses).
+
 ## Important Dates
 * 9/10/2018: Task organizers release test data
 * 10/1/2018 (11:59pm PST): Deadline for sending system outputs to task organizers (email to <dstc7-task2@microsoft.com>)
