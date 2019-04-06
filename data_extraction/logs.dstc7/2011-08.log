@@ -1,0 +1,2200 @@
+skipping: subreddit=canada	domain=canada.com (True False)
+skipping: subreddit=collapse	domain=channel4.com (False False)
+skipping: subreddit=politics	domain=nationaljournal.com (False False)
+skipping: subreddit=WTF	domain=huffingtonpost.com (False False)
+skipping: subreddit=todayilearned	domain=google.com (True False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Beaver#In_dietary_law] submission month: [2011-08] commoncrawl date: [2014-03-16 01:12:54]
+skipping: subreddit=leagueoflegends	domain=leagueofreplays.com (True False)
+skipping: subreddit=Diablo	domain=us.blizzard.com (False False)
+skipping: subreddit=vinyl	domain=digitalmusicnews.com (True False)
+skipping: subreddit=Eve	domain=wiki.eveonline.com (False False)
+skipping: subreddit=politics	domain=fivethirtyeight.blogs.nytimes.com (False False)
+skipping: subreddit=chicago	domain=gapersblock.com (False False)
+skipping: subreddit=politics	domain=fpif.org (False False)
+skipping: subreddit=politics	domain=firebrandmag.com (False False)
+skipping: subreddit=soccer	domain=ussoccer.com (True False)
+skipping: subreddit=MLS	domain=ussoccer.com (False False)
+skipping: subreddit=apple	domain=smh.com.au (False True)
+skipping: subreddit=Android	domain=androidandme.com (False False)
+skipping: subreddit=news	domain=huffingtonpost.co.uk (False False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Alcohol_laws_of_Wisconsin#Drinking_age] submission month: [2011-08] commoncrawl date: [2014-03-08 16:12:24]
+skipping: subreddit=Music	domain=en.wikipedia.org (False True)
+skipping: subreddit=psychology	domain=telegraph.co.uk (False True)
+skipping: subreddit=radiohead	domain=en.wikipedia.org (False True)
+skipping: subreddit=doctorwho	domain=chanarchive.org (True False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Can't fetch: [http://en.wikipedia.org/wiki/Monsters,_Inc.#Prequel] submission month: [2011-08]
+skipping: subreddit=worldpolitics	domain=smh.com.au (False True)
+skipping: subreddit=atheism	domain=en.wikipedia.org (False True)
+skipping: subreddit=swtor	domain=mmo-champion.com (False False)
+skipping: subreddit=politics	domain=nydailynews.com (False True)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Alhambra_Decree#Background] submission month: [2011-08] commoncrawl date: [2014-03-07 09:05:29]
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Conjugal_visit#United_States] submission month: [2011-08] commoncrawl date: [2014-03-09 13:12:36]
+skipping: subreddit=mylittlepony	domain=johnjoseco.deviantart.com (False False)
+skipping: subreddit=Dallas	domain=star-telegram.com (False False)
+skipping: subreddit=politics	domain=huffingtonpost.com (False False)
+skipping: subreddit=gaymers	domain=quickmeme.com (False False)
+skipping: subreddit=community	domain=mtv.com (False False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Shrek#Production] submission month: [2011-08] commoncrawl date: [2014-04-17 06:52:44]
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Bart_Sibrel#Dealings_with_Apollo_astronauts] submission month: [2011-08] commoncrawl date: [2014-03-08 04:52:32]
+keeping: subreddit=running	domain=kansascity.com
+Fetching url: [http://www.kansascity.com/2011/07/31/3048991/muslim-women-work-out-religiously.html#storylink=misearch] submission month: [2011-08] commoncrawl date: [2017-07-21 10:13:14]
+skipping: subreddit=WTF	domain=msnbc.msn.com (False False)
+skipping: subreddit=indie	domain=grooveshark.com (False False)
+skipping: subreddit=politics	domain=libraryjournal.com (False False)
+skipping: subreddit=television	domain=hollywoodreporter.com (True False)
+skipping: subreddit=leagueoflegends	domain=justin.tv (True False)
+skipping: subreddit=leagueoflegends	domain=na.leagueoflegends.com (True False)
+skipping: subreddit=wikipedia	domain=en.wikipedia.org (False True)
+skipping: subreddit=CFB	domain=en.wikipedia.org (False True)
+skipping: subreddit=vinyl	domain=digitalmusicnews.com (True False)
+skipping: subreddit=chelseafc	domain=weaintgotnohistory.com (True False)
+skipping: subreddit=WTF	domain=filmdrunk.uproxx.com (False False)
+skipping: subreddit=Boise	domain=huffingtonpost.com (False False)
+skipping: subreddit=mylittlepony	domain=thedarklordkeisha.deviantart.com (False False)
+skipping: subreddit=politics	domain=msnbc.msn.com (False False)
+skipping: subreddit=MensRights	domain=deansdale.wordpress.com (False False)
+skipping: subreddit=reddit.com	domain=riseearth.com (False False)
+skipping: subreddit=australia	domain=knowledge.asb.unsw.edu.au (True False)
+skipping: subreddit=gaming	domain=ppitm.deviantart.com (False False)
+skipping: subreddit=Israel	domain=dailystar.com.lb (False False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Can't fetch: [http://en.wikipedia.org/wiki/Poplar_Tree_Incident#Operation_Paul_Bunyan] submission month: [2011-08]
+skipping: subreddit=technology	domain=techsac.blogspot.com (False False)
+skipping: subreddit=Android	domain=tech.fortune.cnn.com (False False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Aviation_accidents_and_incidents#Safety] submission month: [2011-08] commoncrawl date: [2014-03-09 21:20:02]
+skipping: subreddit=worldnews	domain=washingtontimes.com (True False)
+skipping: subreddit=Economics	domain=washingtontimes.com (False False)
+skipping: subreddit=MensRights	domain=whataboutourdaughters.com (False False)
+skipping: subreddit=leagueoflegends	domain=euw.leagueoflegends.com (True False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Kidney_transplantation#Procedure] submission month: [2011-08] commoncrawl date: [2014-03-09 15:06:00]
+skipping: subreddit=reddit.com	domain=us.battle.net (False True)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Zoosexuality_and_the_law#National_laws] submission month: [2011-08] commoncrawl date: [2014-03-13 17:09:11]
+skipping: subreddit=pics	domain=quickmeme.com (False False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/List_of_longest-running_United_States_television_series#12-15_years] submission month: [2011-08] commoncrawl date: [2014-03-08 00:04:54]
+skipping: subreddit=Cornell	domain=gq.com (False True)
+skipping: subreddit=reddit.com	domain=msnbc.msn.com (False False)
+skipping: subreddit=leagueoflegends	domain=na.leagueoflegends.com (True False)
+skipping: subreddit=politics	domain=madmikesamerica.com (False False)
+skipping: subreddit=gaming	domain=us.battle.net (False True)
+keeping: subreddit=kansascity	domain=kansascity.com
+Can't fetch: [http://www.kansascity.com/2011/08/02/3053502/kansas-city-police-department.html#.Tjl7mkiUwVE.reddit] submission month: [2011-08]
+skipping: subreddit=Screenwriting	domain=sendspace.com (False False)
+skipping: subreddit=technology	domain=pcworld.com (False True)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Bacardi#Cuban_Revolution] submission month: [2011-08] commoncrawl date: [2014-04-20 01:11:42]
+skipping: subreddit=doctorwho	domain=richsc.deviantart.com (True False)
+skipping: subreddit=leagueoflegends	domain=solomid.net (True False)
+skipping: subreddit=television	domain=articles.baltimoresun.com (True False)
+skipping: subreddit=worldnews	domain=msnbc.msn.com (True False)
+skipping: subreddit=reddit.com	domain=startribune.com (False False)
+skipping: subreddit=bicycling	domain=streetsblog.org (True False)
+skipping: subreddit=battlefield3	domain=forums.electronicarts.co.uk (False False)
+skipping: subreddit=offbeat	domain=msnbc.msn.com (False False)
+skipping: subreddit=Libertarian	domain=techland.time.com (False False)
+skipping: subreddit=linux	domain=openbox.org (True False)
+skipping: subreddit=Bitcoin	domain=bitcointalk.org (False False)
+skipping: subreddit=vancouver	domain=mapnificent.net (False False)
+skipping: subreddit=AdviceAnimals	domain=quickmeme.com (False False)
+skipping: subreddit=technology	domain=techland.time.com (False False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Can't fetch: [http://en.wikipedia.org/wiki/Olives#Cultivation_and_uses] submission month: [2011-08]
+skipping: subreddit=conspiracy	domain=endthelie.com (False False)
+skipping: subreddit=australia	domain=whymarknoreligion.org (True False)
+skipping: subreddit=mylittlepony	domain=sc0t1n4t0r.deviantart.com (False False)
+keeping: subreddit=worldnews	domain=theatlantic.com
+Fetching url: [http://www.theatlantic.com/international/archive/2011/08/chinas-manhattan-knock-off/243037/#.TjsugmcLU0Q.reddit] submission month: [2011-08] commoncrawl date: [2014-03-09 12:48:21]
+skipping: subreddit=atheism	domain=smh.com.au (False True)
+skipping: subreddit=WTF	domain=omaha.com (False False)
+skipping: subreddit=exmormon	domain=msnbc.msn.com (False False)
+skipping: subreddit=shutupandtakemymoney	domain=thinkgeek.com (True False)
+skipping: subreddit=history	domain=en.wikipedia.org (False True)
+skipping: subreddit=reddit.com	domain=bernie.org (False False)
+skipping: subreddit=prowrestling	domain=en.wikipedia.org (False True)
+skipping: subreddit=canada	domain=abetterenergyplan.ca (True False)
+skipping: subreddit=Dallas	domain=msnbc.msn.com (False False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Viagra#Patent_issues_and_expirations] submission month: [2011-08] commoncrawl date: [2014-03-09 20:12:45]
+skipping: subreddit=politics	domain=littlegreenfootballs.com (False False)
+skipping: subreddit=atheism	domain=en.wikipedia.org (False True)
+skipping: subreddit=Minecraft	domain=phillgonzo.deviantart.com (False False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Cephalopod_intelligence#Predation_techniques] submission month: [2011-08] commoncrawl date: [2014-03-15 08:17:11]
+skipping: subreddit=politics	domain=msnbc.msn.com (False False)
+skipping: subreddit=lego	domain=shortlist.com (False False)
+skipping: subreddit=leagueoflegends	domain=na.leagueoflegends.com (True False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Feynman#Personal_life] submission month: [2011-08] commoncrawl date: [2014-03-07 20:15:58]
+skipping: subreddit=TwoXChromosomes	domain=thefrisky.com (False False)
+skipping: subreddit=leagueoflegends	domain=na.leagueoflegends.com (True False)
+skipping: subreddit=breastfeeding	domain=startribune.com (False False)
+skipping: subreddit=worldnews	domain=msnbc.msn.com (True False)
+keeping: subreddit=philosophy	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Ibn_sina#Thought_experiments] submission month: [2011-08] commoncrawl date: [2014-03-08 04:23:42]
+skipping: subreddit=SocialEngineering	domain=en.wikipedia.org (False True)
+skipping: subreddit=wow	domain=raidbots.com (True False)
+keeping: subreddit=australia	domain=smh.com.au
+Can't fetch: [http://www.smh.com.au/polls/the-gay-marriage-question-20110802-1i963.html#poll] submission month: [2011-08]
+skipping: subreddit=Dallas	domain=csmonitor.com (False True)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Alan_Ball_%28screenwriter%29#Personal_life] submission month: [2011-08] commoncrawl date: [2014-03-08 13:03:32]
+skipping: subreddit=gameofthrones	domain=immilesaway.deviantart.com (True False)
+skipping: subreddit=Denver	domain=denverpost.com (False False)
+skipping: subreddit=starcraft	domain=lukali.deviantart.com (False False)
+skipping: subreddit=politics	domain=blogs.abcnews.com (False False)
+skipping: subreddit=atheism	domain=en.wikipedia.org (False True)
+skipping: subreddit=Winnipeg	domain=cbc.ca (False True)
+skipping: subreddit=india	domain=en.wikipedia.org (False True)
+skipping: subreddit=Music	domain=letsfathom.com (False False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Qatar#LGBT_rights] submission month: [2011-08] commoncrawl date: [2014-03-10 16:53:51]
+skipping: subreddit=politics	domain=bostonherald.com.nyud.net (False False)
+skipping: subreddit=Homebrewing	domain=thinkgeek.com (False False)
+skipping: subreddit=programming	domain=search.cpan.org (True False)
+skipping: subreddit=mylittlepony	domain=headpikachu.deviantart.com (False False)
+skipping: subreddit=MensRights	domain=midlandsconnect.com (False False)
+skipping: subreddit=cordcutters	domain=reddit.tv (True False)
+skipping: subreddit=politics	domain=hamreport.com (False False)
+skipping: subreddit=javascript	domain=draw.2x.io (False False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/List_of_actors_considered_for_the_James_Bond_character#Declined_the_role] submission month: [2011-08] commoncrawl date: [2014-03-08 08:39:12]
+skipping: subreddit=baltimore	domain=baltimore.cbslocal.com (True False)
+skipping: subreddit=todayilearned	domain=neatorama.com (True False)
+skipping: subreddit=WTF	domain=midlandsconnect.com (False False)
+skipping: subreddit=todayilearned	domain=statemaster.com (True False)
+skipping: subreddit=gaming	domain=en.wikipedia.org (False True)
+keeping: subreddit=doctorwho	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Patrick_Troughton#Death] submission month: [2011-08] commoncrawl date: [2014-04-21 05:47:19]
+skipping: subreddit=ffxiv	domain=forum.square-enix.com (False False)
+keeping: subreddit=soccer	domain=guardian.co.uk
+Can't fetch: [http://www.guardian.co.uk/football/blog/2011/aug/04/oriol-romeu-chelsea-barcelona?commentpage=last#end-of-comments] submission month: [2011-08]
+skipping: subreddit=news	domain=620wtmj.com (False False)
+skipping: subreddit=transgender	domain=msnbc.msn.com (False False)
+keeping: subreddit=soccer	domain=uefa.com
+Fetching url: [http://www.uefa.com/uefachampionsleague/news/newsid=1656431.html#bayern+face+zurich+arsenal+draw+udinese] submission month: [2011-08] commoncrawl date: [2014-03-17 04:37:29]
+skipping: subreddit=canada	domain=laws-lois.justice.gc.ca (True False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Our_American_Cousin#The_Lincoln_assassination] submission month: [2011-08] commoncrawl date: [2014-03-09 07:23:16]
+skipping: subreddit=atheism	domain=nndb.com (False False)
+skipping: subreddit=Economics	domain=en.wikipedia.org (False True)
+skipping: subreddit=mylittlepony	domain=ovyy.deviantart.com (False False)
+skipping: subreddit=Israel	domain=haaretz.com (False True)
+skipping: subreddit=Bellingham	domain=forbes.com (False True)
+skipping: subreddit=wow	domain=mmo-champion.com (True False)
+skipping: subreddit=comics	domain=matherite.deviantart.com (True False)
+skipping: subreddit=reddit.com	domain=en.wikipedia.org (False True)
+skipping: subreddit=gaming	domain=matherite.deviantart.com (False False)
+skipping: subreddit=gamecollecting	domain=ebay.ca (False False)
+skipping: subreddit=politics	domain=newhampshireprimary.blogspot.com (False False)
+skipping: subreddit=harrypotter	domain=quickmeme.com (False False)
+skipping: subreddit=trees	domain=en.wikipedia.org (False True)
+skipping: subreddit=starcraft	domain=surgeonprincess.deviantart.com (False False)
+skipping: subreddit=Libertarian	domain=bostonherald.com (False False)
+skipping: subreddit=politics	domain=alternet.org (False False)
+skipping: subreddit=WTF	domain=today.msnbc.msn.com (False False)
+skipping: subreddit=mylittlepony	domain=vjmorales.deviantart.com (False False)
+skipping: subreddit=reddit.com	domain=en.wikipedia.org (False True)
+skipping: subreddit=roguelikes	domain=tiles.crawl.develz.org (False False)
+skipping: subreddit=pics	domain=demotivators.us (False False)
+skipping: subreddit=humor	domain=msnbc.msn.com (True False)
+skipping: subreddit=WTF	domain=msnbc.msn.com (False False)
+skipping: subreddit=reddit.com	domain=commondreams.org (False False)
+skipping: subreddit=WTF	domain=articles.chicagotribune.com (False False)
+skipping: subreddit=offbeat	domain=dailyrecord.co.uk (False True)
+skipping: subreddit=todayilearned	domain=picasaweb.google.com (True False)
+skipping: subreddit=HeroesofNewerth	domain=forums.heroesofnewerth.com (False False)
+keeping: subreddit=canada	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Stephen_Harper#Reform_MP] submission month: [2011-08] commoncrawl date: [2014-03-09 14:08:52]
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Batman:_The_Animated_Series#Influence] submission month: [2011-08] commoncrawl date: [2014-03-14 12:03:30]
+skipping: subreddit=doctorwho	domain=blogtown.portlandmercury.com (True False)
+skipping: subreddit=todayilearned	domain=books.google.com (True False)
+skipping: subreddit=todayilearned	domain=viceland.com (True False)
+skipping: subreddit=gaming	domain=blue.mmo-champion.com (False False)
+skipping: subreddit=trees	domain=the420times.com (False False)
+skipping: subreddit=todayilearned	domain=books.google.com (True False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Can't fetch: [http://en.wikipedia.org/wiki/T.I.#Rescue_of_suicidal_man] submission month: [2011-08]
+skipping: subreddit=politics	domain=msnbc.msn.com (False False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Venous_blood#Colour] submission month: [2011-08] commoncrawl date: [2014-03-08 12:38:54]
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Midnight_Cowboy#Awards_and_honors] submission month: [2011-08] commoncrawl date: [2014-03-08 21:52:52]
+skipping: subreddit=Python	domain=stackoverflow.com (False True)
+skipping: subreddit=linux	domain=apachelog.wordpress.com (True False)
+skipping: subreddit=soccer	domain=youtu.be (True False)
+skipping: subreddit=starcraft	domain=teamliquid.net (False False)
+skipping: subreddit=australia	domain=cnet.com.au (True False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Brock_Pierce#IGE] submission month: [2011-08] commoncrawl date: [2014-03-08 07:51:03]
+skipping: subreddit=scifi	domain=imdb.com (True False)
+skipping: subreddit=news	domain=msnbc.msn.com (False False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/WALL-E#Writing] submission month: [2011-08] commoncrawl date: [2014-03-09 10:36:08]
+keeping: subreddit=creepy	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/H._H._Holmes#Chicago_and_the_.22Murder_Castle.22] submission month: [2011-08] commoncrawl date: [2014-03-10 09:03:36]
+skipping: subreddit=gaming	domain=quickmeme.com (False False)
+keeping: subreddit=malefashionadvice	domain=gq.com
+Fetching url: [http://www.gq.com/style/profiles/201108/worst-dressed-men-silicon-valley-mark-zuckerberg#slide=1] submission month: [2011-08] commoncrawl date: [2014-03-07 14:07:33]
+skipping: subreddit=breakingbad	domain=teefury.com (True False)
+skipping: subreddit=WTF	domain=news.bmezine.com (False False)
+skipping: subreddit=zelda	domain=soundcloud.com (False False)
+skipping: subreddit=hockey	domain=sportslogos.net (False False)
+skipping: subreddit=engineering	domain=spreadsheets0.google.com (False False)
+skipping: subreddit=Libertarian	domain=msnbc.msn.com (False False)
+skipping: subreddit=conspiracy	domain=msnbc.msn.com (False False)
+skipping: subreddit=atheism	domain=dailymotion.com (False True)
+skipping: subreddit=gaming	domain=community.batmanarkhamcity.com (False False)
+skipping: subreddit=videos	domain=break.com (False False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Politics_of_the_United_States#General_developments] submission month: [2011-08] commoncrawl date: [2014-03-09 12:05:13]
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Winchester_Model_1897#Military_use] submission month: [2011-08] commoncrawl date: [2014-04-16 10:29:46]
+skipping: subreddit=Economics	domain=finance.yahoo.com (False True)
+skipping: subreddit=kansascity	domain=megain.smugmug.com (True False)
+skipping: subreddit=mylittlepony	domain=johnjoseco.deviantart.com (False False)
+skipping: subreddit=WTF	domain=cbc.ca (False True)
+skipping: subreddit=leagueoflegends	domain=na.leagueoflegends.com (True False)
+skipping: subreddit=politics	domain=msnbc.msn.com (False False)
+skipping: subreddit=todayilearned	domain=travel.state.gov (True False)
+skipping: subreddit=Python	domain=stackoverflow.com (False True)
+skipping: subreddit=rva	domain=en.wikipedia.org (False True)
+skipping: subreddit=guns	domain=atf.gov (True False)
+skipping: subreddit=gaming	domain=arstechnica.com (False True)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Harold_McGraw_III#Life_and_career_outside_McGraw-Hill] submission month: [2011-08] commoncrawl date: [2014-03-15 20:26:47]
+skipping: subreddit=pics	domain=funtainment.in (False False)
+skipping: subreddit=politics	domain=detnews.com (False False)
+keeping: subreddit=london	domain=guardian.co.uk
+Fetching url: [http://www.guardian.co.uk/uk/2011/aug/08/london-riots-tottenham-duggan-blog#block-44] submission month: [2011-08] commoncrawl date: [2013-05-19 07:15:39]
+skipping: subreddit=astoria	domain=ediblecommunities.com (False False)
+skipping: subreddit=energy	domain=abetterenergyplan.ca (True False)
+keeping: subreddit=toronto	domain=thestar.com
+Can't fetch: [http://www.thestar.com/news/article/1035964--more-than-just-meat-on-a-stick-at-taste-of-the-danforth#.Tj_rPhMhef8.reddit] submission month: [2011-08]
+skipping: subreddit=mylittlepony	domain=resistance-of-faith.deviantart.com (False False)
+skipping: subreddit=pokemon	domain=caffinatedcrafting.deviantart.com (False False)
+skipping: subreddit=ireland	domain=breakingnews.ie (True False)
+skipping: subreddit=Israel	domain=en.wikipedia.org (False True)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Koala_bear#Physical_description] submission month: [2011-08] commoncrawl date: [2014-07-11 11:49:42]
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Gun_politics#Japan] submission month: [2011-08] commoncrawl date: [2014-03-10 05:00:48]
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Superman_(1999_video_game)#Development] submission month: [2011-08] commoncrawl date: [2014-03-08 20:09:33]
+skipping: subreddit=leagueoflegends	domain=na.leagueoflegends.com (True False)
+keeping: subreddit=movies	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Tower_of_Hanoi#In_popular_culture] submission month: [2011-08] commoncrawl date: [2014-03-07 15:37:46]
+skipping: subreddit=sandiego	domain=landiego.com (False False)
+skipping: subreddit=todayilearned	domain=ironman.com (True False)
+skipping: subreddit=todayilearned	domain=usconstitution.net (True False)
+skipping: subreddit=gaming	domain=gamestop.com (False False)
+skipping: subreddit=leagueoflegends	domain=solomid.net (True False)
+keeping: subreddit=toronto	domain=thestar.com
+Can't fetch: [http://www.thestar.com/news/article/1037115#.TkG8CuOZowg.reddit] submission month: [2011-08]
+skipping: subreddit=entertainment	domain=wbaltv.com (True False)
+skipping: subreddit=politics	domain=telegraph.co.uk (False True)
+skipping: subreddit=atheism	domain=stltoday.com (False False)
+skipping: subreddit=leagueoflegends	domain=na.leagueoflegends.com (True False)
+skipping: subreddit=asoiaf	domain=grrm.livejournal.com (True False)
+keeping: subreddit=canada	domain=cbc.ca
+Can't fetch: [http://www.cbc.ca/news/canada/story/2011/08/09/pol-lebel-bloc.html?ref=rss#.TkFsysZldzh.facebook] submission month: [2011-08]
+skipping: subreddit=worldnews	domain=businessinsider.com (True False)
+skipping: subreddit=starcraft	domain=teamliquid.net (False False)
+skipping: subreddit=WTF	domain=cnn.com (False True)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Utah#Miscellaneous] submission month: [2011-08] commoncrawl date: [2014-03-10 06:45:49]
+skipping: subreddit=Bad_Cop_No_Donut	domain=guardian.co.uk (False True)
+skipping: subreddit=chicago	domain=msnbc.msn.com (False False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Republican_Party_%28United_States%29#Voter_base] submission month: [2011-08] commoncrawl date: [2014-03-08 08:07:42]
+skipping: subreddit=cordcutters	domain=thecontemplation.com (True False)
+skipping: subreddit=swtor	domain=swtor.com (False False)
+skipping: subreddit=keto	domain=tropicana.com (False False)
+skipping: subreddit=hockey	domain=en.wikipedia.org (False True)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Directx_10#Logos] submission month: [2011-08] commoncrawl date: [2014-03-13 07:19:37]
+skipping: subreddit=todayilearned	domain=epidemicfun.com (True False)
+skipping: subreddit=science	domain=pri.org (True False)
+skipping: subreddit=wikipedia	domain=en.wikipedia.org (False True)
+skipping: subreddit=starcraft	domain=teamliquid.net (False False)
+skipping: subreddit=islam	domain=iipdigital.usembassy.gov (False False)
+skipping: subreddit=reddit.com	domain=heatmyhome.co.uk (False False)
+skipping: subreddit=chicago	domain=huffingtonpost.com (False False)
+skipping: subreddit=reddit.com	domain=difcancer.blogspot.com (False False)
+skipping: subreddit=todayilearned	domain=mariowiki.com (True False)
+keeping: subreddit=worldnews	domain=guardian.co.uk
+Can't fetch: [http://www.guardian.co.uk/uk/blog/2011/aug/09/london-riots-violence-looting-live?commentpage=1#start-of-comments] submission month: [2011-08]
+skipping: subreddit=engineering	domain=en.wikipedia.org (False True)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Graphics_Interchange_Format#Pronunciation] submission month: [2011-08] commoncrawl date: [2014-03-08 12:09:25]
+skipping: subreddit=reddit.com	domain=msnbc.msn.com (False False)
+skipping: subreddit=news	domain=newyork.cbslocal.com (False False)
+skipping: subreddit=Calgary	domain=en.wikipedia.org (False True)
+skipping: subreddit=news	domain=msnbc.msn.com (False False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Alien_(Alien_franchise)#Egg] submission month: [2011-08] commoncrawl date: [2014-03-08 05:47:03]
+skipping: subreddit=Android	domain=gigaom.com (False False)
+skipping: subreddit=todayilearned	domain=iwataasks.nintendo.com (True False)
+skipping: subreddit=psychology	domain=msnbc.msn.com (False False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Edgar_Mitchell#Views_on_UFOs] submission month: [2011-08] commoncrawl date: [2014-03-08 03:32:24]
+skipping: subreddit=dogs	domain=13wham.com (True False)
+skipping: subreddit=hiphopheads	domain=brooklynvegan.com (False False)
+skipping: subreddit=AdviceAnimals	domain=quickmeme.com (False False)
+skipping: subreddit=bicycling	domain=performancebike.com (True False)
+skipping: subreddit=Economics	domain=en.wikipedia.org (False True)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Load_%28album%29#Album_art] submission month: [2011-08] commoncrawl date: [2014-03-10 05:32:23]
+skipping: subreddit=Bitcoin	domain=bitcointalk.org (False False)
+skipping: subreddit=bayarea	domain=sfgate.com (False True)
+skipping: subreddit=MTB	domain=performancebike.com (False False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Piero_Manzoni#Artist.27s_Shit] submission month: [2011-08] commoncrawl date: [2014-03-11 03:49:15]
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Ray_Combs#Decline_and_death] submission month: [2011-08] commoncrawl date: [2014-03-10 05:55:23]
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Suit_%28clothing%29#Front_buttons] submission month: [2011-08] commoncrawl date: [2014-03-07 08:08:22]
+skipping: subreddit=statistics	domain=dailymail.co.uk (False True)
+skipping: subreddit=UWMilwaukee	domain=uwm.edu (False False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Lake_Superior#Hydrography] submission month: [2011-08] commoncrawl date: [2014-03-09 04:44:41]
+skipping: subreddit=javascript	domain=github.com (False False)
+skipping: subreddit=wp7	domain=pcworld.com (False True)
+skipping: subreddit=YouShouldKnow	domain=google.com (False False)
+keeping: subreddit=todayilearned	domain=ft.com
+Can't fetch: [http://www.ft.com/intl/cms/s/2/069d8662-be37-11e0-bee9-00144feabdc0.html#axzz1UcpZ0CPv] submission month: [2011-08]
+skipping: subreddit=punk	domain=brooklynvegan.com (False False)
+skipping: subreddit=starcraft	domain=teamliquid.net (False False)
+skipping: subreddit=ukpolitics	domain=blogs.telegraph.co.uk (False False)
+skipping: subreddit=conspiracy	domain=naturalnews.com (False False)
+skipping: subreddit=leagueoflegends	domain=na.leagueoflegends.com (True False)
+skipping: subreddit=hiphopheads	domain=hiphopradar.com (False False)
+skipping: subreddit=history	domain=360cities.net (False False)
+keeping: subreddit=canada	domain=cbc.ca
+Can't fetch: [http://www.cbc.ca/news/canada/toronto/story/2011/08/09/toronto-topless-martin.html#.TkIq_4eH9BU.reddit] submission month: [2011-08]
+skipping: subreddit=atheism	domain=newspring.cc (False False)
+skipping: subreddit=movies	domain=imdb.com (True False)
+skipping: subreddit=television	domain=watchplayread.com (True False)
+skipping: subreddit=Libertarian	domain=conservativeactionalerts.com (False False)
+skipping: subreddit=Christianity	domain=bibleforums.org (False False)
+skipping: subreddit=conspiracy	domain=msnbc.msn.com (False False)
+skipping: subreddit=Libertarian	domain=msnbc.msn.com (False False)
+skipping: subreddit=masseffect	domain=browse.deviantart.com (False False)
+skipping: subreddit=MensRights	domain=blogs.app.com (False False)
+skipping: subreddit=Physics	domain=en.wikipedia.org (False True)
+skipping: subreddit=gaming	domain=ign.com (False True)
+skipping: subreddit=Judaism	domain=en.wikipedia.org (False True)
+skipping: subreddit=mylittlepony	domain=cybertoaster.deviantart.com (False False)
+skipping: subreddit=PS3	domain=blog.us.playstation.com (False True)
+skipping: subreddit=harrypotter	domain=wannabedesigner.deviantart.com (False False)
+skipping: subreddit=economy	domain=msnbc.msn.com (False False)
+skipping: subreddit=WTF	domain=blogs.phoenixnewtimes.com (False False)
+skipping: subreddit=HeroesofNewerth	domain=forums.heroesofnewerth.com (False False)
+skipping: subreddit=unitedkingdom	domain=blogs.telegraph.co.uk (True False)
+skipping: subreddit=leagueoflegends	domain=na.leagueoflegends.com (True False)
+skipping: subreddit=mylittlepony	domain=equestriadaily.com (False False)
+skipping: subreddit=Green	domain=riverarunsthroughit.com (False False)
+skipping: subreddit=newzealand	domain=picasaweb.google.com (True False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/E-meter#Description_and_use] submission month: [2011-08] commoncrawl date: [2014-03-09 08:31:53]
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Dexter_Morgan#Connections_to_actual_crimes] submission month: [2011-08] commoncrawl date: [2014-03-08 02:55:35]
+skipping: subreddit=vinyl	domain=digitalmusicnews.com (True False)
+skipping: subreddit=Minecraft	domain=getsatisfaction.com (False False)
+skipping: subreddit=reddit.com	domain=msnbc.msn.com (False False)
+skipping: subreddit=news	domain=msnbc.msn.com (False False)
+skipping: subreddit=aviation	domain=flyingmag.com (True False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Friendship_Is_Magic#Production] submission month: [2011-08] commoncrawl date: [2014-03-10 16:40:45]
+skipping: subreddit=politics	domain=msnbc.msn.com (False False)
+skipping: subreddit=AdviceAnimals	domain=quickmeme.com (False False)
+skipping: subreddit=TrueReddit	domain=pnhp.org (False False)
+skipping: subreddit=Metal	domain=starlandballroom.com (False False)
+skipping: subreddit=conspiracy	domain=radioislam.org (False False)
+skipping: subreddit=recipes	domain=whatscookinginyourworld.blogspot.com (False False)
+skipping: subreddit=civ	domain=neogaf.com (False False)
+skipping: subreddit=hockey	domain=google.com (False False)
+skipping: subreddit=science	domain=msnbc.msn.com (True False)
+skipping: subreddit=politics	domain=politico.com (False True)
+skipping: subreddit=canada	domain=openmedia.ca (True False)
+skipping: subreddit=investing	domain=economicvoice.com (False False)
+skipping: subreddit=WTF	domain=finance.yahoo.com (False True)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Red_Dawn#cite_note-thr45-0] submission month: [2011-08] commoncrawl date: [2014-03-09 03:21:11]
+skipping: subreddit=Gunners	domain=francefootball.fr (False False)
+skipping: subreddit=conspiracy	domain=erichufschmid.net (False False)
+skipping: subreddit=MensRights	domain=blog.iblamethepatriarchy.com (False False)
+skipping: subreddit=harrypotter	domain=lily-fox.deviantart.com (False False)
+skipping: subreddit=science	domain=dpselfhelp.com (True False)
+skipping: subreddit=wow	domain=wowhead.com (True False)
+skipping: subreddit=gaming	domain=forum.maniaplanet.com (False False)
+skipping: subreddit=WTF	domain=images.google.com (False False)
+skipping: subreddit=pics	domain=imageshack.us (False False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Nude_swimming#History] submission month: [2011-08] commoncrawl date: [2014-03-07 10:29:09]
+skipping: subreddit=politics	domain=thefiscaltimes.com (False False)
+skipping: subreddit=reddit.com	domain=csmonitor.com (False True)
+skipping: subreddit=leagueoflegends	domain=na.leagueoflegends.com (True False)
+skipping: subreddit=Conservative	domain=conservativeactionalerts.com (False False)
+skipping: subreddit=WTF	domain=rawstory.com (False False)
+keeping: subreddit=nfl	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/2008_Detroit_Lions_season#Schedule] submission month: [2011-08] commoncrawl date: [2014-03-09 18:37:21]
+skipping: subreddit=promos	domain=newsdrink.com (False False)
+skipping: subreddit=SquaredCircle	domain=en.wikipedia.org (False True)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Dr._Dre#Ghostwriters] submission month: [2011-08] commoncrawl date: [2014-03-07 07:23:43]
+skipping: subreddit=starcraft	domain=malminos.deviantart.com (False False)
+skipping: subreddit=Austin	domain=grooveshark.com (False False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Bob_Mould#Pop_culture] submission month: [2011-08] commoncrawl date: [2014-04-19 04:56:34]
+skipping: subreddit=mylittlepony	domain=filipinoninja95.deviantart.com (False False)
+skipping: subreddit=mylittlepony	domain=danosix.deviantart.com (False False)
+skipping: subreddit=Christianity	domain=msnbc.msn.com (False False)
+skipping: subreddit=wikipedia	domain=en.wikipedia.org (False True)
+keeping: subreddit=canada	domain=thestar.com
+Fetching url: [http://www.thestar.com/news/torontog20summit/article/1038347--aggression-during-g20-rally-perpetrated-by-police-judge-rules?bn=1#.TkUeNGgjSNY.facebook] submission month: [2011-08] commoncrawl date: [2017-02-26 08:28:32]
+skipping: subreddit=progressive	domain=yaliberty.org (False False)
+skipping: subreddit=unitedkingdom	domain=blogs.telegraph.co.uk (True False)
+skipping: subreddit=starcraft	domain=teamliquid.net (False False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Dog_meat#Canada] submission month: [2011-08] commoncrawl date: [2014-04-17 16:22:59]
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/White_people#United_States] submission month: [2011-08] commoncrawl date: [2014-03-07 08:56:45]
+skipping: subreddit=sports	domain=barstoolsports.com (True False)
+skipping: subreddit=Music	domain=tmz.com (False True)
+skipping: subreddit=technology	domain=businessinsider.com (False False)
+skipping: subreddit=politics	domain=en.wikipedia.org (False True)
+skipping: subreddit=hockey	domain=tsn.ca (False True)
+skipping: subreddit=reddit.com	domain=sensibleculture.com (False False)
+skipping: subreddit=leagueoflegends	domain=na.leagueoflegends.com (True False)
+skipping: subreddit=gamedev	domain=gamedeveloper.texterity.com (False False)
+skipping: subreddit=canada	domain=orangeville.com (True False)
+skipping: subreddit=leagueoflegends	domain=euw.leagueoflegends.com (True False)
+skipping: subreddit=Music	domain=mtv.com (False False)
+skipping: subreddit=starcraft	domain=teamliquid.net (False False)
+skipping: subreddit=todayilearned	domain=en.wiktionary.org (True False)
+skipping: subreddit=lgbt	domain=en.wikipedia.org (False True)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Goblin_shark#Specific_occurrences] submission month: [2011-08] commoncrawl date: [2014-03-10 19:54:20]
+skipping: subreddit=atheism	domain=collegehumor.com (False False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/London_Bridge#Sale_of_Rennie.27s_bridge_to_Robert_McCulloch] submission month: [2011-08] commoncrawl date: [2014-03-08 04:59:32]
+skipping: subreddit=politics	domain=alternet.org (False False)
+skipping: subreddit=atheism	domain=alternet.org (False False)
+keeping: subreddit=montreal	domain=en.wikipedia.org
+Can't fetch: [http://en.wikipedia.org/wiki/Eiffel_Tower#Attempted_relocation] submission month: [2011-08]
+skipping: subreddit=yugioh	domain=cgi.ebay.co.uk (False False)
+keeping: subreddit=boardgames	domain=rockpapershotgun.com
+Fetching url: [http://www.rockpapershotgun.com/2011/08/13/cardboard-children-of-parpellimonies/#more-69320] submission month: [2011-08] commoncrawl date: [2014-03-08 00:46:51]
+skipping: subreddit=atheism	domain=today.msnbc.msn.com (False False)
+skipping: subreddit=Guildwars2	domain=esl-world.net (False False)
+skipping: subreddit=reddit.com	domain=today.msnbc.msn.com (False False)
+skipping: subreddit=reddit.com	domain=alternet.org (False False)
+skipping: subreddit=india	domain=in.finance.yahoo.com (False False)
+skipping: subreddit=Libertarian	domain=jerrypournelle.com (False False)
+keeping: subreddit=ireland	domain=irishtimes.com
+Can't fetch: [http://www.irishtimes.com/newspaper/weekend/2011/0813/1224302360717.html#.drfre] submission month: [2011-08]
+skipping: subreddit=guns	domain=thetfp.com (True False)
+keeping: subreddit=nfl	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/ESPN_RISE_Elite_11#2002] submission month: [2011-08] commoncrawl date: [2014-03-09 10:48:32]
+skipping: subreddit=sweden	domain=overnaturligt.ifokus.se (False False)
+keeping: subreddit=nba	domain=dailymotion.com
+Fetching url: [http://www.dailymotion.com/video/xkio97_dennis-rodman-2011-hall-of-fame-speech-video_sport#from=embediframe] submission month: [2011-08] commoncrawl date: [2014-04-24 01:06:55]
+skipping: subreddit=wikipedia	domain=en.wikipedia.org (False True)
+skipping: subreddit=reddit.com	domain=priceofmobiles.com (False False)
+skipping: subreddit=transgender	domain=myemail.constantcontact.com (False False)
+skipping: subreddit=mylittlepony	domain=desigos.deviantart.com (False False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Masturbate#Rites_of_passage] submission month: [2011-08] commoncrawl date: [2014-03-09 09:23:21]
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/The_Dark_Knight_(film)#Cast] submission month: [2011-08] commoncrawl date: [2014-03-09 11:59:42]
+keeping: subreddit=worldnews	domain=thestar.com
+Fetching url: [http://www.thestar.com/news/torontog20summit/article/1038347--aggression-during-g20-rally-perpetrated-by-police-judge-rules?bn=1#article] submission month: [2011-08] commoncrawl date: [2017-02-26 08:28:32]
+skipping: subreddit=gardening	domain=books.google.com (False False)
+skipping: subreddit=SF4	domain=eventhubs.com (False False)
+skipping: subreddit=travel	domain=andromedachild.blogspot.com (False False)
+skipping: subreddit=Metal	domain=forum.ns4w.org (False False)
+skipping: subreddit=hockey	domain=prohockeytalk.nbcsports.com (False False)
+skipping: subreddit=Judaism	domain=msnbc.msn.com (False False)
+skipping: subreddit=mylittlepony	domain=blackgryph0n.deviantart.com (False False)
+skipping: subreddit=politics	domain=en.wikipedia.org (False True)
+skipping: subreddit=Libertarian	domain=smbc-comics.com (False False)
+skipping: subreddit=apple	domain=engadget.com (False True)
+skipping: subreddit=wikipedia	domain=en.wikipedia.org (False True)
+skipping: subreddit=mylittlepony	domain=google.com (False False)
+skipping: subreddit=Libertarian	domain=ronpaulforums.com (False False)
+keeping: subreddit=canada	domain=thestar.com
+Fetching url: [http://www.thestar.com/opinion/editorialopinion/article/1038961--apocalyptic-crisis-budgeting#.TkfqPJbPcJk.reddit] submission month: [2011-08] commoncrawl date: [2017-03-29 06:23:22]
+skipping: subreddit=reddit.com	domain=disinfo.com (False False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Naomi_Watts#Personal_life] submission month: [2011-08] commoncrawl date: [2014-03-10 10:16:11]
+skipping: subreddit=politics	domain=mysanantonio.com (False False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/I_Can_See_Clearly_Now#Jimmy_Cliff_version] submission month: [2011-08] commoncrawl date: [2014-04-16 19:23:04]
+keeping: subreddit=science	domain=news.nationalgeographic.com
+Can't fetch: [http://news.nationalgeographic.com/news/2011/08/110809-fingerprints-skin-disease-health-science-weird/?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+ng%2FNews%2FNews_Main+%28National+Geographic+News+-+Main%29&amp;utm_content=Google+Reader#16593] submission month: [2011-08]
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Ames_straw_poll#Summary_of_results] submission month: [2011-08] commoncrawl date: [2014-03-11 10:49:32]
+skipping: subreddit=reddit.com	domain=en.wikipedia.org (False True)
+keeping: subreddit=ireland	domain=irishexaminer.com
+Fetching url: [http://www.irishexaminer.com/ireland/vatican-has-dramatic-plans-for-irish-church-164186.html#.TkecJJVg5wg.reddit] submission month: [2011-08] commoncrawl date: [2014-03-09 03:05:30]
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Katherine_Knight#Price.27s_Murder] submission month: [2011-08] commoncrawl date: [2014-04-16 11:21:37]
+skipping: subreddit=Warhammer	domain=wh40k.lexicanum.com (False False)
+skipping: subreddit=WTF	domain=en.wikipedia.org (False True)
+keeping: subreddit=todayilearned	domain=wikipedia.org
+Can't fetch: [http://wikipedia.org/wiki/Kidney_transplantation#Living_donors] submission month: [2011-08]
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Beliefs_and_theology_of_the_Nation_of_Islam#The_Mother_Plane] submission month: [2011-08] commoncrawl date: [2014-03-15 19:47:43]
+skipping: subreddit=HeroesofNewerth	domain=elitepvpers.com (False False)
+skipping: subreddit=education	domain=today.msnbc.msn.com (False False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Hidden_track#Reasoning] submission month: [2011-08] commoncrawl date: [2014-04-16 05:15:54]
+skipping: subreddit=politics	domain=msnbc.msn.com (False False)
+skipping: subreddit=lgbt	domain=today.msnbc.msn.com (False False)
+skipping: subreddit=leagueoflegends	domain=na.leagueoflegends.com (True False)
+skipping: subreddit=zelda	domain=im-tall.deviantart.com (False False)
+skipping: subreddit=linux	domain=virtualbox.org (True False)
+skipping: subreddit=funny	domain=facebook.com (False False)
+skipping: subreddit=politics	domain=alternet.org (False False)
+skipping: subreddit=politics	domain=midlandsconnect.com (False False)
+skipping: subreddit=gaming	domain=quickmeme.com (False False)
+skipping: subreddit=redditguild	domain=en.wikipedia.org (False True)
+skipping: subreddit=politics	domain=rawstory.com (False False)
+skipping: subreddit=WTF	domain=thestar.com (False True)
+keeping: subreddit=nfl	domain=gq.com
+Fetching url: [http://www.gq.com/sports/profiles/201109/mark-sanchez-gq-september-2011-cover-story#slide=1] submission month: [2011-08] commoncrawl date: [2014-03-12 06:16:13]
+skipping: subreddit=PS3	domain=blog.us.playstation.com (False True)
+skipping: subreddit=hiphopheads	domain=rapgenius.com (False False)
+skipping: subreddit=harrypotter	domain=harrypotter.wikia.com (False False)
+skipping: subreddit=Libertarian	domain=newsbusters.org (False False)
+skipping: subreddit=wow	domain=scrollsoflore.com (True False)
+skipping: subreddit=politics	domain=secure.wikimedia.org (False False)
+skipping: subreddit=TrueReddit	domain=texasmonthly.com (False False)
+keeping: subreddit=canada	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Name_of_Canada#Other_proposed_names] submission month: [2011-08] commoncrawl date: [2014-03-15 01:47:57]
+skipping: subreddit=politics	domain=newsbusters.org (False False)
+skipping: subreddit=politics	domain=msnbc.msn.com (False False)
+skipping: subreddit=ffxiv	domain=forum.square-enix.com (False False)
+skipping: subreddit=mylittlepony	domain=orschmann.deviantart.com (False False)
+skipping: subreddit=offbeat	domain=myfoxdc.com (False False)
+skipping: subreddit=todayilearned	domain=history.com (True False)
+skipping: subreddit=math	domain=adailypuzzles4u.blogspot.com (True False)
+skipping: subreddit=leagueoflegends	domain=na.leagueoflegends.com (True False)
+skipping: subreddit=electronic_cigarette	domain=e-cigarette-forum.com (False False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Can't fetch: [http://en.wikipedia.org/wiki/Ringling_Brothers_and_Barnum_%26_Bailey_Clown_College#Alumni] submission month: [2011-08]
+keeping: subreddit=soccer	domain=telegraph.co.uk
+Fetching url: [http://www.telegraph.co.uk/sport/football/teams/manchester-united/8701176/Alan-Hansen-Manchester-United-goalkeeper-David-de-Gea-in-trouble-as-he-does-not-have-trust-of-team-mates.html#.Tkja9zCNehA.reddit] submission month: [2011-08] commoncrawl date: [2014-03-09 04:24:10]
+keeping: subreddit=malefashionadvice	domain=gq.com
+Fetching url: [http://www.gq.com/style/street-style/201011/wandering-eye-gordon-von-steiner-princeton-ivy-league-style#slide=10] submission month: [2011-08] commoncrawl date: [2014-03-08 05:47:09]
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Grammatical_gender#Masculine.2C_feminine.2C_and_neuter] submission month: [2011-08] commoncrawl date: [2014-03-10 11:11:59]
+skipping: subreddit=funny	domain=smbc-comics.com (False False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Christopher_Walken#1970s] submission month: [2011-08] commoncrawl date: [2014-03-08 15:14:18]
+skipping: subreddit=Conservative	domain=peikoff.com (False False)
+skipping: subreddit=Buffalo	domain=isound.com (False False)
+skipping: subreddit=leagueoflegends	domain=na.leagueoflegends.com (True False)
+skipping: subreddit=worldpolitics	domain=jta.org (False False)
+skipping: subreddit=tf2	domain=sleepwalks.deviantart.com (True False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Rapid_eye_movement_sleep#Physiology] submission month: [2011-08] commoncrawl date: [2014-03-09 19:35:01]
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Can't fetch: [http://en.wikipedia.org/wiki/Midas_Touch_Golden_Elixir#Midas_Touch] submission month: [2011-08]
+skipping: subreddit=leagueoflegends	domain=na.leagueoflegends.com (True False)
+skipping: subreddit=leagueoflegends	domain=na.leagueoflegends.com (True False)
+skipping: subreddit=leagueoflegends	domain=browse.deviantart.com (True False)
+skipping: subreddit=stonerrock	domain=tmz.com (False True)
+skipping: subreddit=funny	domain=uhpinions.com (False False)
+skipping: subreddit=Steam	domain=facepunch.com (False False)
+skipping: subreddit=videos	domain=dailymotion.com (False True)
+skipping: subreddit=politics	domain=mediamatters.org (False False)
+keeping: subreddit=wow	domain=us.battle.net
+Fetching url: [http://us.battle.net/wow/en/blog/3300854#blog] submission month: [2011-08] commoncrawl date: [2014-09-17 14:21:26]
+skipping: subreddit=Autos	domain=carsort.com (False False)
+skipping: subreddit=australia	domain=australiantimes.co.uk (True False)
+skipping: subreddit=trees	domain=quickmeme.com (False False)
+keeping: subreddit=toronto	domain=thestar.com
+Can't fetch: [http://www.thestar.com/news/article/1039978--500-fine-proposed-for-road-hogs-who-park-in-curb-lane#.TkqK247teqs.reddit] submission month: [2011-08]
+skipping: subreddit=Android	domain=geekaphone.com (False False)
+skipping: subreddit=news	domain=msnbc.msn.com (False False)
+skipping: subreddit=mylittlepony	domain=egophiliac.deviantart.com (False False)
+skipping: subreddit=DotA2	domain=playdota.com (False False)
+skipping: subreddit=4chan	domain=knowyourmeme.com (False False)
+skipping: subreddit=CFB	domain=teamspeedkills.com (False False)
+keeping: subreddit=worldnews	domain=nydailynews.com
+Can't fetch: [http://www.nydailynews.com/news/world/2011/08/16/2011-08-16_us_diplomat_enrages_indians_after_calling_ethnic_group_dark_and_dirty_in_speech.html#ixzz1VC2czOkz] submission month: [2011-08]
+skipping: subreddit=atheism	domain=channel.nationalgeographic.com (False False)
+skipping: subreddit=geek	domain=smbc-comics.com (False False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Hamster#Reproduction] submission month: [2011-08] commoncrawl date: [2014-03-12 02:42:29]
+skipping: subreddit=geek	domain=en.wikipedia.org (False True)
+skipping: subreddit=ukpolitics	domain=blogs.telegraph.co.uk (False False)
+skipping: subreddit=ukpolitics	domain=thenewsgrind.com (False False)
+skipping: subreddit=technology	domain=en.wikipedia.org (False True)
+skipping: subreddit=guns	domain=wnd.com (True False)
+skipping: subreddit=comics	domain=smbc-comics.com (True False)
+skipping: subreddit=gaming	domain=borderlands2.com (False False)
+skipping: subreddit=reddit.com	domain=foxnews.com (False True)
+skipping: subreddit=Huskers	domain=bigredtoday.com (False False)
+skipping: subreddit=todayilearned	domain=en.wiktionary.org (True False)
+skipping: subreddit=politics	domain=rawstory.com (False False)
+skipping: subreddit=guns	domain=thetruthaboutguns.com (True False)
+skipping: subreddit=wollongong	domain=architectureinhelsinki.com (False False)
+skipping: subreddit=space	domain=en.wikipedia.org (False True)
+skipping: subreddit=AdviceAnimals	domain=quickmeme.com (False False)
+skipping: subreddit=swtor	domain=swtor.com (False False)
+skipping: subreddit=funny	domain=quickmeme.com (False False)
+skipping: subreddit=LosAngeles	domain=mtv.com (False False)
+skipping: subreddit=leagueoflegends	domain=na.leagueoflegends.com (True False)
+skipping: subreddit=space	domain=mro.telescopefeed.com (False False)
+skipping: subreddit=reddit.com	domain=peikoff.com (False False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Ronnie_James_Dio#Early_years.2C_education_and_musical_training] submission month: [2011-08] commoncrawl date: [2014-03-13 14:23:59]
+skipping: subreddit=politics	domain=msnbc.msn.com (False False)
+keeping: subreddit=cordcutters	domain=blog.us.playstation.com
+Fetching url: [http://blog.us.playstation.com/2011/08/17/directv-and-playstation-bring-nfl-sunday-ticket-to-ps3/#utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+PSBlog+%28PlayStation.Blog%29] submission month: [2011-08] commoncrawl date: [2014-03-07 13:00:35]
+skipping: subreddit=Warhammer	domain=nataku956.deviantart.com (False False)
+skipping: subreddit=mylittlepony	domain=bebopanimebabe.deviantart.com (False False)
+skipping: subreddit=Hawaii	domain=nhc.noaa.gov (False False)
+skipping: subreddit=leagueoflegends	domain=na.leagueoflegends.com (True False)
+skipping: subreddit=Paranormal	domain=today.msnbc.msn.com (False False)
+skipping: subreddit=swtor	domain=alterswtor.com (False False)
+skipping: subreddit=leagueoflegends	domain=na.leagueoflegends.com (True False)
+skipping: subreddit=todayilearned	domain=billboard.com (True False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Rick_Perry#Early_life] submission month: [2011-08] commoncrawl date: [2014-03-12 01:47:59]
+keeping: subreddit=wow	domain=us.battle.net
+Fetching url: [http://us.battle.net/wow/en/blog/3309048#blog] submission month: [2011-08] commoncrawl date: [2014-08-01 11:53:58]
+skipping: subreddit=redditguild	domain=mmo-champion.com (False False)
+skipping: subreddit=atheism	domain=ozhouse.org (False False)
+skipping: subreddit=offbeat	domain=telegraph.co.uk (False True)
+skipping: subreddit=MensRights	domain=kmtr.com (False False)
+skipping: subreddit=environment	domain=thinkprogress.org (False True)
+skipping: subreddit=worldnews	domain=ozhouse.org (True False)
+skipping: subreddit=technology	domain=msnbc.msn.com (False False)
+skipping: subreddit=apple	domain=msnbc.msn.com (False False)
+skipping: subreddit=Health	domain=healthland.time.com (False False)
+skipping: subreddit=Music	domain=mtv.com (False False)
+skipping: subreddit=photography	domain=skrekkogle.com (False False)
+skipping: subreddit=reddit.com	domain=msnbc.msn.com (False False)
+skipping: subreddit=todayilearned	domain=jrheum.org (True False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Fulton_surface-to-air_recovery_system#Operation_Coldfeet] submission month: [2011-08] commoncrawl date: [2014-03-07 23:04:37]
+skipping: subreddit=funny	domain=quickmeme.com (False False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Extraterrestrial_skies#Earth_from_Mars] submission month: [2011-08] commoncrawl date: [2014-03-07 09:09:27]
+skipping: subreddit=Minecraft	domain=mikeytheblackmantis.deviantart.com (False False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/J._Cole#Early_years] submission month: [2011-08] commoncrawl date: [2014-03-07 16:01:27]
+skipping: subreddit=videos	domain=msnbc.msn.com (False False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Timeline_of_Crayola#1990.E2.80.93present] submission month: [2011-08] commoncrawl date: [2014-07-11 23:29:53]
+skipping: subreddit=wikipedia	domain=en.wikipedia.org (False True)
+skipping: subreddit=pittsburgh	domain=huffingtonpost.com (True False)
+skipping: subreddit=todayilearned	domain=secure.wikimedia.org (True False)
+skipping: subreddit=Denver	domain=huffingtonpost.com (False False)
+skipping: subreddit=technology	domain=theatlantic.com (False True)
+skipping: subreddit=NewOrleans	domain=nola.com (False True)
+skipping: subreddit=Miami	domain=miamiherald.com (False True)
+keeping: subreddit=science	domain=news.nationalgeographic.com
+Can't fetch: [http://news.nationalgeographic.com/news/2011/08/110818-human-waste-feces-bacteria-coral-plos-florida-caribbean-science/?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+ng%2FNews%2FNews_Main+%28National+Geographic+News+-+Main%29#16647] submission month: [2011-08]
+skipping: subreddit=soccer	domain=uk.eurosport.yahoo.com (True False)
+skipping: subreddit=swtor	domain=swtor.com (False False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Can't fetch: [http://en.wikipedia.org/wiki/%E0%B2%A0_%E0%B2%A0#Eastern_emoticons] submission month: [2011-08]
+skipping: subreddit=technology	domain=online.wsj.com (False False)
+skipping: subreddit=politics	domain=msnbc.msn.com (False False)
+skipping: subreddit=leagueoflegends	domain=na.leagueoflegends.com (True False)
+skipping: subreddit=leagueoflegends	domain=na.leagueoflegends.com (True False)
+skipping: subreddit=todayilearned	domain=notesonslowness.blogspot.com (True False)
+skipping: subreddit=battlefield3	domain=forums.electronicarts.co.uk (False False)
+skipping: subreddit=photography	domain=today.msnbc.msn.com (False False)
+skipping: subreddit=reddit.com	domain=malminos.deviantart.com (False False)
+skipping: subreddit=politics	domain=msnbc.msn.com (False False)
+keeping: subreddit=wow	domain=us.battle.net
+Fetching url: [http://us.battle.net/wow/en/blog/3342240#blog] submission month: [2011-08] commoncrawl date: [2014-07-09 23:33:21]
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Beer_bottle#Use_as_weapons] submission month: [2011-08] commoncrawl date: [2014-07-14 06:52:28]
+skipping: subreddit=TwoXChromosomes	domain=msnbc.msn.com (False False)
+skipping: subreddit=conspiracy	domain=ozhouse.org (False False)
+skipping: subreddit=PHP	domain=php.net (False False)
+skipping: subreddit=serbia	domain=blog.b92.net (False False)
+skipping: subreddit=Metal	domain=en.wikipedia.org (False True)
+skipping: subreddit=dvdcollection	domain=amazon.com (True False)
+skipping: subreddit=leagueoflegends	domain=na.leagueoflegends.com (True False)
+skipping: subreddit=ukpolitics	domain=blogs.telegraph.co.uk (False False)
+skipping: subreddit=atheism	domain=quickmeme.com (False False)
+skipping: subreddit=WTF	domain=en.wikipedia.org (False True)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Quran#Torah.2C_Hebrew_Bible_and_New_Testament] submission month: [2011-08] commoncrawl date: [2014-03-10 11:58:25]
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Florida_Marlins#Best_finishes_in_franchise_history] submission month: [2011-08] commoncrawl date: [2014-03-07 15:47:47]
+skipping: subreddit=conspiracy	domain=ozhouse.org (False False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Phaseolus_vulgaris#Red_or_kidney_beans] submission month: [2011-08] commoncrawl date: [2014-03-14 11:42:28]
+skipping: subreddit=Design	domain=v3im.com (False False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Aqua_Teen_Hunger_Force#Change_to_Aqua_Unit_Patrol_Squad_1] submission month: [2011-08] commoncrawl date: [2014-03-12 05:09:51]
+keeping: subreddit=science	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Aurochs#Re-creation] submission month: [2011-08] commoncrawl date: [2014-03-08 21:50:38]
+skipping: subreddit=TwoXChromosomes	domain=dailymail.co.uk (False True)
+skipping: subreddit=Clemson	domain=en.wikipedia.org (False True)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Tadamasa_Goto#FBI_scandal] submission month: [2011-08] commoncrawl date: [2014-03-12 08:13:18]
+keeping: subreddit=soccer	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Argentina_and_Brazil_football_rivalry#1945_and_1946_incidents] submission month: [2011-08] commoncrawl date: [2014-03-09 10:07:38]
+skipping: subreddit=starcraft	domain=redditpickedmyhobby.wordpress.com (False False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/United_States_dollar#History] submission month: [2011-08] commoncrawl date: [2014-03-07 09:16:07]
+skipping: subreddit=Libertarian	domain=peikoff.com (False False)
+skipping: subreddit=atheism	domain=fallacyfiles.org (False False)
+skipping: subreddit=twincitiessocial	domain=shine.yahoo.com (False False)
+keeping: subreddit=soccer	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/J%C3%BCrgen_Klinsmann#1995_to_1998:_Later_career] submission month: [2011-08] commoncrawl date: [2014-03-07 23:25:59]
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Can't fetch: [http://en.wikipedia.org/wiki/Ron_paul?medical#Personal_life_and_medical_career] submission month: [2011-08]
+keeping: subreddit=soccer	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/2011%E2%80%9312_UEFA_Europa_League#Association_ranking] submission month: [2011-08] commoncrawl date: [2014-03-11 05:31:24]
+skipping: subreddit=oklahoma	domain=facebook.com (False False)
+skipping: subreddit=leagueoflegends	domain=na.leagueoflegends.com (True False)
+skipping: subreddit=starcraft	domain=sc2ranks.com (False False)
+skipping: subreddit=gaming	domain=forums.somethingawful.com (False False)
+skipping: subreddit=politics	domain=theatlantic.com (False True)
+skipping: subreddit=technology	domain=precentral.net (False False)
+skipping: subreddit=badcompany2	domain=bfbc2.statsverse.com (False False)
+skipping: subreddit=worldnews	domain=msnbc.msn.com (True False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/CocaCola#History] submission month: [2011-08] commoncrawl date: [2014-07-13 07:02:57]
+skipping: subreddit=rit	domain=huffingtonpost.com (False False)
+skipping: subreddit=Economics	domain=businessinsider.com (False False)
+skipping: subreddit=pics	domain=malminos.deviantart.com (False False)
+skipping: subreddit=Android	domain=droidgamers.com (False False)
+skipping: subreddit=washingtondc	domain=dcist.com (True False)
+skipping: subreddit=technology	domain=theatlanticwire.com (False False)
+skipping: subreddit=politics	domain=theatlanticwire.com (False False)
+skipping: subreddit=TrueReddit	domain=english.aljazeera.net (False False)
+skipping: subreddit=worldnews	domain=dailystar.com.lb (True False)
+skipping: subreddit=leagueoflegends	domain=solomid.net (True False)
+skipping: subreddit=Eve	domain=mineralprices.com (False False)
+keeping: subreddit=toronto	domain=thestar.com
+Can't fetch: [http://www.thestar.com/news/transportation/article/1041632--are-predictable-ttc-fare-hikes-a-good-idea?bn=1#.Tk5kCF-9pfI.reddit] submission month: [2011-08]
+skipping: subreddit=PostCollapse	domain=archive.org (False False)
+skipping: subreddit=business	domain=msnbc.msn.com (True False)
+keeping: subreddit=guns	domain=foxnews.com
+Can't fetch: [http://www.foxnews.com/slideshow/us/2011/08/18/should-kids-be-this-exposed-to-guns/?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+foxnews%2Fnational+%28Internal+-+US+Latest+-+Text%29#slide=1] submission month: [2011-08]
+skipping: subreddit=Philippines	domain=mithunonthe.net (False False)
+skipping: subreddit=todayilearned	domain=pe.usps.gov (True False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/List_of_religious_populations#Sikhism] submission month: [2011-08] commoncrawl date: [2014-03-10 05:46:31]
+skipping: subreddit=islam	domain=nayzak.deviantart.com (False False)
+skipping: subreddit=hiphopheads	domain=kevinnottingham.com (False False)
+skipping: subreddit=microsoft	domain=winbeta.org (False False)
+skipping: subreddit=doctorwho	domain=smugmug.com (True False)
+skipping: subreddit=Bitcoin	domain=bitcointalk.org (False False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Declaration_of_war#United_States] submission month: [2011-08] commoncrawl date: [2014-03-11 23:53:36]
+skipping: subreddit=Omaha	domain=omaha.com (False False)
+skipping: subreddit=science	domain=theatlanticwire.com (True False)
+skipping: subreddit=todayilearned	domain=us.metamath.org (True False)
+skipping: subreddit=rutgers	domain=recreation.rutgers.edu (False False)
+skipping: subreddit=TwoXChromosomes	domain=online.wsj.com (False False)
+skipping: subreddit=OneY	domain=online.wsj.com (False False)
+skipping: subreddit=todayilearned	domain=imdb.com (True False)
+skipping: subreddit=Seattle	domain=komonews.com (False False)
+skipping: subreddit=reddit.com	domain=theatlanticwire.com (False False)
+skipping: subreddit=gameofthrones	domain=sharksden.deviantart.com (True False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Chowchilla,_California#1976_bus_kidnapping] submission month: [2011-08] commoncrawl date: [2014-03-10 12:50:10]
+skipping: subreddit=Minecraft	domain=minecraft-craftingguide.com (False False)
+keeping: subreddit=canada	domain=theglobeandmail.com
+Can't fetch: [http://www.theglobeandmail.com/news/national/memory-becomes-a-minefield-at-canadas-museum-for-human-rights/article2135961/singlepage/#articlecontent] submission month: [2011-08]
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Weihenstephan_Abbey#Brewery] submission month: [2011-08] commoncrawl date: [2014-03-08 00:07:19]
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Teosinte#Origin_of_maize_and_interaction_with_teosintes] submission month: [2011-08] commoncrawl date: [2014-03-08 00:55:51]
+skipping: subreddit=reddit.com	domain=naturalnews.com (False False)
+skipping: subreddit=worldnews	domain=dailystar.com.lb (True False)
+skipping: subreddit=politics	domain=hulu.com (False False)
+skipping: subreddit=wikipedia	domain=en.wikipedia.org (False True)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Cyclops#Origins] submission month: [2011-08] commoncrawl date: [2014-03-10 00:59:22]
+skipping: subreddit=newzealand	domain=businessinsider.com (True False)
+skipping: subreddit=MensRights	domain=msnbc.msn.com (False False)
+skipping: subreddit=bicycling	domain=ebay.co.uk (True False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Chapped_lips#treatments] submission month: [2011-08] commoncrawl date: [2014-03-08 22:44:43]
+skipping: subreddit=australia	domain=ag.gov.au (True False)
+skipping: subreddit=Rift	domain=riftjunkies.com (False False)
+skipping: subreddit=atheism	domain=en.wikipedia.org (False True)
+skipping: subreddit=Scotch	domain=shebeen.ca (False False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Emotion_classification#Culturally_specific_emotions] submission month: [2011-08] commoncrawl date: [2014-03-08 11:40:31]
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Can't fetch: [http://en.wikipedia.org/wiki/Dr_Suess#Pen_names_and_pronunciations] submission month: [2011-08]
+keeping: subreddit=science	domain=news.nationalgeographic.com
+Can't fetch: [http://news.nationalgeographic.com/news/2011/08/110819-elephant-eureka-aha-moment-zoo-intelligence-science-plos/?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+ng%2FNews%2FNews_Main+%28National+Geographic+News+-+Main%29#16684] submission month: [2011-08]
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Rhubarb_Rhubarb#Dialogue] submission month: [2011-08] commoncrawl date: [2014-04-16 14:02:43]
+skipping: subreddit=French	domain=translate.google.co.uk (False False)
+skipping: subreddit=gaming	domain=csnation.net (False False)
+skipping: subreddit=TwoXChromosomes	domain=today.msnbc.msn.com (False False)
+skipping: subreddit=hockey	domain=en.wikipedia.org (False True)
+skipping: subreddit=starcraft	domain=teamliquid.net (False False)
+skipping: subreddit=worldnews	domain=msnbc.msn.com (True False)
+skipping: subreddit=wikipedia	domain=en.wikipedia.org (False True)
+skipping: subreddit=Android	domain=rootzwiki.com (False False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Hans_Litten#Cross-examination_of_Hitler] submission month: [2011-08] commoncrawl date: [2014-03-11 14:12:18]
+skipping: subreddit=gaming	domain=kindledboot.com (False False)
+skipping: subreddit=leagueoflegends	domain=k4orta.deviantart.com (True False)
+skipping: subreddit=Bitcoin	domain=bitcointalk.org (False False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/The_Conqueror_(film)#Cancer_controversy] submission month: [2011-08] commoncrawl date: [2014-03-08 00:59:15]
+skipping: subreddit=cats	domain=thebestofpets.com (False False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Armoured_train#Later_uses] submission month: [2011-08] commoncrawl date: [2014-07-11 06:31:26]
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Blue_Angels#Accidents] submission month: [2011-08] commoncrawl date: [2014-03-12 01:57:08]
+skipping: subreddit=oblivion	domain=en.wikipedia.org (False True)
+skipping: subreddit=politics	domain=theatlanticwire.com (False False)
+skipping: subreddit=starcraft	domain=google.co.uk (False False)
+skipping: subreddit=hardware	domain=slickdeals.net (True False)
+skipping: subreddit=PS3	domain=joystiq.com (False True)
+skipping: subreddit=skeptic	domain=theatlanticwire.com (True False)
+keeping: subreddit=business	domain=ft.com
+Can't fetch: [http://www.ft.com/intl/cms/s/0/2b9dab2e-c817-11e0-9501-00144feabdc0.html#axzz1VdggHzgy] submission month: [2011-08]
+skipping: subreddit=MensRights	domain=noseriouslywhatabouttehmenz.wordpress.com (False False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Can't fetch: [http://en.wikipedia.org/wiki/POM_Wonderful_Presents:_The_Greatest_Movie_Ever_Sold,_Pennsylvania#History] submission month: [2011-08]
+keeping: subreddit=worldnews	domain=arstechnica.com
+Fetching url: [http://arstechnica.com/science/news/2011/08/crank-who-targeted-science-writers-lured-into-threatening-police.ars?comments=1#comments-bar] submission month: [2011-08] commoncrawl date: [2017-03-25 17:15:20]
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Roger_Deakins#Awards_and_nominations] submission month: [2011-08] commoncrawl date: [2014-03-09 06:52:40]
+skipping: subreddit=wikipedia	domain=en.wikipedia.org (False True)
+skipping: subreddit=gamernews	domain=lensoftruth.com (True False)
+skipping: subreddit=SquaredCircle	domain=tmz.com (False True)
+skipping: subreddit=mylittlepony	domain=johnjoseco.deviantart.com (False False)
+skipping: subreddit=reddit.com	domain=foxnews.com (False True)
+skipping: subreddit=nyc	domain=gothamist.com (True False)
+skipping: subreddit=reddit.com	domain=foxnews.com (False True)
+skipping: subreddit=movies	domain=wmagazine.com (True False)
+skipping: subreddit=todayilearned	domain=diy.stackexchange.com (True False)
+keeping: subreddit=nfl	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Robert_Kraft#Other_activities] submission month: [2011-08] commoncrawl date: [2014-04-21 11:01:59]
+skipping: subreddit=mylittlepony	domain=equestriadaily.com (False False)
+skipping: subreddit=Minecraft	domain=en.wikipedia.org (False True)
+skipping: subreddit=vim	domain=stackoverflow.com (False True)
+skipping: subreddit=atheism	domain=quickmeme.com (False False)
+keeping: subreddit=doctorwho	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Donna_Noble#Introduction_and_character_development] submission month: [2011-08] commoncrawl date: [2014-03-12 02:11:20]
+skipping: subreddit=politics	domain=theatlanticwire.com (False False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Urination#Voluntary_control] submission month: [2011-08] commoncrawl date: [2014-03-10 03:24:45]
+skipping: subreddit=gaming	domain=gametrailers.com (False False)
+skipping: subreddit=trees	domain=quickmeme.com (False False)
+skipping: subreddit=todayilearned	domain=books.google.ca (True False)
+keeping: subreddit=soccer	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Gareth_Bale#Early_life] submission month: [2011-08] commoncrawl date: [2014-04-18 09:17:01]
+skipping: subreddit=reddit.com	domain=foxnews.com (False True)
+skipping: subreddit=prowrestling	domain=tmz.com (False True)
+skipping: subreddit=starcraft	domain=us.battle.net (False True)
+skipping: subreddit=offbeat	domain=newsflavor.com (False False)
+skipping: subreddit=chicago	domain=suntimes.com (False False)
+skipping: subreddit=food	domain=en.wikipedia.org (False True)
+skipping: subreddit=todayilearned	domain=books.google.com (True False)
+skipping: subreddit=mylittlepony	domain=demyrie.deviantart.com (False False)
+skipping: subreddit=trees	domain=cbc.ca (False True)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Langue_d%27oc#History_of_the_modern_term] submission month: [2011-08] commoncrawl date: [2014-03-07 22:23:10]
+skipping: subreddit=news	domain=msnbc.msn.com (False False)
+skipping: subreddit=trees	domain=en.wikipedia.org (False True)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Martin_Luther_King,_Jr._National_Memorial#Fees_to_King_family] submission month: [2011-08] commoncrawl date: [2014-03-08 13:33:53]
+keeping: subreddit=todayilearned	domain=wikipedia.org
+Can't fetch: [http://wikipedia.org/wiki/The_Fifth_Element#Production] submission month: [2011-08]
+skipping: subreddit=news	domain=businessinsider.com (False False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Hadrian#Second_Roman-Jewish_War] submission month: [2011-08] commoncrawl date: [2014-03-09 18:35:58]
+skipping: subreddit=business	domain=theatlanticwire.com (True False)
+skipping: subreddit=politics	domain=theatlantic.com (False True)
+keeping: subreddit=worldnews	domain=cbc.ca
+Fetching url: [http://www.cbc.ca/news/canada/story/2011/08/22/layton-obituary.html#.TlJSsJJ2TB4.twitter] submission month: [2011-08] commoncrawl date: [2013-05-25 07:43:26]
+skipping: subreddit=geek	domain=bestbuy.com (False True)
+skipping: subreddit=leagueoflegends	domain=na.leagueoflegends.com (True False)
+keeping: subreddit=linux	domain=stackoverflow.com
+Fetching url: [http://stackoverflow.com/questions/1218390/what-is-your-most-productive-shortcut-with-vim/1220118#1220118] submission month: [2011-08] commoncrawl date: [2014-03-14 20:21:14]
+skipping: subreddit=writing	domain=writinghood.com (True False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/(Sittin%27_On)_The_Dock_of_the_Bay#Universal_success] submission month: [2011-08] commoncrawl date: [2014-03-07 19:38:21]
+skipping: subreddit=economy	domain=worldgoldbull.com (False False)
+skipping: subreddit=assassinscreed	domain=demonsfearme.deviantart.com (False False)
+keeping: subreddit=toronto	domain=thestar.com
+Fetching url: [http://www.thestar.com/news/article/1042779--severe-thunderstorm-takes-out-trees-leaves-10-000-people-without-power?bn=1#.TlHf12XbxDU.reddit] submission month: [2011-08] commoncrawl date: [2017-02-23 23:49:13]
+skipping: subreddit=dwarffortress	domain=bay12games.com (False False)
+keeping: subreddit=nfl	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Kurt_Warner#Arena_Football] submission month: [2011-08] commoncrawl date: [2014-03-11 19:33:45]
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Body_piercing#Ear_piercing] submission month: [2011-08] commoncrawl date: [2014-03-08 16:42:08]
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Midwestern_United_States#History_of_the_term_Midwest] submission month: [2011-08] commoncrawl date: [2014-03-08 07:00:47]
+skipping: subreddit=TwoXChromosomes	domain=huffingtonpost.com (False False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Robert_Kraft#Other_activities] submission month: [2011-08] commoncrawl date: [2014-04-21 11:01:59]
+skipping: subreddit=todayilearned	domain=secure.wikimedia.org (True False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Mancow_Muller#Politics] submission month: [2011-08] commoncrawl date: [2014-03-07 23:12:21]
+skipping: subreddit=sysadmin	domain=forums.citrix.com (True False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Ramapo_Fault#Background] submission month: [2011-08] commoncrawl date: [2014-03-15 08:48:56]
+skipping: subreddit=Guildwars2	domain=us.ncsoft.com (False False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Harry_Potter_and_the_Philosopher%27s_Stone_(film)#Development] submission month: [2011-08] commoncrawl date: [2014-03-10 11:48:22]
+skipping: subreddit=todayilearned	domain=books.google.com (True False)
+skipping: subreddit=tf2	domain=tf2wiki.net (True False)
+keeping: subreddit=nba	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Kobe_Bryant#Childhood_and_youth] submission month: [2011-08] commoncrawl date: [2014-03-07 12:23:54]
+skipping: subreddit=leagueoflegends	domain=na.leagueoflegends.com (True False)
+skipping: subreddit=climbing	domain=grooveshark.com (True False)
+skipping: subreddit=tf2	domain=docs.google.com (True False)
+skipping: subreddit=pokemon	domain=quickmeme.com (False False)
+skipping: subreddit=reddit.com	domain=earthquake.usgs.gov (False False)
+skipping: subreddit=Omaha	domain=omaha.com (False False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/The_Album_(ABBA_album)#The_Cold_War] submission month: [2011-08] commoncrawl date: [2014-03-17 16:44:01]
+keeping: subreddit=unitedkingdom	domain=guardian.co.uk
+Can't fetch: [http://www.guardian.co.uk/science/2011/aug/23/top-scientists-graduates-work-abroad?commentpage=last#end-of-comments] submission month: [2011-08]
+skipping: subreddit=conspiracy	domain=ozhouse.org (False False)
+skipping: subreddit=offbeat	domain=citizensvoice.com (False False)
+keeping: subreddit=canada	domain=theglobeandmail.com
+Can't fetch: [http://www.theglobeandmail.com/report-on-business/managing/at-the-top/at-the-heart-of-the-wheat-wars/article2136516/singlepage/#articlecontent] submission month: [2011-08]
+skipping: subreddit=programming	domain=imakewebthings.github.com (True False)
+skipping: subreddit=news	domain=today.msnbc.msn.com (False False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Jeopardy!#Cash_prizes] submission month: [2011-08] commoncrawl date: [2014-03-08 08:21:06]
+keeping: subreddit=unitedkingdom	domain=guardian.co.uk
+Fetching url: [http://www.guardian.co.uk/uk/2011/aug/23/british-supports-harsher-sentences-riots#start-of-comments] submission month: [2011-08] commoncrawl date: [2013-05-20 00:03:00]
+skipping: subreddit=Libertarian	domain=businessinsider.com (False False)
+skipping: subreddit=comics	domain=liveforfilms.com (True False)
+skipping: subreddit=Metal	domain=books.google.com (False False)
+skipping: subreddit=Art	domain=jmarks0257.deviantart.com (False False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Teetotalism#Notable_teetotalers] submission month: [2011-08] commoncrawl date: [2014-03-11 13:18:03]
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Can't fetch: [http://en.wikipedia.org/wiki/English_language#Countries_in_order_of_total_speakers] submission month: [2011-08]
+skipping: subreddit=india	domain=en.wikipedia.org (False True)
+skipping: subreddit=toronto	domain=fullcomment.nationalpost.com (True False)
+skipping: subreddit=motorcycles	domain=leatherup.com (True False)
+skipping: subreddit=leagueoflegends	domain=na.leagueoflegends.com (True False)
+skipping: subreddit=reddit.com	domain=books.google.com (False False)
+skipping: subreddit=canada	domain=fullcomment.nationalpost.com (True False)
+skipping: subreddit=leagueoflegends	domain=na.leagueoflegends.com (True False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Resident_Evil_%28film%29#Pre-production] submission month: [2011-08] commoncrawl date: [2014-03-11 09:06:20]
+skipping: subreddit=WTF	domain=msnbc.msn.com (False False)
+skipping: subreddit=philadelphia	domain=google.com (True False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Scientology_controversies#L._Ron_Hubbard_and_starting_a_religion_for_money] submission month: [2011-08] commoncrawl date: [2014-03-09 17:50:53]
+skipping: subreddit=Eve	domain=eve.battleclinic.com (False False)
+keeping: subreddit=soccer	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/2011%E2%80%9312_UEFA_Champions_League_group_stage#Seeding] submission month: [2011-08] commoncrawl date: [2014-03-11 10:03:30]
+skipping: subreddit=leagueoflegends	domain=na.leagueoflegends.com (True False)
+skipping: subreddit=Diablo	domain=us.battle.net (False True)
+skipping: subreddit=Sacramento	domain=msnbc.msn.com (False False)
+keeping: subreddit=worldnews	domain=telegraph.co.uk
+Fetching url: [http://www.telegraph.co.uk/news/worldnews/africaandindianocean/libya/8721058/Libya-1-million-bounty-for-Col-Gaddafi-dead-or-alive.html#.TlVUn--cHyI.reddit] submission month: [2011-08] commoncrawl date: [2014-04-21 06:16:27]
+skipping: subreddit=todayilearned	domain=books.google.com (True False)
+skipping: subreddit=musictheory	domain=en.wikipedia.org (False True)
+skipping: subreddit=starcraft	domain=teamliquid.net (False False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Perseus#Origin_at_Argos] submission month: [2011-08] commoncrawl date: [2014-03-08 12:58:08]
+skipping: subreddit=gaming	domain=swtor.com (False False)
+skipping: subreddit=politics	domain=theatlantic.com (False True)
+skipping: subreddit=atheism	domain=wikileaks.org (False False)
+skipping: subreddit=TwoXChromosomes	domain=thinkgeek.com (False False)
+skipping: subreddit=atheism	domain=youtu.be (False False)
+skipping: subreddit=ottawa	domain=nhc.noaa.gov (True False)
+skipping: subreddit=MLS	domain=nhc.noaa.gov (False False)
+skipping: subreddit=oklahoma	domain=koco.com (False False)
+skipping: subreddit=scifi	domain=slashfilm.com (True False)
+skipping: subreddit=Libertarian	domain=jimrogers1.blogspot.com (False False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/History_of_pitch_standards_in_Western_music#History_of_pitch_standards_in_Western_music] submission month: [2011-08] commoncrawl date: [2014-03-11 11:29:03]
+skipping: subreddit=Military	domain=facebook.com (False False)
+skipping: subreddit=mylittlepony	domain=equestriadaily.com (False False)
+skipping: subreddit=WTF	domain=vancegilbert.com (False False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Sochi,_Russia#Climate] submission month: [2011-08] commoncrawl date: [2014-03-10 15:42:28]
+skipping: subreddit=movies	domain=life.com (True False)
+skipping: subreddit=politics	domain=politico.com (False True)
+skipping: subreddit=vexillology	domain=1wyrmshadow1.deviantart.com (True False)
+skipping: subreddit=Android	domain=forum.evernote.com (False False)
+skipping: subreddit=history	domain=en.wikipedia.org (False True)
+skipping: subreddit=worldnews	domain=theatlanticwire.com (True False)
+keeping: subreddit=movies	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Stanley_Kubrick%27s_Unrealized_Projects#Other_projects] submission month: [2011-08] commoncrawl date: [2014-03-10 19:11:05]
+skipping: subreddit=ukpolitics	domain=telegraph.co.uk (False True)
+skipping: subreddit=reddit.com	domain=en.wikipedia.org (False True)
+skipping: subreddit=Israel	domain=en.wikipedia.org (False True)
+skipping: subreddit=reddit.com	domain=philly.com (False True)
+skipping: subreddit=web_design	domain=browse.deviantart.com (True False)
+skipping: subreddit=politics	domain=thelastword.msnbc.msn.com (False False)
+skipping: subreddit=conspiracy	domain=nbcchicago.com (False False)
+skipping: subreddit=politics	domain=plus.google.com (False False)
+skipping: subreddit=washingtondc	domain=theatlanticwire.com (True False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Park_ranger#Duties.2C_disciplines.2C_and_specializations] submission month: [2011-08] commoncrawl date: [2014-03-09 08:31:33]
+skipping: subreddit=worldnews	domain=theatlanticwire.com (True False)
+skipping: subreddit=todayilearned	domain=history.com (True False)
+skipping: subreddit=mylittlepony	domain=pulsarascension.deviantart.com (False False)
+skipping: subreddit=space	domain=theatlanticwire.com (False False)
+keeping: subreddit=canada	domain=huffingtonpost.ca
+Fetching url: [http://www.huffingtonpost.ca/2011/08/25/lawful-access-surveillance_n_936875.html#s331165&amp;title=New_Zealand_Parliament] submission month: [2011-08] commoncrawl date: [2016-05-27 12:28:48]
+skipping: subreddit=gameofthrones	domain=tednasmith.com (True False)
+skipping: subreddit=Dexter	domain=en.wikipedia.org (False True)
+skipping: subreddit=starcraft	domain=teamliquid.net (False False)
+keeping: subreddit=soccer	domain=uefa.com
+Fetching url: [http://www.uefa.com/uefa/uefa-best-player-award/news/newsid=1667736.html#messi+wins+uefa+best+player+europe+award] submission month: [2011-08] commoncrawl date: [2013-06-19 06:15:53]
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/List_of_sovereign_states_by_date_of_formation#Europe_.26_the_islands] submission month: [2011-08] commoncrawl date: [2014-03-07 21:31:31]
+skipping: subreddit=nba	domain=ballnroll.com (True False)
+skipping: subreddit=web_design	domain=nytimes.com (True False)
+skipping: subreddit=Android	domain=forum.xda-developers.com (False True)
+skipping: subreddit=argentina	domain=huffingtonpost.com (False False)
+skipping: subreddit=nyc	domain=nytimes.com (True False)
+skipping: subreddit=politics	domain=occasionalplanet.org (False False)
+skipping: subreddit=atheism	domain=channel.nationalgeographic.com (False False)
+skipping: subreddit=Metal	domain=thephoenix.com (False False)
+skipping: subreddit=comicbooks	domain=my.deviantart.com (True False)
+skipping: subreddit=ukpolitics	domain=blogs.telegraph.co.uk (False False)
+skipping: subreddit=leagueoflegends	domain=lol.zone.gamebase.com.tw (True False)
+skipping: subreddit=conspiracy	domain=dailymail.co.uk (False True)
+skipping: subreddit=leagueoflegends	domain=na.leagueoflegends.com (True False)
+skipping: subreddit=atheism	domain=foxnews.com (False True)
+skipping: subreddit=dwarffortress	domain=bay12forums.com (False False)
+skipping: subreddit=guns	domain=calguns.net (True False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Can't fetch: [http://en.wikipedia.org/wiki/Where's_my_mind#Legacy] submission month: [2011-08]
+keeping: subreddit=linux	domain=smh.com.au
+Can't fetch: [http://www.smh.com.au/polls/digital-life/digital-life-news/who-is-your-it-hero-20110825-1jbmt.html#poll] submission month: [2011-08]
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Dexter_(TV_series)#Criticism] submission month: [2011-08] commoncrawl date: [2014-03-10 13:16:30]
+skipping: subreddit=gaymers	domain=forums.theelderscrollsskyrim.com (False False)
+skipping: subreddit=Libertarian	domain=peterschiffchannel.blogspot.com (False False)
+skipping: subreddit=Omaha	domain=omaha.com (False False)
+skipping: subreddit=skyrim	domain=forums.theelderscrollsskyrim.com (False False)
+skipping: subreddit=Military	domain=militarytimes.com (False False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Steve_Young#USFL] submission month: [2011-08] commoncrawl date: [2014-03-10 06:47:38]
+skipping: subreddit=sex	domain=curiosity.discovery.com (False False)
+keeping: subreddit=australia	domain=theage.com.au
+Can't fetch: [http://www.theage.com.au/entertainment/tv-and-radio/well-take-that-as-a-comment-20110824-1j8tg.html#ixzz1VzVkv4fP] submission month: [2011-08]
+skipping: subreddit=mexico	domain=blogdelnarco.com (False False)
+skipping: subreddit=guns	domain=gazette.com (True False)
+skipping: subreddit=WTF	domain=gazette.com (False False)
+skipping: subreddit=videos	domain=sciencedemonstrations.fas.harvard.edu (False False)
+skipping: subreddit=apple	domain=tmz.com (False True)
+skipping: subreddit=reddit.com	domain=tmz.com (False True)
+skipping: subreddit=battlefield3	domain=battlefield3online.com (False False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Loser_(Beck_song)#Conception_and_recording] submission month: [2011-08] commoncrawl date: [2014-03-11 23:06:37]
+skipping: subreddit=baseball	domain=joeposnanski.si.com (False False)
+skipping: subreddit=leagueoflegends	domain=razerzone.com (True False)
+skipping: subreddit=nyc	domain=nhc.noaa.gov (True False)
+skipping: subreddit=halo	domain=halo.xbox.com (False False)
+skipping: subreddit=malelifestyle	domain=ballnroll.com (False False)
+skipping: subreddit=canada	domain=ctv.ca (True False)
+skipping: subreddit=Guitar	domain=online.wsj.com (False False)
+skipping: subreddit=Calgary	domain=calgaryherald.com (False False)
+skipping: subreddit=gaming	domain=extralives.org (False False)
+skipping: subreddit=politics	domain=crooksandliars.com (False False)
+keeping: subreddit=worldnews	domain=theatlantic.com
+Fetching url: [http://www.theatlantic.com/international/archive/2011/08/was-the-libyan-intervention-really-an-intervention/244175/#.TlesfMqX--k.reddit] submission month: [2011-08] commoncrawl date: [2014-03-08 09:12:00]
+keeping: subreddit=toronto	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Toronto#International_relations] submission month: [2011-08] commoncrawl date: [2014-03-09 14:37:54]
+skipping: subreddit=TwoXChromosomes	domain=today.msnbc.msn.com (False False)
+skipping: subreddit=technology	domain=theatlanticwire.com (False False)
+keeping: subreddit=nfl	domain=profootballtalk.nbcsports.com
+Fetching url: [http://profootballtalk.nbcsports.com/2011/08/26/ravens-doss-gets-a-burger-halts-a-knife-attack-before-game/#content] submission month: [2011-08] commoncrawl date: [2014-03-09 08:16:56]
+skipping: subreddit=news	domain=msnbc.msn.com (False False)
+skipping: subreddit=business	domain=theatlanticwire.com (True False)
+skipping: subreddit=AdviceAnimals	domain=quickmeme.com (False False)
+skipping: subreddit=mylittlepony	domain=briskby.deviantart.com (False False)
+skipping: subreddit=haskell	domain=tsurucapital.com (True False)
+skipping: subreddit=mexico	domain=world-news.newsvine.com (False False)
+skipping: subreddit=pokemon	domain=nautiluspompilius.deviantart.com (False False)
+skipping: subreddit=linux	domain=readwriteweb.com (True False)
+skipping: subreddit=reddit.com	domain=smbc-comics.com (False False)
+keeping: subreddit=science	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/The_IQ_Controversy,_the_Media_and_Public_Policy_(book)#Synopsis] submission month: [2011-08] commoncrawl date: [2014-07-10 12:08:59]
+skipping: subreddit=mycology	domain=huffingtonpost.com (False False)
+skipping: subreddit=politics	domain=alternet.org (False False)
+skipping: subreddit=leagueoflegends	domain=na.leagueoflegends.com (True False)
+skipping: subreddit=reddit.com	domain=noahzucker.blogspot.com (False False)
+skipping: subreddit=nyc	domain=justin.tv (True False)
+skipping: subreddit=pics	domain=quickmeme.com (False False)
+skipping: subreddit=mylittlepony	domain=cybertoaster.deviantart.com (False False)
+skipping: subreddit=atheism	domain=wikileaks.org (False False)
+skipping: subreddit=gaming	domain=quickmeme.com (False False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Al_Jaffee#The_Fold-In] submission month: [2011-08] commoncrawl date: [2014-03-08 20:57:37]
+skipping: subreddit=japan	domain=letsjapan.wordpress.com (False False)
+skipping: subreddit=todayilearned	domain=losaltos.patch.com (True False)
+skipping: subreddit=canada	domain=watch.ctv.ca (True False)
+skipping: subreddit=worldnews	domain=businessinsider.com (True False)
+skipping: subreddit=leagueoflegends	domain=pro.majorleaguegaming.com (True False)
+skipping: subreddit=todayilearned	domain=bls.gov (True False)
+skipping: subreddit=mylittlepony	domain=kloudmutt.deviantart.com (False False)
+skipping: subreddit=todayilearned	domain=imdb.com (True False)
+skipping: subreddit=sex	domain=books.google.com (False False)
+skipping: subreddit=nyc	domain=nhc.noaa.gov (True False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Star_Trek_Generations#Release] submission month: [2011-08] commoncrawl date: [2014-03-07 07:53:23]
+skipping: subreddit=mylittlepony	domain=kurokaji11.deviantart.com (False False)
+skipping: subreddit=gaming	domain=libraryofgames.org (False False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Fuel_efficiency_in_transportation#Rockets] submission month: [2011-08] commoncrawl date: [2014-04-20 11:45:44]
+skipping: subreddit=todayilearned	domain=landcareresearch.co.nz (True False)
+skipping: subreddit=mylittlepony	domain=turtlelover73.deviantart.com (False False)
+skipping: subreddit=Libertarian	domain=bloomberg.com (False True)
+skipping: subreddit=history	domain=en.wikipedia.org (False True)
+skipping: subreddit=lgbt	domain=quickmeme.com (False False)
+skipping: subreddit=starcraft	domain=teamliquid.net (False False)
+keeping: subreddit=texas	domain=gawker.com
+Can't fetch: [http://gawker.com/5834800/the-worst-50-states-in-america-the-final-five?comment=42202284#comments] submission month: [2011-08]
+skipping: subreddit=trees	domain=quickmeme.com (False False)
+keeping: subreddit=australia	domain=brisbanetimes.com.au
+Can't fetch: [http://www.brisbanetimes.com.au/queensland/chocolate-war-gets-messy-20110827-1jfxe.html#ixzz1WMIzrYtr] submission month: [2011-08]
+skipping: subreddit=canada	domain=fullcomment.nationalpost.com (True False)
+skipping: subreddit=history	domain=en.wikipedia.org (False True)
+skipping: subreddit=leagueoflegends	domain=na.leagueoflegends.com (True False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/United_States_embargo_against_Cuba#Kennedy-era_embargo] submission month: [2011-08] commoncrawl date: [2014-03-08 20:32:18]
+keeping: subreddit=sports	domain=mlb.mlb.com
+Can't fetch: [http://mlb.mlb.com/news/wall/article.jsp?content_id=23854836&amp;fb_comment_id=fbc_10150307536218945_18581217_10150307655963945#f14b31a01] submission month: [2011-08]
+skipping: subreddit=baseball	domain=gif.tv (False False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/The_eXile#Pie_attack] submission month: [2011-08] commoncrawl date: [2014-03-07 22:07:09]
+skipping: subreddit=LosAngeles	domain=gallery.me.com (False False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Stairway_to_Heaven#Taurus] submission month: [2011-08] commoncrawl date: [2014-04-19 13:05:30]
+keeping: subreddit=soccer	domain=telegraph.co.uk
+Fetching url: [http://www.telegraph.co.uk/sport/football/teams/arsenal/8726931/Arsenal-on-the-verge-of-signing-Moncao-striker-Park-Chu-Young.html#.Tlpzv8sqUpk.reddit] submission month: [2011-08] commoncrawl date: [2014-07-12 04:43:17]
+skipping: subreddit=TrueReddit	domain=theglobeandmail.com (False True)
+keeping: subreddit=math	domain=stackoverflow.com
+Fetching url: [http://stackoverflow.com/questions/7214419/how-to-find-the-units-digit-of-a-certain-power-in-a-simplest-way/7214528#7214528] submission month: [2011-08] commoncrawl date: [2016-06-25 16:11:23]
+skipping: subreddit=tf2	domain=etf2l.org (True False)
+skipping: subreddit=wikipedia	domain=secure.wikimedia.org (False False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Linux#Market_share_and_uptake] submission month: [2011-08] commoncrawl date: [2014-03-07 15:05:17]
+skipping: subreddit=worldnews	domain=allheadlinenews.com (True False)
+skipping: subreddit=Python	domain=github.com (False False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/World_War_Z#Film_adaptation] submission month: [2011-08] commoncrawl date: [2014-03-09 23:54:07]
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Historic_tsunamis#1958:_Lituya_Bay.2C_Alaska.2C_USA] submission month: [2011-08] commoncrawl date: [2014-03-08 19:44:23]
+keeping: subreddit=australia	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Alan_Jones_%28radio_broadcaster%29#Union] submission month: [2011-08] commoncrawl date: [2014-03-08 15:37:05]
+skipping: subreddit=shutupandtakemymoney	domain=atrium.threadless.com (True False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Methylene_blue#As_a_prank] submission month: [2011-08] commoncrawl date: [2014-03-09 21:03:04]
+skipping: subreddit=todayilearned	domain=books.google.com (True False)
+keeping: subreddit=australia	domain=theage.com.au
+Can't fetch: [http://www.theage.com.au/victoria/lew-pool-granted-a-reprieve-20110827-1jfqp.html?comments=23#comments] submission month: [2011-08]
+skipping: subreddit=mylittlepony	domain=funnyjunk.com (False False)
+skipping: subreddit=politics	domain=en.wikiquote.org (False False)
+skipping: subreddit=gaming	domain=extralives.org (False False)
+skipping: subreddit=mylittlepony	domain=helgih.deviantart.com (False False)
+skipping: subreddit=history	domain=en.wikipedia.org (False True)
+skipping: subreddit=mylittlepony	domain=equestriadaily.com (False False)
+skipping: subreddit=cars	domain=smh.drive.com.au (True False)
+skipping: subreddit=history	domain=en.wikipedia.org (False True)
+skipping: subreddit=MMA	domain=facebook.com (False False)
+skipping: subreddit=WTF	domain=tucsoncitizen.com (False False)
+keeping: subreddit=soccer	domain=guardian.co.uk
+Can't fetch: [http://www.guardian.co.uk/football/gallery/2011/aug/29/arsenal-transfer-targets#/?picture=378385966&amp;index=0] submission month: [2011-08]
+skipping: subreddit=Gunners	domain=en.wikipedia.org (False True)
+skipping: subreddit=politics	domain=democracynow.org (False False)
+skipping: subreddit=movies	domain=slashfilm.com (True False)
+skipping: subreddit=gaming	domain=pinkaxolotl.deviantart.com (False False)
+keeping: subreddit=kansascity	domain=kansascity.com
+Fetching url: [http://www.kansascity.com/2011/08/29/3107177/decision-on-kc-ballot-measure.html#.Tlvdyal7Dhs.reddit] submission month: [2011-08] commoncrawl date: [2017-09-20 16:44:11]
+skipping: subreddit=TwoXChromosomes	domain=mtv.com (False False)
+skipping: subreddit=cyberlaws	domain=techdirt.com (False False)
+skipping: subreddit=space	domain=msnbc.msn.com (False False)
+keeping: subreddit=soccer	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/FIFA_12#Commentators] submission month: [2011-08] commoncrawl date: [2014-03-08 00:20:23]
+skipping: subreddit=DenverBroncos	domain=milehighreport.com (False False)
+skipping: subreddit=yugioh	domain=ebay.co.uk (False False)
+skipping: subreddit=travel	domain=msnbc.msn.com (False False)
+skipping: subreddit=mylittlepony	domain=bamboodog.deviantart.com (False False)
+skipping: subreddit=history	domain=usconstitution.net (False False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Three_Principles_of_the_People#M.C3.ADnqu.C3.A1n] submission month: [2011-08] commoncrawl date: [2014-03-10 20:58:44]
+skipping: subreddit=leagueoflegends	domain=na.leagueoflegends.com (True False)
+skipping: subreddit=Android	domain=bgr.com (False False)
+skipping: subreddit=worldnews	domain=theatlanticwire.com (True False)
+skipping: subreddit=ffxiv	domain=forum.square-enix.com (False False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Equine_nutrition#Illnesses_related_to_improper_feeding] submission month: [2011-08] commoncrawl date: [2014-03-11 21:42:15]
+skipping: subreddit=weather	domain=en.wikipedia.org (False True)
+skipping: subreddit=politics	domain=commondreams.org (False False)
+skipping: subreddit=CFB	domain=cbssports.com (False False)
+skipping: subreddit=AdviceAnimals	domain=quickmeme.com (False False)
+skipping: subreddit=Gunners	domain=guardian.co.uk (False True)
+skipping: subreddit=photocritique	domain=picasaweb.google.com (False False)
+skipping: subreddit=tea	domain=trendhunter.com (True False)
+skipping: subreddit=soccer	domain=redcafe.net (True False)
+skipping: subreddit=starcraft	domain=teamliquid.net (False False)
+skipping: subreddit=transgender	domain=mtv.com (False False)
+skipping: subreddit=gamernews	domain=ripten.com (True False)
+skipping: subreddit=harrypotter	domain=hitofanart.deviantart.com (False False)
+skipping: subreddit=entertainment	domain=mtv.com (True False)
+skipping: subreddit=entourage	domain=hbogo.com (False False)
+skipping: subreddit=Conservative	domain=politico.com (False True)
+skipping: subreddit=mylittlepony	domain=rankao.deviantart.com (False False)
+skipping: subreddit=Israel	domain=haaretz.com (False True)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Bodies_(Drowning_Pool_song)#Controversy] submission month: [2011-08] commoncrawl date: [2014-03-11 21:19:20]
+skipping: subreddit=politics	domain=msnbc.msn.com (False False)
+skipping: subreddit=funny	domain=quickmeme.com (False False)
+skipping: subreddit=Conservative	domain=conservativeactionalerts.com (False False)
+skipping: subreddit=Conservative	domain=conservativeactionalerts.com (False False)
+skipping: subreddit=leagueoflegends	domain=na.leagueoflegends.com (True False)
+skipping: subreddit=battlefield3	domain=rockpapershotgun.com (False True)
+skipping: subreddit=politics	domain=bleedingheartlibertarians.com (False False)
+skipping: subreddit=comicbooks	domain=mylatestdistraction.com (True False)
+skipping: subreddit=politics	domain=theatlantic.com (False True)
+skipping: subreddit=baseball	domain=mlb.mlb.com (False True)
+skipping: subreddit=Minecraft	domain=feign.dk (False False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Commando_%28film%29#Sequel] submission month: [2011-08] commoncrawl date: [2014-03-16 20:19:47]
+skipping: subreddit=ronpaul	domain=nyulocal.com (False False)
+skipping: subreddit=starcraft	domain=teamliquid.net (False False)
+skipping: subreddit=funny	domain=quickmeme.com (False False)
+skipping: subreddit=mylittlepony	domain=missmonocle.deviantart.com (False False)
+skipping: subreddit=TrueReddit	domain=en.wikipedia.org (False True)
+skipping: subreddit=atheism	domain=iraffiruse.net (False False)
+skipping: subreddit=news	domain=dailymail.co.uk (False True)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Big_Lebowski#Development] submission month: [2011-08] commoncrawl date: [2014-03-09 00:07:02]
+skipping: subreddit=conspiracy	domain=dailymail.co.uk (False True)
+skipping: subreddit=worldnews	domain=theatlanticwire.com (True False)
+skipping: subreddit=TrueReddit	domain=foreignpolicy.com (False True)
+skipping: subreddit=starcraft	domain=wellplayed.org (False False)
+skipping: subreddit=gamedev	domain=codecademy.com (False False)
+skipping: subreddit=conspiracy	domain=veteranstoday.com (False False)
+skipping: subreddit=rugbyunion	domain=breakingnews.ie (True False)
+skipping: subreddit=ukpolitics	domain=blogs.telegraph.co.uk (False False)
+skipping: subreddit=Android	domain=news.cnet.com (False False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Larry_Silverstein#Insurance_dispute] submission month: [2011-08] commoncrawl date: [2014-03-17 07:47:53]
+skipping: subreddit=reddit.com	domain=wftv.com (False False)
+skipping: subreddit=space	domain=msnbc.msn.com (False False)
+skipping: subreddit=movies	domain=today.msnbc.msn.com (True False)
+skipping: subreddit=starcraft	domain=picasaweb.google.com (False False)
+skipping: subreddit=leagueoflegends	domain=na.leagueoflegends.com (True False)
+skipping: subreddit=Austin	domain=myfoxaustin.com (False False)
+skipping: subreddit=medicine	domain=google.com (True False)
+skipping: subreddit=leagueoflegends	domain=na.leagueoflegends.com (True False)
+skipping: subreddit=mylittlepony	domain=darkraichu303.deviantart.com (False False)
+skipping: subreddit=Austin	domain=impactnews.com (False False)
+skipping: subreddit=leagueoflegends	domain=wrongbaku.deviantart.com (True False)
+skipping: subreddit=politics	domain=gibson.com (False False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Nintendo_64_accessories#Transfer_Pak] submission month: [2011-08] commoncrawl date: [2014-03-09 07:46:17]
+skipping: subreddit=Gunners	domain=guardian.co.uk (False True)
+skipping: subreddit=leagueoflegends	domain=na.leagueoflegends.com (True False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Non-rigid_airship#Etymology] submission month: [2011-08] commoncrawl date: [2014-03-15 19:49:13]
+skipping: subreddit=leagueoflegends	domain=na.leagueoflegends.com (True False)
+skipping: subreddit=worldnews	domain=msnbc.msn.com (True False)
+skipping: subreddit=WTF	domain=msnbc.msn.com (False False)
+skipping: subreddit=news	domain=msnbc.msn.com (False False)
+skipping: subreddit=Quebec	domain=lifeinyellow.ca (False False)
+skipping: subreddit=Military	domain=azcentral.com (False False)
+skipping: subreddit=leagueoflegends	domain=na.leagueoflegends.com (True False)
+skipping: subreddit=todayilearned	domain=history.com (True False)
+skipping: subreddit=Boise	domain=treatsandtragedies.com (False False)
+skipping: subreddit=toronto	domain=beta.torontoist.com (True False)
+skipping: subreddit=PS3	domain=blog.us.playstation.com (False True)
+skipping: subreddit=Austin	domain=austin.eater.com (False False)
+skipping: subreddit=AdviceAnimals	domain=quickmeme.com (False False)
+skipping: subreddit=wikipedia	domain=en.wikipedia.org (False True)
+skipping: subreddit=technology	domain=theatlantic.com (False True)
+keeping: subreddit=worldnews	domain=theatlantic.com
+Fetching url: [http://www.theatlantic.com/international/archive/2011/08/former-qaddafi-mercenaries-describe-fighting-in-libyan-war/244356/#.Tl42g4bG4LU.reddit] submission month: [2011-08] commoncrawl date: [2014-03-09 00:37:48]
+skipping: subreddit=sysadmin	domain=neweggbusiness.com (True False)
+keeping: subreddit=worldnews	domain=theatlantic.com
+Fetching url: [http://www.theatlantic.com/international/archive/2011/08/nato-propaganda-leaflets-found-in-tripoli/244366/#.Tl4zlycpJPk.reddit] submission month: [2011-08] commoncrawl date: [2014-03-09 15:37:25]
+skipping: subreddit=baseball	domain=baseball-fever.com (False False)
+skipping: subreddit=mountandblade	domain=rockpapershotgun.com (False True)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Can't fetch: [http://en.wikipedia.org/wiki/Garfield?differentfact?#Garfield_and_Gmail] submission month: [2011-08]
+skipping: subreddit=news	domain=msnbc.msn.com (False False)
+skipping: subreddit=politics	domain=msnbc.msn.com (False False)
+skipping: subreddit=NUFC	domain=chroniclelive.co.uk (False False)
+keeping: subreddit=unitedkingdom	domain=telegraph.co.uk
+Fetching url: [http://www.telegraph.co.uk/finance/personalfinance/borrowing/mortgages/8732205/Banks-to-tell-families-cut-back-or-face-losing-your-home.html#dsq-content] submission month: [2011-08] commoncrawl date: [2015-07-06 19:49:47]
+skipping: subreddit=Conservative	domain=newsbusters.org (False False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Iron_Maiden#Special_charter] submission month: [2011-08] commoncrawl date: [2014-03-07 09:31:50]
+skipping: subreddit=funny	domain=g17.com.br (False False)
+skipping: subreddit=gaming	domain=en.wikipedia.org (False True)
+keeping: subreddit=nba	domain=sports.yahoo.com
+Fetching url: [http://sports.yahoo.com/nba/blog/ball_dont_lie/post/Brandon-Jennings-says-Kobe-Bryant-shouldn-8217-?urn=nba-wp7965#mwpphu-container] submission month: [2011-08] commoncrawl date: [2017-07-22 13:22:10]
+skipping: subreddit=atheism	domain=quickmeme.com (False False)
+keeping: subreddit=canada	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Assisted_suicide#Canada] submission month: [2011-08] commoncrawl date: [2014-03-09 07:39:09]
+skipping: subreddit=drums	domain=meinlpercussion.com (False False)
+skipping: subreddit=reddit.com	domain=msnbc.msn.com (False False)
+keeping: subreddit=todayilearned	domain=en.wikipedia.org
+Fetching url: [http://en.wikipedia.org/wiki/Twilight_Zone:_The_Movie#Helicopter_accident] submission month: [2011-08] commoncrawl date: [2014-04-16 10:08:58]
+Processing submission j5bmm...
+	url: http://en.wikipedia.org/wiki/Conjugal_visit#United_States
+	anchor: United_States
+	permalink: http://reddit.com/r/todayilearned/comments/j5bmm/til_that_conjugal_visits_private_time_with_so_are/
+Processing submission j5do7...
+	url: http://en.wikipedia.org/wiki/Alhambra_Decree#Background
+	anchor: Background
+	permalink: http://reddit.com/r/todayilearned/comments/j5do7/til_that_throughout_the_8th_to_14th_century_jews/
+Processing submission j5lrg...
+	url: http://en.wikipedia.org/wiki/Alcohol_laws_of_Wisconsin#Drinking_age
+	anchor: Drinking_age
+	permalink: http://reddit.com/r/todayilearned/comments/j5lrg/til_in_wisconsin_you_can_can_go_into_a_bar_at_any/
+Processing submission j5ziu...
+	url: http://en.wikipedia.org/wiki/Beaver#In_dietary_law
+	anchor: In_dietary_law
+	permalink: http://reddit.com/r/todayilearned/comments/j5ziu/til_the_catholic_church_classifies_beavers_as_a/
+Processing submission j6a1j...
+	url: http://en.wikipedia.org/wiki/Aviation_accidents_and_incidents#Safety
+	anchor: Safety
+	permalink: http://reddit.com/r/todayilearned/comments/j6a1j/til_that_over_95_of_people_in_us_airplane_crashes/
+Processing submission j75n5...
+	url: http://www.kansascity.com/2011/07/31/3048991/muslim-women-work-out-religiously.html#storylink=misearch
+	anchor: storylink=misearch
+	permalink: http://reddit.com/r/running/comments/j75n5/i_dont_care_about_her_religion_i_just_admire/
+	(couldn't find anchor on page: storylink=misearch)
+Processing submission j765p...
+	url: http://en.wikipedia.org/wiki/Bart_Sibrel#Dealings_with_Apollo_astronauts
+	anchor: Dealings_with_Apollo_astronauts
+	permalink: http://reddit.com/r/todayilearned/comments/j765p/til_buzz_aldrin_once_punched_a_man_in_the_face/
+Processing submission j76an...
+	url: http://en.wikipedia.org/wiki/Shrek#Production
+	anchor: Production
+	permalink: http://reddit.com/r/todayilearned/comments/j76an/til_chris_farley_was_the_original_voice_of_shrek/
+Processing submission j7uuq...
+	url: http://en.wikipedia.org/wiki/Bacardi#Cuban_Revolution
+	anchor: Cuban_Revolution
+	permalink: http://reddit.com/r/todayilearned/comments/j7uuq/til_that_the_then_head_of_bacardi_jose_pepin/
+Processing submission j83b2...
+	url: http://en.wikipedia.org/wiki/List_of_longest-running_United_States_television_series#12-15_years
+	anchor: 12-15_years
+	permalink: http://reddit.com/r/todayilearned/comments/j83b2/til_arthur_is_the_2nd_longest_running_animated/
+	(couldn't find anchor on page: 12-15_years)
+Processing submission j84bh...
+	url: http://en.wikipedia.org/wiki/Zoosexuality_and_the_law#National_laws
+	anchor: National_laws
+	permalink: http://reddit.com/r/todayilearned/comments/j84bh/til_that_in_dc_bestiality_is_listed_under_sodomy/
+Processing submission j86x0...
+	url: http://en.wikipedia.org/wiki/Kidney_transplantation#Procedure
+	anchor: Procedure
+	permalink: http://reddit.com/r/todayilearned/comments/j86x0/til_that_though_traditionally_we_think_of/
+Processing submission j8abc...
+	url: http://en.wikipedia.org/wiki/Alan_Ball_%28screenwriter%29#Personal_life
+	anchor: Personal_life
+	permalink: http://reddit.com/r/todayilearned/comments/j8abc/til_that_the_writer_of_american_beauty_six_feet/
+Processing submission j8j6l...
+	url: http://en.wikipedia.org/wiki/Ibn_sina#Thought_experiments
+	anchor: Thought_experiments
+	permalink: http://reddit.com/r/philosophy/comments/j8j6l/came_across_this_wonderful_definition_of_a_soul/
+Processing submission j8ve9...
+	url: http://en.wikipedia.org/wiki/Feynman#Personal_life
+	anchor: Personal_life
+	permalink: http://reddit.com/r/todayilearned/comments/j8ve9/til_feynman_used_a_nude_bar_as_an_office_and_was/
+Processing submission j8wz0...
+	url: http://en.wikipedia.org/wiki/Cephalopod_intelligence#Predation_techniques
+	anchor: Predation_techniques
+	permalink: http://reddit.com/r/todayilearned/comments/j8wz0/til_that_cephalopods_climb_aboard_fishing_boats/
+Processing submission j91sh...
+	url: http://en.wikipedia.org/wiki/Viagra#Patent_issues_and_expirations
+	anchor: Patent_issues_and_expirations
+	permalink: http://reddit.com/r/todayilearned/comments/j91sh/til_pfizers_exclusive_patent_on_viagra_expires_in/
+Processing submission j9c20...
+	url: http://www.theatlantic.com/international/archive/2011/08/chinas-manhattan-knock-off/243037/#.TjsugmcLU0Q.reddit
+	anchor: .TjsugmcLU0Q.reddit
+	permalink: http://reddit.com/r/worldnews/comments/j9c20/chinas_manhattan_knockoff_on_a_peninsula/
+	(couldn't find anchor on page: .TjsugmcLU0Q.reddit)
+Processing submission j9man...
+	url: http://en.wikipedia.org/wiki/Our_American_Cousin#The_Lincoln_assassination
+	anchor: The_Lincoln_assassination
+	permalink: http://reddit.com/r/todayilearned/comments/j9man/til_that_john_wilkes_booth_decided_to_assassinate/
+Processing submission j9r8u...
+	url: http://www.uefa.com/uefachampionsleague/news/newsid=1656431.html#bayern+face+zurich+arsenal+draw+udinese
+	anchor: bayern+face+zurich+arsenal+draw+udinese
+	permalink: http://reddit.com/r/soccer/comments/j9r8u/cl_qualifiers_drawnn_bayern_face_zürich_arsenal/
+	(couldn't find anchor on page: bayern+face+zurich+arsenal+draw+udinese)
+Processing submission j9t02...
+	url: http://en.wikipedia.org/wiki/Patrick_Troughton#Death
+	anchor: Death
+	permalink: http://reddit.com/r/doctorwho/comments/j9t02/til_that_patrick_troughton_died_at_a_scifi/
+Processing submission j9vnn...
+	url: http://en.wikipedia.org/wiki/List_of_actors_considered_for_the_James_Bond_character#Declined_the_role
+	anchor: Declined_the_role
+	permalink: http://reddit.com/r/todayilearned/comments/j9vnn/til_liam_neeson_turned_down_being_bond_because_he/
+Processing submission ja3on...
+	url: http://en.wikipedia.org/wiki/Qatar#LGBT_rights
+	anchor: LGBT_rights
+	permalink: http://reddit.com/r/todayilearned/comments/ja3on/til_anal_sex_is_illegal_in_qatar_sentences/
+	(couldn't find anchor on page: LGBT_rights)
+Processing submission jaiwe...
+	url: http://en.wikipedia.org/wiki/Batman:_The_Animated_Series#Influence
+	anchor: Influence
+	permalink: http://reddit.com/r/todayilearned/comments/jaiwe/til_that_some_animators_from_sunrise_cowboy_bebop/
+Processing submission jam62...
+	url: http://en.wikipedia.org/wiki/Stephen_Harper#Reform_MP
+	anchor: Reform_MP
+	permalink: http://reddit.com/r/canada/comments/jam62/does_anyone_think_its_hypocritical_for/
+Processing submission jbc3w...
+	url: http://www.gq.com/style/profiles/201108/worst-dressed-men-silicon-valley-mark-zuckerberg#slide=1
+	anchor: slide=1
+	permalink: http://reddit.com/r/malefashionadvice/comments/jbc3w/gqs_15_worst_dressed_men_of_silicon_valley/
+	(couldn't find anchor on page: slide=1)
+Processing submission jbf4e...
+	url: http://en.wikipedia.org/wiki/H._H._Holmes#Chicago_and_the_.22Murder_Castle.22
+	anchor: Chicago_and_the_.22Murder_Castle.22
+	permalink: http://reddit.com/r/creepy/comments/jbf4e/some_were_locked_in_soundproof_bedrooms_fitted/
+Processing submission jbg6f...
+	url: http://en.wikipedia.org/wiki/WALL-E#Writing
+	anchor: Writing
+	permalink: http://reddit.com/r/todayilearned/comments/jbg6f/til_that_pixars_walle_was_originally_very/
+Processing submission jbi3a...
+	url: http://en.wikipedia.org/wiki/Brock_Pierce#IGE
+	anchor: IGE
+	permalink: http://reddit.com/r/todayilearned/comments/jbi3a/til_that_the_kid_from_the_first_kid_and_mighty/
+	(couldn't find anchor on page: IGE)
+Processing submission jbnfz...
+	url: http://en.wikipedia.org/wiki/Midnight_Cowboy#Awards_and_honors
+	anchor: Awards_and_honors
+	permalink: http://reddit.com/r/todayilearned/comments/jbnfz/til_that_a_clockwork_orange_and_midnight_cowboy/
+	(couldn't find anchor on page: Awards_and_honors)
+Processing submission jbopd...
+	url: http://en.wikipedia.org/wiki/Venous_blood#Colour
+	anchor: Colour
+	permalink: http://reddit.com/r/todayilearned/comments/jbopd/til_that_venous_oxygenremoved_blood_is_not_blue/
+Processing submission jc3bu...
+	url: http://en.wikipedia.org/wiki/Tower_of_Hanoi#In_popular_culture
+	anchor: In_popular_culture
+	permalink: http://reddit.com/r/movies/comments/jc3bu/planet_of_the_apes_renames_the_classic_tower_of/
+Processing submission jc43s...
+	url: http://en.wikipedia.org/wiki/Superman_(1999_video_game)#Development
+	anchor: Development
+	permalink: http://reddit.com/r/todayilearned/comments/jc43s/til_that_the_developers_of_superman_64_remade_the/
+	(couldn't find anchor on page: Development)
+Processing submission jc5xi...
+	url: http://en.wikipedia.org/wiki/Gun_politics#Japan
+	anchor: Japan
+	permalink: http://reddit.com/r/todayilearned/comments/jc5xi/til_japan_has_some_very_stringent_gun_control/
+Processing submission jc610...
+	url: http://en.wikipedia.org/wiki/Koala_bear#Physical_description
+	anchor: Physical_description
+	permalink: http://reddit.com/r/todayilearned/comments/jc610/til_koala_bear_fingerprints_are_nearly/
+	(couldn't find anchor on page: Physical_description)
+Processing submission jchq8...
+	url: http://www.guardian.co.uk/uk/2011/aug/08/london-riots-tottenham-duggan-blog#block-44
+	anchor: block-44
+	permalink: http://reddit.com/r/london/comments/jchq8/its_kicking_off_again_this_time_in_hackney/
+Processing submission jck3x...
+	url: http://en.wikipedia.org/wiki/Harold_McGraw_III#Life_and_career_outside_McGraw-Hill
+	anchor: Life_and_career_outside_McGraw-Hill
+	permalink: http://reddit.com/r/todayilearned/comments/jck3x/til_sp_is_owned_by_mcgrawhill_which_is_run_by/
+Processing submission jcs54...
+	url: http://en.wikipedia.org/wiki/Winchester_Model_1897#Military_use
+	anchor: Military_use
+	permalink: http://reddit.com/r/todayilearned/comments/jcs54/til_american_soldiers_in_ww1_would_use_shotguns/
+Processing submission jcsir...
+	url: http://en.wikipedia.org/wiki/Politics_of_the_United_States#General_developments
+	anchor: General_developments
+	permalink: http://reddit.com/r/todayilearned/comments/jcsir/til_that_the_founding_fathers_didnt_want/
+Processing submission jd61b...
+	url: http://en.wikipedia.org/wiki/Graphics_Interchange_Format#Pronunciation
+	anchor: Pronunciation
+	permalink: http://reddit.com/r/todayilearned/comments/jd61b/til_the_creator_of_the_gif_file_type_pronounces/
+Processing submission jdhhx...
+	url: http://en.wikipedia.org/wiki/Directx_10#Logos
+	anchor: Logos
+	permalink: http://reddit.com/r/todayilearned/comments/jdhhx/til_directx_was_originally_called_the_manhattan/
+Processing submission jdk9t...
+	url: http://en.wikipedia.org/wiki/Republican_Party_%28United_States%29#Voter_base
+	anchor: Voter_base
+	permalink: http://reddit.com/r/todayilearned/comments/jdk9t/til_republicans_are_statistically_more_educated/
+Processing submission jdmlr...
+	url: http://en.wikipedia.org/wiki/Utah#Miscellaneous
+	anchor: Miscellaneous
+	permalink: http://reddit.com/r/todayilearned/comments/jdmlr/til_utah_was_the_largest_consumer_of_paid/
+	(couldn't find anchor on page: Miscellaneous)
+Processing submission jemuq...
+	url: http://en.wikipedia.org/wiki/Lake_Superior#Hydrography
+	anchor: Hydrography
+	permalink: http://reddit.com/r/todayilearned/comments/jemuq/til_that_lake_superior_has_enough_water_to_cover/
+Processing submission jepfz...
+	url: http://en.wikipedia.org/wiki/Suit_%28clothing%29#Front_buttons
+	anchor: Front_buttons
+	permalink: http://reddit.com/r/todayilearned/comments/jepfz/til_mens_clothes_button_left_over_right_to/
+Processing submission jepuk...
+	url: http://en.wikipedia.org/wiki/Ray_Combs#Decline_and_death
+	anchor: Decline_and_death
+	permalink: http://reddit.com/r/todayilearned/comments/jepuk/til_ray_combs_the_host_of_family_feud_in_the_90s/
+	(couldn't find anchor on page: Decline_and_death)
+Processing submission jeq62...
+	url: http://en.wikipedia.org/wiki/Piero_Manzoni#Artist.27s_Shit
+	anchor: Artist.27s_Shit
+	permalink: http://reddit.com/r/todayilearned/comments/jeq62/til_about_piero_manzoni_an_italian_artist_who_in/
+Processing submission jeutt...
+	url: http://en.wikipedia.org/wiki/Load_%28album%29#Album_art
+	anchor: Album_art
+	permalink: http://reddit.com/r/todayilearned/comments/jeutt/til_the_metallica_album_load_is_in_fact_a_picture/
+Processing submission jex41...
+	url: http://en.wikipedia.org/wiki/Edgar_Mitchell#Views_on_UFOs
+	anchor: Views_on_UFOs
+	permalink: http://reddit.com/r/todayilearned/comments/jex41/til_one_of_the_apollo_astronauts_is_an_alien/
+Processing submission jf0g1...
+	url: http://en.wikipedia.org/wiki/Alien_(Alien_franchise)#Egg
+	anchor: Egg
+	permalink: http://reddit.com/r/todayilearned/comments/jf0g1/til_that_hr_giger_initially_designed_the_eggs/
+Processing submission jf7ee...
+	url: http://en.wikipedia.org/wiki/Nude_swimming#History
+	anchor: History
+	permalink: http://reddit.com/r/todayilearned/comments/jf7ee/til_the_ymca_once_enforced_a_rule_that_made_it/
+Processing submission jfmeb...
+	url: http://en.wikipedia.org/wiki/Red_Dawn#cite_note-thr45-0
+	anchor: cite_note-thr45-0
+	permalink: http://reddit.com/r/todayilearned/comments/jfmeb/til_red_dawn_was_the_first_ever_movie_rated_pg13/
+	(couldn't find anchor on page: cite_note-thr45-0)
+Processing submission jfu5y...
+	url: http://en.wikipedia.org/wiki/Friendship_Is_Magic#Production
+	anchor: Production
+	permalink: http://reddit.com/r/todayilearned/comments/jfu5y/til_the_current_production_staff_of_my_little/
+Processing submission jfyks...
+	url: http://en.wikipedia.org/wiki/Dexter_Morgan#Connections_to_actual_crimes
+	anchor: Connections_to_actual_crimes
+	permalink: http://reddit.com/r/todayilearned/comments/jfyks/til_that_the_tv_show_dexter_has_been_linked_to/
+Processing submission jg0tf...
+	url: http://en.wikipedia.org/wiki/E-meter#Description_and_use
+	anchor: Description_and_use
+	permalink: http://reddit.com/r/todayilearned/comments/jg0tf/til_l_ron_hubbard_beleived_that_tomatoes_screamed/
+Processing submission jgh0k...
+	url: http://en.wikipedia.org/wiki/White_people#United_States
+	anchor: United_States
+	permalink: http://reddit.com/r/todayilearned/comments/jgh0k/til_in_1950_white_people_made_up_nearly_90_of_the/
+Processing submission jgjqz...
+	url: http://en.wikipedia.org/wiki/Dog_meat#Canada
+	anchor: Canada
+	permalink: http://reddit.com/r/todayilearned/comments/jgjqz/til_it_is_legal_to_sell_and_serve_dog_meat_in/
+Processing submission jgqdx...
+	url: http://www.thestar.com/news/torontog20summit/article/1038347--aggression-during-g20-rally-perpetrated-by-police-judge-rules?bn=1#.TkUeNGgjSNY.facebook
+	anchor: .TkUeNGgjSNY.facebook
+	permalink: http://reddit.com/r/canada/comments/jgqdx/aggression_during_g20_rally_perpetrated_by_police/
+	(couldn't find anchor on page: .TkUeNGgjSNY.facebook)
+Processing submission jgt2c...
+	url: http://en.wikipedia.org/wiki/Bob_Mould#Pop_culture
+	anchor: Pop_culture
+	permalink: http://reddit.com/r/todayilearned/comments/jgt2c/til_bob_mould_founder_of_husker_du_wrote_the/
+Processing submission jgwu1...
+	url: http://en.wikipedia.org/wiki/Dr._Dre#Ghostwriters
+	anchor: Ghostwriters
+	permalink: http://reddit.com/r/todayilearned/comments/jgwu1/til_that_still_dre_the_lead_single_from_dr_dres/
+Processing submission jh2ji...
+	url: http://en.wikipedia.org/wiki/2008_Detroit_Lions_season#Schedule
+	anchor: Schedule
+	permalink: http://reddit.com/r/nfl/comments/jh2ji/the_definite_proof_that_preseason_does_not_give/
+Processing submission jhakj...
+	url: http://www.thestar.com/news/torontog20summit/article/1038347--aggression-during-g20-rally-perpetrated-by-police-judge-rules?bn=1#article
+	anchor: article
+	permalink: http://reddit.com/r/worldnews/comments/jhakj/aggression_during_g20_rally_perpetrated_by_police/
+	(couldn't find anchor on page: article)
+Processing submission jhb1n...
+	url: http://en.wikipedia.org/wiki/The_Dark_Knight_(film)#Cast
+	anchor: Cast
+	permalink: http://reddit.com/r/todayilearned/comments/jhb1n/til_that_robin_williams_and_steve_carell_both/
+Processing submission jhbpn...
+	url: http://en.wikipedia.org/wiki/Masturbate#Rites_of_passage
+	anchor: Rites_of_passage
+	permalink: http://reddit.com/r/todayilearned/comments/jhbpn/til_a_tribe_in_new_guinea_has_young_boys_perform/
+Processing submission jhg4q...
+	url: http://www.dailymotion.com/video/xkio97_dennis-rodman-2011-hall-of-fame-speech-video_sport#from=embediframe
+	anchor: from=embediframe
+	permalink: http://reddit.com/r/nba/comments/jhg4q/dennis_rodman_2011_hall_of_fame_speech/
+	(couldn't find anchor on page: from=embediframe)
+Processing submission jhle3...
+	url: http://en.wikipedia.org/wiki/ESPN_RISE_Elite_11#2002
+	anchor: 2002
+	permalink: http://reddit.com/r/nfl/comments/jhle3/til_that_the_only_elite_11_quarterback_to_win_a/
+Processing submission jhtlw...
+	url: http://www.rockpapershotgun.com/2011/08/13/cardboard-children-of-parpellimonies/#more-69320
+	anchor: more-69320
+	permalink: http://reddit.com/r/boardgames/comments/jhtlw/rock_paper_shotgun_talks_about_why_carcassonne_is/
+	(couldn't find anchor on page: more-69320)
+Processing submission jhxyv...
+	url: http://en.wikipedia.org/wiki/London_Bridge#Sale_of_Rennie.27s_bridge_to_Robert_McCulloch
+	anchor: Sale_of_Rennie.27s_bridge_to_Robert_McCulloch
+	permalink: http://reddit.com/r/todayilearned/comments/jhxyv/til_the_london_bridge_was_privately_purchased_in/
+Processing submission jhzh1...
+	url: http://en.wikipedia.org/wiki/Goblin_shark#Specific_occurrences
+	anchor: Specific_occurrences
+	permalink: http://reddit.com/r/todayilearned/comments/jhzh1/til_about_the_goblin_shark_which_has_only_been/
+	(couldn't find anchor on page: Specific_occurrences)
+Processing submission jibgu...
+	url: http://en.wikipedia.org/wiki/Beliefs_and_theology_of_the_Nation_of_Islam#The_Mother_Plane
+	anchor: The_Mother_Plane
+	permalink: http://reddit.com/r/todayilearned/comments/jibgu/til_that_the_nation_of_islam_believes_that_their/
+Processing submission jidbc...
+	url: http://en.wikipedia.org/wiki/Katherine_Knight#Price.27s_Murder
+	anchor: Price.27s_Murder
+	permalink: http://reddit.com/r/todayilearned/comments/jidbc/til_about_katherine_knight_an_australian_murderer/
+	(couldn't find anchor on page: Price.27s_Murder)
+Processing submission jidh9...
+	url: http://www.irishexaminer.com/ireland/vatican-has-dramatic-plans-for-irish-church-164186.html#.TkecJJVg5wg.reddit
+	anchor: .TkecJJVg5wg.reddit
+	permalink: http://reddit.com/r/ireland/comments/jidh9/vatican_has_dramatic_plans_for_irish_church_irish/
+	(couldn't find anchor on page: .TkecJJVg5wg.reddit)
+Processing submission jievg...
+	url: http://en.wikipedia.org/wiki/Ames_straw_poll#Summary_of_results
+	anchor: Summary_of_results
+	permalink: http://reddit.com/r/todayilearned/comments/jievg/til_the_only_one_to_win_the_ames_straw_poll_go_on/
+Processing submission jigh2...
+	url: http://en.wikipedia.org/wiki/I_Can_See_Clearly_Now#Jimmy_Cliff_version
+	anchor: Jimmy_Cliff_version
+	permalink: http://reddit.com/r/todayilearned/comments/jigh2/til_the_movie_cool_runnings_is_known_in_france_as/
+Processing submission jih2q...
+	url: http://en.wikipedia.org/wiki/Naomi_Watts#Personal_life
+	anchor: Personal_life
+	permalink: http://reddit.com/r/todayilearned/comments/jih2q/til_that_the_maniacal_laugh_in_pink_floyds_speak/
+Processing submission jihyh...
+	url: http://www.thestar.com/opinion/editorialopinion/article/1038961--apocalyptic-crisis-budgeting#.TkfqPJbPcJk.reddit
+	anchor: .TkfqPJbPcJk.reddit
+	permalink: http://reddit.com/r/canada/comments/jihyh/apocalyptic_crisis_budgeting/
+	(couldn't find anchor on page: .TkfqPJbPcJk.reddit)
+Processing submission jj27g...
+	url: http://en.wikipedia.org/wiki/Christopher_Walken#1970s
+	anchor: 1970s
+	permalink: http://reddit.com/r/todayilearned/comments/jj27g/til_christopher_walken_was_considered_by_george/
+Processing submission jj58w...
+	url: http://en.wikipedia.org/wiki/Grammatical_gender#Masculine.2C_feminine.2C_and_neuter
+	anchor: Masculine.2C_feminine.2C_and_neuter
+	permalink: http://reddit.com/r/todayilearned/comments/jj58w/til_that_unlike_french_which_has_two_grammatical/
+	(couldn't find anchor on page: Masculine.2C_feminine.2C_and_neuter)
+Processing submission jj6mf...
+	url: http://www.gq.com/style/street-style/201011/wandering-eye-gordon-von-steiner-princeton-ivy-league-style#slide=10
+	anchor: slide=10
+	permalink: http://reddit.com/r/malefashionadvice/comments/jj6mf/is_there_a_name_for_this_style_of_pants_with_the/
+	(couldn't find anchor on page: slide=10)
+Processing submission jj73y...
+	url: http://www.telegraph.co.uk/sport/football/teams/manchester-united/8701176/Alan-Hansen-Manchester-United-goalkeeper-David-de-Gea-in-trouble-as-he-does-not-have-trust-of-team-mates.html#.Tkja9zCNehA.reddit
+	anchor: .Tkja9zCNehA.reddit
+	permalink: http://reddit.com/r/soccer/comments/jj73y/alan_hansen_manchester_united_goalkeeper_david_de/
+	(couldn't find anchor on page: .Tkja9zCNehA.reddit)
+Processing submission jjdvt...
+	url: http://en.wikipedia.org/wiki/Name_of_Canada#Other_proposed_names
+	anchor: Other_proposed_names
+	permalink: http://reddit.com/r/canada/comments/jjdvt/til_some_of_the_other_proposed_names_for_canada/
+Processing submission jjjgd...
+	url: http://www.gq.com/sports/profiles/201109/mark-sanchez-gq-september-2011-cover-story#slide=1
+	anchor: slide=1
+	permalink: http://reddit.com/r/nfl/comments/jjjgd/mark_sanchez_in_september_2011_gq/
+	(couldn't find anchor on page: slide=1)
+Processing submission jjswb...
+	url: http://en.wikipedia.org/wiki/Hidden_track#Reasoning
+	anchor: Reasoning
+	permalink: http://reddit.com/r/todayilearned/comments/jjswb/til_that_weird_al_put_a_hidden_track_on_the_end/
+Processing submission jkb7l...
+	url: http://en.wikipedia.org/wiki/Hamster#Reproduction
+	anchor: Reproduction
+	permalink: http://reddit.com/r/todayilearned/comments/jkb7l/til_that_hamsters_eat_their_own_babies/
+Processing submission jkm5k...
+	url: http://us.battle.net/wow/en/blog/3300854#blog
+	anchor: blog
+	permalink: http://reddit.com/r/wow/comments/jkm5k/dev_watercooler_ghostcrawler_discusses_massive/
+Processing submission jkv1v...
+	url: http://en.wikipedia.org/wiki/Rapid_eye_movement_sleep#Physiology
+	anchor: Physiology
+	permalink: http://reddit.com/r/todayilearned/comments/jkv1v/til_that_it_is_normal_to_have_an_erection_for_up/
+Processing submission jl1hd...
+	url: http://en.wikipedia.org/wiki/Timeline_of_Crayola#1990.E2.80.93present
+	anchor: 1990.E2.80.93present
+	permalink: http://reddit.com/r/todayilearned/comments/jl1hd/til_that_crayolas_senior_color_maker_was/
+Processing submission jl46w...
+	url: http://en.wikipedia.org/wiki/J._Cole#Early_years
+	anchor: Early_years
+	permalink: http://reddit.com/r/todayilearned/comments/jl46w/til_that_rapper_j_cole_majored_in_communication/
+	(couldn't find anchor on page: Early_years)
+Processing submission jl4rm...
+	url: http://en.wikipedia.org/wiki/Extraterrestrial_skies#Earth_from_Mars
+	anchor: Earth_from_Mars
+	permalink: http://reddit.com/r/todayilearned/comments/jl4rm/til_that_if_you_were_standing_on_the_surface_of/
+Processing submission jl9q0...
+	url: http://en.wikipedia.org/wiki/Fulton_surface-to-air_recovery_system#Operation_Coldfeet
+	anchor: Operation_Coldfeet
+	permalink: http://reddit.com/r/todayilearned/comments/jl9q0/til_that_the_skyhook_used_by_batman_in_the_dark/
+Processing submission jlpct...
+	url: http://us.battle.net/wow/en/blog/3309048#blog
+	anchor: blog
+	permalink: http://reddit.com/r/wow/comments/jlpct/official_43_preview_on_transmogrification/
+Processing submission jlqsk...
+	url: http://en.wikipedia.org/wiki/Rick_Perry#Early_life
+	anchor: Early_life
+	permalink: http://reddit.com/r/todayilearned/comments/jlqsk/til_that_rick_perry_graduated_from_college_with_a/
+	(couldn't find anchor on page: Early_life)
+Processing submission jlz9j...
+	url: http://blog.us.playstation.com/2011/08/17/directv-and-playstation-bring-nfl-sunday-ticket-to-ps3/#utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+PSBlog+%28PlayStation.Blog%29
+	anchor: utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+PSBlog+%28PlayStation.Blog%29
+	permalink: http://reddit.com/r/cordcutters/comments/jlz9j/nfl_sunday_ticket_streaming_to_ps3_finally_a/
+	(couldn't find anchor on page: utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+PSBlog+%28PlayStation.Blog%29)
+Processing submission jm01b...
+	url: http://en.wikipedia.org/wiki/Ronnie_James_Dio#Early_years.2C_education_and_musical_training
+	anchor: Early_years.2C_education_and_musical_training
+	permalink: http://reddit.com/r/todayilearned/comments/jm01b/til_that_ronnie_james_dio_used_to_play_the_french/
+Processing submission jm6pl...
+	url: http://en.wikipedia.org/wiki/J%C3%BCrgen_Klinsmann#1995_to_1998:_Later_career
+	anchor: 1995_to_1998:_Later_career
+	permalink: http://reddit.com/r/soccer/comments/jm6pl/til_that_when_jurgen_klinsmann_retired_from/
+	(couldn't find anchor on page: 1995_to_1998:_Later_career)
+Processing submission jm9r6...
+	url: http://en.wikipedia.org/wiki/United_States_dollar#History
+	anchor: History
+	permalink: http://reddit.com/r/todayilearned/comments/jm9r6/til_that_when_us_dollars_were_first_produced_they/
+Processing submission jmbko...
+	url: http://en.wikipedia.org/wiki/Argentina_and_Brazil_football_rivalry#1945_and_1946_incidents
+	anchor: 1945_and_1946_incidents
+	permalink: http://reddit.com/r/soccer/comments/jmbko/mourinho_isnt_ruining_anything_the_game_has/
+Processing submission jmcd7...
+	url: http://en.wikipedia.org/wiki/Tadamasa_Goto#FBI_scandal
+	anchor: FBI_scandal
+	permalink: http://reddit.com/r/todayilearned/comments/jmcd7/til_in_2001_tadamasa_goto_head_of_the_gotogumi_of/
+Processing submission jmg5l...
+	url: http://en.wikipedia.org/wiki/Aurochs#Re-creation
+	anchor: Re-creation
+	permalink: http://reddit.com/r/science/comments/jmg5l/in_the_1920s_two_german_zoo_directors_began_a/
+	(couldn't find anchor on page: Re-creation)
+Processing submission jmgfg...
+	url: http://en.wikipedia.org/wiki/Aqua_Teen_Hunger_Force#Change_to_Aqua_Unit_Patrol_Squad_1
+	anchor: Change_to_Aqua_Unit_Patrol_Squad_1
+	permalink: http://reddit.com/r/todayilearned/comments/jmgfg/til_that_the_reason_aqua_teen_hungerforce_was/
+	(couldn't find anchor on page: Change_to_Aqua_Unit_Patrol_Squad_1)
+Processing submission jmjg3...
+	url: http://en.wikipedia.org/wiki/Phaseolus_vulgaris#Red_or_kidney_beans
+	anchor: Red_or_kidney_beans
+	permalink: http://reddit.com/r/todayilearned/comments/jmjg3/til_that_improperly_cooking_kidney_beans_can_kill/
+	(couldn't find anchor on page: Red_or_kidney_beans)
+Processing submission jml6s...
+	url: http://en.wikipedia.org/wiki/Florida_Marlins#Best_finishes_in_franchise_history
+	anchor: Best_finishes_in_franchise_history
+	permalink: http://reddit.com/r/todayilearned/comments/jml6s/til_the_florida_marlins_have_never_won_their/
+Processing submission jmljo...
+	url: http://en.wikipedia.org/wiki/Quran#Torah.2C_Hebrew_Bible_and_New_Testament
+	anchor: Torah.2C_Hebrew_Bible_and_New_Testament
+	permalink: http://reddit.com/r/todayilearned/comments/jmljo/til_that_jesus_is_mentioned_more_often_in_the/
+	(couldn't find anchor on page: Torah.2C_Hebrew_Bible_and_New_Testament)
+Processing submission jmu60...
+	url: http://en.wikipedia.org/wiki/Beer_bottle#Use_as_weapons
+	anchor: Use_as_weapons
+	permalink: http://reddit.com/r/todayilearned/comments/jmu60/til_that_in_part_of_australia_long_neck_beer/
+Processing submission jmukc...
+	url: http://us.battle.net/wow/en/blog/3342240#blog
+	anchor: blog
+	permalink: http://reddit.com/r/wow/comments/jmukc/43_preview_void_storage/
+Processing submission jnpps...
+	url: http://en.wikipedia.org/wiki/List_of_religious_populations#Sikhism
+	anchor: Sikhism
+	permalink: http://reddit.com/r/todayilearned/comments/jnpps/til_that_the_united_kingdom_has_the_second/
+Processing submission jo31p...
+	url: http://en.wikipedia.org/wiki/CocaCola#History
+	anchor: History
+	permalink: http://reddit.com/r/todayilearned/comments/jo31p/til_cocacola_was_originally_a_nonalcoholic_wine/
+Processing submission joe5c...
+	url: http://en.wikipedia.org/wiki/2011%E2%80%9312_UEFA_Europa_League#Association_ranking
+	anchor: Association_ranking
+	permalink: http://reddit.com/r/soccer/comments/joe5c/why_do_ukraine_have_more_potential_europa_league/
+Processing submission jojql...
+	url: http://en.wikipedia.org/wiki/Rhubarb_Rhubarb#Dialogue
+	anchor: Dialogue
+	permalink: http://reddit.com/r/todayilearned/comments/jojql/til_that_in_movies_background_conversations_often/
+Processing submission jom13...
+	url: http://en.wikipedia.org/wiki/Emotion_classification#Culturally_specific_emotions
+	anchor: Culturally_specific_emotions
+	permalink: http://reddit.com/r/todayilearned/comments/jom13/til_there_is_a_name_for_how_i_feel_trying_to/
+	(couldn't find anchor on page: Culturally_specific_emotions)
+Processing submission jorq0...
+	url: http://en.wikipedia.org/wiki/Chapped_lips#treatments
+	anchor: treatments
+	permalink: http://reddit.com/r/todayilearned/comments/jorq0/til_licking_your_lips_makes_it_hurt_worse_because/
+	(couldn't find anchor on page: treatments)
+Processing submission josh3...
+	url: http://en.wikipedia.org/wiki/Cyclops#Origins
+	anchor: Origins
+	permalink: http://reddit.com/r/todayilearned/comments/josh3/til_that_the_myth_of_the_cyclops_may_well_have/
+Processing submission jounq...
+	url: http://en.wikipedia.org/wiki/Teosinte#Origin_of_maize_and_interaction_with_teosintes
+	anchor: Origin_of_maize_and_interaction_with_teosintes
+	permalink: http://reddit.com/r/todayilearned/comments/jounq/til_modern_maize_was_obtained_through_genetic/
+Processing submission jouqq...
+	url: http://en.wikipedia.org/wiki/Weihenstephan_Abbey#Brewery
+	anchor: Brewery
+	permalink: http://reddit.com/r/todayilearned/comments/jouqq/til_theres_a_brewery_in_germany_thats_been/
+Processing submission jowik...
+	url: http://en.wikipedia.org/wiki/Chowchilla,_California#1976_bus_kidnapping
+	anchor: 1976_bus_kidnapping
+	permalink: http://reddit.com/r/todayilearned/comments/jowik/til_that_in_the_us_an_entire_school_bus_full_of/
+Processing submission jp7om...
+	url: http://en.wikipedia.org/wiki/Declaration_of_war#United_States
+	anchor: United_States
+	permalink: http://reddit.com/r/todayilearned/comments/jp7om/til_the_last_time_congress_passed_a_bill_with_the/
+Processing submission jpe08...
+	url: http://en.wikipedia.org/wiki/Roger_Deakins#Awards_and_nominations
+	anchor: Awards_and_nominations
+	permalink: http://reddit.com/r/todayilearned/comments/jpe08/til_that_roger_deakins_has_been_nominated_for_an/
+Processing submission jpeig...
+	url: http://arstechnica.com/science/news/2011/08/crank-who-targeted-science-writers-lured-into-threatening-police.ars?comments=1#comments-bar
+	anchor: comments-bar
+	permalink: http://reddit.com/r/worldnews/comments/jpeig/crank_who_targeted_science_writers_lured_into/
+	(couldn't find anchor on page: comments-bar)
+Processing submission jpteh...
+	url: http://en.wikipedia.org/wiki/Blue_Angels#Accidents
+	anchor: Accidents
+	permalink: http://reddit.com/r/todayilearned/comments/jpteh/til_that_10_of_blue_angels_pilots_have_died_in/
+Processing submission jptgc...
+	url: http://en.wikipedia.org/wiki/Armoured_train#Later_uses
+	anchor: Later_uses
+	permalink: http://reddit.com/r/todayilearned/comments/jptgc/til_that_kim_jong_il_travels_via_armoured_train/
+Processing submission jpw8f...
+	url: http://en.wikipedia.org/wiki/The_Conqueror_(film)#Cancer_controversy
+	anchor: Cancer_controversy
+	permalink: http://reddit.com/r/todayilearned/comments/jpw8f/til_the_filming_of_the_conqueror_may_have_caused/
+Processing submission jpxzt...
+	url: http://en.wikipedia.org/wiki/Hans_Litten#Cross-examination_of_Hitler
+	anchor: Cross-examination_of_Hitler
+	permalink: http://reddit.com/r/todayilearned/comments/jpxzt/til_hans_litten_questioned_hitler_for_three_hours/
+Processing submission jq36k...
+	url: http://en.wikipedia.org/wiki/Mancow_Muller#Politics
+	anchor: Politics
+	permalink: http://reddit.com/r/todayilearned/comments/jq36k/til_that_conservative_radio_show_host_mancow/
+Processing submission jq4sz...
+	url: http://en.wikipedia.org/wiki/Robert_Kraft#Other_activities
+	anchor: Other_activities
+	permalink: http://reddit.com/r/todayilearned/comments/jq4sz/til_that_vladimir_putin_allegedly_stole_robert/
+	(couldn't find anchor on page: Other_activities)
+Processing submission jq7k4...
+	url: http://en.wikipedia.org/wiki/Midwestern_United_States#History_of_the_term_Midwest
+	anchor: History_of_the_term_Midwest
+	permalink: http://reddit.com/r/todayilearned/comments/jq7k4/til_why_its_the_midwest_and_not_northcentral/
+Processing submission jq7mp...
+	url: http://en.wikipedia.org/wiki/Body_piercing#Ear_piercing
+	anchor: Ear_piercing
+	permalink: http://reddit.com/r/todayilearned/comments/jq7mp/til_sailors_pierced_their_ears_in_the_belief_that/
+Processing submission jqa3s...
+	url: http://en.wikipedia.org/wiki/Kurt_Warner#Arena_Football
+	anchor: Arena_Football
+	permalink: http://reddit.com/r/nfl/comments/jqa3s/til_that_kurt_warner_could_have_been_a_chicago/
+Processing submission jqacb...
+	url: http://www.thestar.com/news/article/1042779--severe-thunderstorm-takes-out-trees-leaves-10-000-people-without-power?bn=1#.TlHf12XbxDU.reddit
+	anchor: .TlHf12XbxDU.reddit
+	permalink: http://reddit.com/r/toronto/comments/jqacb/severe_thunderstorm_takes_out_trees_leaves_10000/
+	(couldn't find anchor on page: .TlHf12XbxDU.reddit)
+Processing submission jqap9...
+	url: http://en.wikipedia.org/wiki/(Sittin%27_On)_The_Dock_of_the_Bay#Universal_success
+	anchor: Universal_success
+	permalink: http://reddit.com/r/todayilearned/comments/jqap9/til_that_otis_redding_died_just_days_before_ever/
+Processing submission jqgdd...
+	url: http://stackoverflow.com/questions/1218390/what-is-your-most-productive-shortcut-with-vim/1220118#1220118
+	anchor: 1220118
+	permalink: http://reddit.com/r/linux/comments/jqgdd/your_problem_with_vim_is_that_you_dont_grok_vi/
+	(couldn't find anchor on page: 1220118)
+Processing submission jqjc5...
+	url: http://www.cbc.ca/news/canada/story/2011/08/22/layton-obituary.html#.TlJSsJJ2TB4.twitter
+	anchor: .TlJSsJJ2TB4.twitter
+	permalink: http://reddit.com/r/worldnews/comments/jqjc5/canadian_opposition_leader_jack_layton_dies/
+	(couldn't find anchor on page: .TlJSsJJ2TB4.twitter)
+Processing submission jqkm9...
+	url: http://en.wikipedia.org/wiki/Hadrian#Second_Roman-Jewish_War
+	anchor: Second_Roman-Jewish_War
+	permalink: http://reddit.com/r/todayilearned/comments/jqkm9/til_hadrian_roman_emperor_from_117_ad_to_138_ad/
+	(couldn't find anchor on page: Second_Roman-Jewish_War)
+Processing submission jqll1...
+	url: http://en.wikipedia.org/wiki/Martin_Luther_King,_Jr._National_Memorial#Fees_to_King_family
+	anchor: Fees_to_King_family
+	permalink: http://reddit.com/r/todayilearned/comments/jqll1/til_the_king_family_mlks_family_has_charged_the/
+Processing submission jqmcj...
+	url: http://en.wikipedia.org/wiki/Langue_d%27oc#History_of_the_modern_term
+	anchor: History_of_the_modern_term
+	permalink: http://reddit.com/r/todayilearned/comments/jqmcj/til_that_saying_this_to_imply_agreement_is_not_a/
+Processing submission jqpbg...
+	url: http://en.wikipedia.org/wiki/Gareth_Bale#Early_life
+	anchor: Early_life
+	permalink: http://reddit.com/r/soccer/comments/jqpbg/til_gareth_bale_was_so_good_at_football_in_high/
+	(couldn't find anchor on page: Early_life)
+Processing submission jqroh...
+	url: http://en.wikipedia.org/wiki/Urination#Voluntary_control
+	anchor: Voluntary_control
+	permalink: http://reddit.com/r/todayilearned/comments/jqroh/til_that_they_dont_actually_know_how_we/
+Processing submission jqsfb...
+	url: http://en.wikipedia.org/wiki/Donna_Noble#Introduction_and_character_development
+	anchor: Introduction_and_character_development
+	permalink: http://reddit.com/r/doctorwho/comments/jqsfb/til_that_elton_from_love_and_monsters_was/
+	(couldn't find anchor on page: Introduction_and_character_development)
+Processing submission jqw9x...
+	url: http://en.wikipedia.org/wiki/Robert_Kraft#Other_activities
+	anchor: Other_activities
+	permalink: http://reddit.com/r/nfl/comments/jqw9x/xpost_from_til_vladimir_putin_allegedly_stole/
+	(couldn't find anchor on page: Other_activities)
+Processing submission jr50t...
+	url: http://en.wikipedia.org/wiki/Scientology_controversies#L._Ron_Hubbard_and_starting_a_religion_for_money
+	anchor: L._Ron_Hubbard_and_starting_a_religion_for_money
+	permalink: http://reddit.com/r/todayilearned/comments/jr50t/til_that_according_to_robert_a_heinlein_l_ron/
+Processing submission jr6gl...
+	url: http://en.wikipedia.org/wiki/Resident_Evil_%28film%29#Pre-production
+	anchor: Pre-production
+	permalink: http://reddit.com/r/todayilearned/comments/jr6gl/til_george_a_romero_inventor_of_the_zombie_genre/
+Processing submission jrfzr...
+	url: http://en.wikipedia.org/wiki/Teetotalism#Notable_teetotalers
+	anchor: Notable_teetotalers
+	permalink: http://reddit.com/r/todayilearned/comments/jrfzr/til_that_adolf_hitler_was_a_teetotaler/
+Processing submission jrph9...
+	url: http://www.guardian.co.uk/uk/2011/aug/23/british-supports-harsher-sentences-riots#start-of-comments
+	anchor: start-of-comments
+	permalink: http://reddit.com/r/unitedkingdom/comments/jrph9/british_public_supports_harsher_sentences_over/
+	(couldn't find anchor on page: start-of-comments)
+Processing submission jrq2o...
+	url: http://en.wikipedia.org/wiki/Jeopardy!#Cash_prizes
+	anchor: Cash_prizes
+	permalink: http://reddit.com/r/todayilearned/comments/jrq2o/til_only_the_winner_on_jeopardy_takes_home_his/
+	(couldn't find anchor on page: Cash_prizes)
+Processing submission jrvsu...
+	url: http://en.wikipedia.org/wiki/The_Album_(ABBA_album)#The_Cold_War
+	anchor: The_Cold_War
+	permalink: http://reddit.com/r/todayilearned/comments/jrvsu/til_that_abba_the_album_was_so_popular_that_it/
+	(couldn't find anchor on page: The_Cold_War)
+Processing submission js1ky...
+	url: http://en.wikipedia.org/wiki/Kobe_Bryant#Childhood_and_youth
+	anchor: Childhood_and_youth
+	permalink: http://reddit.com/r/nba/comments/js1ky/5x_nba_champ_2x_nba_finals_mvp_13x_nba_allstar_2x/
+Processing submission js57v...
+	url: http://en.wikipedia.org/wiki/Harry_Potter_and_the_Philosopher%27s_Stone_(film)#Development
+	anchor: Development
+	permalink: http://reddit.com/r/todayilearned/comments/js57v/til_jk_rowling_wanted_terry_gilliam_to_direct_the/
+Processing submission js844...
+	url: http://en.wikipedia.org/wiki/Ramapo_Fault#Background
+	anchor: Background
+	permalink: http://reddit.com/r/todayilearned/comments/js844/til_earthquakes_of_the_same_magnitude_are/
+Processing submission jsea4...
+	url: http://en.wikipedia.org/wiki/Park_ranger#Duties.2C_disciplines.2C_and_specializations
+	anchor: Duties.2C_disciplines.2C_and_specializations
+	permalink: http://reddit.com/r/todayilearned/comments/jsea4/til_that_us_park_rangers_have_the_highest_of/
+Processing submission jsqsv...
+	url: http://en.wikipedia.org/wiki/Stanley_Kubrick%27s_Unrealized_Projects#Other_projects
+	anchor: Other_projects
+	permalink: http://reddit.com/r/movies/comments/jsqsv/stanley_kubrick_planned_to_make_a_movie_about/
+Processing submission jsv7g...
+	url: http://en.wikipedia.org/wiki/Sochi,_Russia#Climate
+	anchor: Climate
+	permalink: http://reddit.com/r/todayilearned/comments/jsv7g/til_the_host_city_of_the_2014_winter_olympics_is/
+Processing submission jswuw...
+	url: http://en.wikipedia.org/wiki/History_of_pitch_standards_in_Western_music#History_of_pitch_standards_in_Western_music
+	anchor: History_of_pitch_standards_in_Western_music
+	permalink: http://reddit.com/r/todayilearned/comments/jswuw/til_the_note_a440hz_definition_was_not_set_until/
+Processing submission jt5ke...
+	url: http://en.wikipedia.org/wiki/Perseus#Origin_at_Argos
+	anchor: Origin_at_Argos
+	permalink: http://reddit.com/r/todayilearned/comments/jt5ke/til_that_perseus_was_conceived_as_the_result_of_a/
+Processing submission jt78o...
+	url: http://www.telegraph.co.uk/news/worldnews/africaandindianocean/libya/8721058/Libya-1-million-bounty-for-Col-Gaddafi-dead-or-alive.html#.TlVUn--cHyI.reddit
+	anchor: .TlVUn--cHyI.reddit
+	permalink: http://reddit.com/r/worldnews/comments/jt78o/1_million_bounty_for_gaddafi_dead_or_alive/
+	(couldn't find anchor on page: .TlVUn--cHyI.reddit)
+Processing submission jta5n...
+	url: http://en.wikipedia.org/wiki/2011%E2%80%9312_UEFA_Champions_League_group_stage#Seeding
+	anchor: Seeding
+	permalink: http://reddit.com/r/soccer/comments/jta5n/official_seeding_for_the_champions_league_group/
+Processing submission jtjl0...
+	url: http://en.wikipedia.org/wiki/Steve_Young#USFL
+	anchor: USFL
+	permalink: http://reddit.com/r/todayilearned/comments/jtjl0/til_steve_young_is_still_receiving_payments_from/
+Processing submission jtqz9...
+	url: http://en.wikipedia.org/wiki/Dexter_(TV_series)#Criticism
+	anchor: Criticism
+	permalink: http://reddit.com/r/todayilearned/comments/jtqz9/til_that_the_show_dexter_faces_criticism_for/
+Processing submission ju6x1...
+	url: http://en.wikipedia.org/wiki/List_of_sovereign_states_by_date_of_formation#Europe_.26_the_islands
+	anchor: Europe_.26_the_islands
+	permalink: http://reddit.com/r/todayilearned/comments/ju6x1/til_that_america_is_one_of_the_oldest_countries/
+	(couldn't find anchor on page: Europe_.26_the_islands)
+Processing submission juas0...
+	url: http://www.uefa.com/uefa/uefa-best-player-award/news/newsid=1667736.html#messi+wins+uefa+best+player+europe+award
+	anchor: messi+wins+uefa+best+player+europe+award
+	permalink: http://reddit.com/r/soccer/comments/juas0/beats_xavi_and_ronaldo_messi_claims_europes/
+	(couldn't find anchor on page: messi+wins+uefa+best+player+europe+award)
+Processing submission jucwm...
+	url: http://www.huffingtonpost.ca/2011/08/25/lawful-access-surveillance_n_936875.html#s331165&amp;title=New_Zealand_Parliament
+	anchor: s331165&amp;title=New_Zealand_Parliament
+	permalink: http://reddit.com/r/canada/comments/jucwm/canadians_to_harper_butt_out/
+	(couldn't find anchor on page: s331165&amp;title=New_Zealand_Parliament)
+Processing submission junzk...
+	url: http://en.wikipedia.org/wiki/The_IQ_Controversy,_the_Media_and_Public_Policy_(book)#Synopsis
+	anchor: Synopsis
+	permalink: http://reddit.com/r/science/comments/junzk/based_on_the_available_evidence_15_of_scholars_in/
+Processing submission jv36d...
+	url: http://profootballtalk.nbcsports.com/2011/08/26/ravens-doss-gets-a-burger-halts-a-knife-attack-before-game/#content
+	anchor: content
+	permalink: http://reddit.com/r/nfl/comments/jv36d/ravens_doss_gets_a_burger_halts_a_knife_attack/
+Processing submission jv458...
+	url: http://en.wikipedia.org/wiki/Toronto#International_relations
+	anchor: International_relations
+	permalink: http://reddit.com/r/toronto/comments/jv458/til_tehran_iran_is_a_sister_city_to_toronto/
+Processing submission jv4tt...
+	url: http://www.theatlantic.com/international/archive/2011/08/was-the-libyan-intervention-really-an-intervention/244175/#.TlesfMqX--k.reddit
+	anchor: .TlesfMqX--k.reddit
+	permalink: http://reddit.com/r/worldnews/comments/jv4tt/was_the_libyan_intervention_really_an/
+	(couldn't find anchor on page: .TlesfMqX--k.reddit)
+Processing submission jveuz...
+	url: http://en.wikipedia.org/wiki/Loser_(Beck_song)#Conception_and_recording
+	anchor: Conception_and_recording
+	permalink: http://reddit.com/r/todayilearned/comments/jveuz/til_the_song_loser_by_beck_was_created_when_he/
+Processing submission jvztd...
+	url: http://en.wikipedia.org/wiki/Fuel_efficiency_in_transportation#Rockets
+	anchor: Rockets
+	permalink: http://reddit.com/r/todayilearned/comments/jvztd/til_that_the_space_shuttle_and_rockets_in_general/
+Processing submission jw2pp...
+	url: http://en.wikipedia.org/wiki/Star_Trek_Generations#Release
+	anchor: Release
+	permalink: http://reddit.com/r/todayilearned/comments/jw2pp/til_star_trek_generations_was_the_first_movie_to/
+Processing submission jwcd7...
+	url: http://en.wikipedia.org/wiki/Al_Jaffee#The_Fold-In
+	anchor: The_Fold-In
+	permalink: http://reddit.com/r/todayilearned/comments/jwcd7/til_al_jaffee_is_90_years_old_and_still_does_the/
+Processing submission jwqgb...
+	url: http://en.wikipedia.org/wiki/Methylene_blue#As_a_prank
+	anchor: As_a_prank
+	permalink: http://reddit.com/r/todayilearned/comments/jwqgb/til_that_you_can_put_methylene_blue_fish_tank/
+	(couldn't find anchor on page: As_a_prank)
+Processing submission jwr9d...
+	url: http://en.wikipedia.org/wiki/Alan_Jones_%28radio_broadcaster%29#Union
+	anchor: Union
+	permalink: http://reddit.com/r/australia/comments/jwr9d/til_alan_jones_used_to_coach_the_wallabies_i_feel/
+Processing submission jwu65...
+	url: http://en.wikipedia.org/wiki/Historic_tsunamis#1958:_Lituya_Bay.2C_Alaska.2C_USA
+	anchor: 1958:_Lituya_Bay.2C_Alaska.2C_USA
+	permalink: http://reddit.com/r/todayilearned/comments/jwu65/til_of_the_tallest_tsunami_in_history_it_was_1706/
+Processing submission jwvd4...
+	url: http://en.wikipedia.org/wiki/World_War_Z#Film_adaptation
+	anchor: Film_adaptation
+	permalink: http://reddit.com/r/todayilearned/comments/jwvd4/til_the_world_war_z_film_is_slated_for_release/
+Processing submission jwx4z...
+	url: http://en.wikipedia.org/wiki/Linux#Market_share_and_uptake
+	anchor: Market_share_and_uptake
+	permalink: http://reddit.com/r/todayilearned/comments/jwx4z/til_that_over_90_of_the_servers_and_workstations/
+Processing submission jwzz7...
+	url: http://stackoverflow.com/questions/7214419/how-to-find-the-units-digit-of-a-certain-power-in-a-simplest-way/7214528#7214528
+	anchor: 7214528
+	permalink: http://reddit.com/r/math/comments/jwzz7/how_to_find_the_units_digit_of_a_certain_power_in/
+	(couldn't find anchor on page: 7214528)
+Processing submission jx3lm...
+	url: http://www.telegraph.co.uk/sport/football/teams/arsenal/8726931/Arsenal-on-the-verge-of-signing-Moncao-striker-Park-Chu-Young.html#.Tlpzv8sqUpk.reddit
+	anchor: .Tlpzv8sqUpk.reddit
+	permalink: http://reddit.com/r/soccer/comments/jx3lm/i_know_lets_sign_another_striker/
+	(couldn't find anchor on page: .Tlpzv8sqUpk.reddit)
+Processing submission jx3q0...
+	url: http://en.wikipedia.org/wiki/Stairway_to_Heaven#Taurus
+	anchor: Taurus
+	permalink: http://reddit.com/r/todayilearned/comments/jx3q0/til_jimmy_page_stole_stairway_to_heaven_from/
+Processing submission jx4j7...
+	url: http://en.wikipedia.org/wiki/The_eXile#Pie_attack
+	anchor: Pie_attack
+	permalink: http://reddit.com/r/todayilearned/comments/jx4j7/til_about_the_guys_who_named_someone_worst/
+Processing submission jx9l3...
+	url: http://en.wikipedia.org/wiki/United_States_embargo_against_Cuba#Kennedy-era_embargo
+	anchor: Kennedy-era_embargo
+	permalink: http://reddit.com/r/todayilearned/comments/jx9l3/til_john_f_kennedy_bought_1200_cuban_cigars_the/
+Processing submission jxg1x...
+	url: http://en.wikipedia.org/wiki/Bodies_(Drowning_Pool_song)#Controversy
+	anchor: Controversy
+	permalink: http://reddit.com/r/todayilearned/comments/jxg1x/til_the_song_bodies_aka_let_the_bodies_hit_the/
+	(couldn't find anchor on page: Controversy)
+Processing submission jxyc4...
+	url: http://en.wikipedia.org/wiki/Equine_nutrition#Illnesses_related_to_improper_feeding
+	anchor: Illnesses_related_to_improper_feeding
+	permalink: http://reddit.com/r/todayilearned/comments/jxyc4/til_horses_cant_vomit_due_to_the_shape_of_their/
+Processing submission jy0ls...
+	url: http://en.wikipedia.org/wiki/Three_Principles_of_the_People#M.C3.ADnqu.C3.A1n
+	anchor: M.C3.ADnqu.C3.A1n
+	permalink: http://reddit.com/r/todayilearned/comments/jy0ls/til_about_the_taiwanese_government_which_has_5/
+Processing submission jy3s7...
+	url: http://en.wikipedia.org/wiki/FIFA_12#Commentators
+	anchor: Commentators
+	permalink: http://reddit.com/r/soccer/comments/jy3s7/new_commentators_for_fifa_12_sadly_still_no_ian/
+Processing submission jy7l5...
+	url: http://www.kansascity.com/2011/08/29/3107177/decision-on-kc-ballot-measure.html#.Tlvdyal7Dhs.reddit
+	anchor: .Tlvdyal7Dhs.reddit
+	permalink: http://reddit.com/r/kansascity/comments/jy7l5/decision_delayed_on_nuclear_weapons_ballot/
+	(couldn't find anchor on page: .Tlvdyal7Dhs.reddit)
+Processing submission jyv1y...
+	url: http://en.wikipedia.org/wiki/Larry_Silverstein#Insurance_dispute
+	anchor: Insurance_dispute
+	permalink: http://reddit.com/r/todayilearned/comments/jyv1y/til_that_the_world_trade_center_was_insured_for/
+Processing submission jz3d8...
+	url: http://en.wikipedia.org/wiki/Big_Lebowski#Development
+	anchor: Development
+	permalink: http://reddit.com/r/todayilearned/comments/jz3d8/til_the_big_lebowskis_main_character_was_based_on/
+Processing submission jz9f0...
+	url: http://en.wikipedia.org/wiki/Commando_%28film%29#Sequel
+	anchor: Sequel
+	permalink: http://reddit.com/r/todayilearned/comments/jz9f0/til_arnold_shwarzeneggar_refused_to_make_a_sequel/
+Processing submission jzmco...
+	url: http://en.wikipedia.org/wiki/Twilight_Zone:_The_Movie#Helicopter_accident
+	anchor: Helicopter_accident
+	permalink: http://reddit.com/r/todayilearned/comments/jzmco/til_that_two_people_were_decapitated_and_one_was/
+Processing submission jzt5g...
+	url: http://en.wikipedia.org/wiki/Assisted_suicide#Canada
+	anchor: Canada
+	permalink: http://reddit.com/r/canada/comments/jzt5g/how_do_canadians_feel_about_the_fact_that_there/
+Processing submission jzwam...
+	url: http://sports.yahoo.com/nba/blog/ball_dont_lie/post/Brandon-Jennings-says-Kobe-Bryant-shouldn-8217-?urn=nba-wp7965#mwpphu-container
+	anchor: mwpphu-container
+	permalink: http://reddit.com/r/nba/comments/jzwam/brandon_jennings_about_kobe_playing_in_drew/
+	(couldn't find anchor on page: mwpphu-container)
+Processing submission jzy05...
+	url: http://en.wikipedia.org/wiki/Iron_Maiden#Special_charter
+	anchor: Special_charter
+	permalink: http://reddit.com/r/todayilearned/comments/jzy05/til_the_singer_of_iron_maiden_flies_the_plane/
+Processing submission k004f...
+	url: http://www.telegraph.co.uk/finance/personalfinance/borrowing/mortgages/8732205/Banks-to-tell-families-cut-back-or-face-losing-your-home.html#dsq-content
+	anchor: dsq-content
+	permalink: http://reddit.com/r/unitedkingdom/comments/k004f/banks_to_tell_families_yeah_about_the_cash_i/
+	(couldn't find anchor on page: dsq-content)
+Processing submission k059l...
+	url: http://www.theatlantic.com/international/archive/2011/08/nato-propaganda-leaflets-found-in-tripoli/244366/#.Tl4zlycpJPk.reddit
+	anchor: .Tl4zlycpJPk.reddit
+	permalink: http://reddit.com/r/worldnews/comments/k059l/nato_propaganda_leaflets_found_in_tripoli_pics/
+	(couldn't find anchor on page: .Tl4zlycpJPk.reddit)
+Processing submission k05mx...
+	url: http://www.theatlantic.com/international/archive/2011/08/former-qaddafi-mercenaries-describe-fighting-in-libyan-war/244356/#.Tl42g4bG4LU.reddit
+	anchor: .Tl42g4bG4LU.reddit
+	permalink: http://reddit.com/r/worldnews/comments/k05mx/former_qaddafi_mercenaries_describe_fighting_in/
+	(couldn't find anchor on page: .Tl42g4bG4LU.reddit)
+Processing submission k0jpn...
+	url: http://en.wikipedia.org/wiki/Non-rigid_airship#Etymology
+	anchor: Etymology
+	permalink: http://reddit.com/r/todayilearned/comments/k0jpn/til_the_term_blimp_is_an_onomatopoeia_for_the/
+Processing submission k0o7k...
+	url: http://en.wikipedia.org/wiki/Nintendo_64_accessories#Transfer_Pak
+	anchor: Transfer_Pak
+	permalink: http://reddit.com/r/todayilearned/comments/k0o7k/til_that_perfect_dark_on_the_n64_was_initially/
