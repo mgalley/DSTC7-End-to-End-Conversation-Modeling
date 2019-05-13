@@ -1,5 +1,6 @@
 # DSTC7: End-to-End Conversation Modeling
 
+**[DSTC7](http://workshop.colips.org/dstc7/) has ended on January 27, 2019. This github project is still available 'as is', but we unfortunately no longer have time to maintain the code or to provide assistance with this project.**
 
 ## News
 * 10/29/2018: [Spreadsheet](https://github.com/DSTC-MSR-NLP/DSTC7-End-to-End-Conversation-Modeling/blob/master/evaluation/dstc7-task2-individual_judgments.xlsx) containing indivdual judgments used for human evaluation.
@@ -67,5 +68,5 @@ If you submit any system to DSTC7-Task2 or publish any other work making use of 
 ```Michel Galley, Chris Brockett, Xiang Gao, Bill Dolan, Jianfeng Gao. End-to-End conversation Modeling: DSTC7 Task 2 Description. In DSTC7 workshop (forthcoming).```
 
 ## Contact Information
-* For questions specific to Task 2, you can contact us at <dstc7-task2@microsoft.com>.
-* You can get the latest updates and participate in discussions on [DSTC mailing list](http://workshop.colips.org/dstc7/contact.html).
+* ~~For questions specific to Task 2, you can contact us at <dstc7-task2@microsoft.com>.~~ (No longer maintained.)
+* ~~You can get the latest updates and participate in discussions on [DSTC mailing list](http://workshop.colips.org/dstc7/contact.html).~~
