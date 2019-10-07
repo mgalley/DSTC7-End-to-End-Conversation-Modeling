@@ -1,3 +1,7 @@
+# Branch information
+
+This branch creates the cased version of the DSTC data. It is not official (!) so if you want to reproduce the results of the DSTC7 challenge, please use the main branch instead.
+
 # DSTC7: End-to-End Conversation Modeling
 
 **[DSTC7](http://workshop.colips.org/dstc7/) has ended on January 27, 2019. This github project is still available 'as is', but we unfortunately no longer have time to maintain the code or to provide assistance with this project.**

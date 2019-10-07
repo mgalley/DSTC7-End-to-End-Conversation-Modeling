@@ -63,7 +63,7 @@ undisclosed_str = '__UNDISCLOSED__'
 
 batch_download_facts = False
 robotparsers = {}
-tokenizer = TweetTokenizer(preserve_case=False)
+tokenizer = TweetTokenizer(preserve_case=True)
 cc = CommonCrawl(-2)
 
 def get_subreddit(submission):
@@ -379,8 +379,11 @@ def save_tuple(f, subreddit, sid, pos, user, context, message, response, score, 
     if len(response) <= args.max_res_len and len(response) >= args.min_res_len and response != deleted_str and user != deleted_str and response.find(">") < 0:
         if context.find(deleted_str) < 0:
             if score >= args.minscore:
+                hcontext = re.sub('^start ', 'START ', context.lower().replace(" eos ", " EOS "))
+                hresponse = response.lower()
                 out_str = "\t".join([subreddit, sid, str(score), str(pos), context, response])
-                hash_str = hashlib.sha224(out_str.encode("utf-8")).hexdigest()
+                hout_str = "\t".join([subreddit, sid, str(score), str(pos), hcontext, hresponse])
+                hash_str = hashlib.sha224(hout_str.encode("utf-8")).hexdigest()
                 if test_hashes == None or hash_str in test_hashes.keys():
                     if args.blind:
                         ## Note: there is no point in removing the '--blind' flag in order to peek at the reference responses (gold), 
