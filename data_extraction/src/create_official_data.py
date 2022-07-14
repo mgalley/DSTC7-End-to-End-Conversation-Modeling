@@ -9,13 +9,14 @@ Author: Michel Galley, Microsoft Research NLP Group (dstc7-task2@microsoft.com)
 """
 
 import sys
+import io
 import time
 import os.path
 import re
 import argparse
 import traceback
 import json
-import bz2
+import zstandard as zstd
 import pickle
 import nltk
 import urllib.request
@@ -60,6 +61,7 @@ important_tags = ['title', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'hr', 'p']
 notext_tags = ['script', 'style']
 deleted_str = '[deleted]'
 undisclosed_str = '__UNDISCLOSED__'
+max_window_size = 2**31
 
 batch_download_facts = False
 robotparsers = {}
@@ -218,7 +220,7 @@ def get_date(file_name):
     return year, month
 
 def get_submissions(rs_file, subreddit_file, domain_file):
-    """Return all submissions from a dump submission file rs_file (RS_*.bz2),
+    """Return all submissions from a dump submission file rs_file (RS_*.zst),
        restricted to the subreddit+domain listed in filter_file."""
     submissions = []
     subreddit_dic = None
@@ -230,37 +232,40 @@ def get_submissions(rs_file, subreddit_file, domain_file):
     if domain_file != None:
         with open(domain_file) as f:
             domain_dic = dict([ (el.strip(), 1) for el in f.readlines() ])
-    with bz2.open(rs_file, 'rt', encoding="utf-8") as f:
-        i = 0
-        for line in f:
-            try:
-                submission = json.loads(line)
-                if not filter_submission(submission):
-                    subreddit = get_subreddit(submission)
-                    domain = get_domain(submission)
-                    scheck = subreddit_dic == None or subreddit in subreddit_dic
-                    dcheck = domain_dic == None or domain in domain_dic
-                    if scheck and dcheck:
-                        s = dict([ (f, submission[f]) for f in fields ])
-                        print("keeping: subreddit=%s\tdomain=%s" % (subreddit, domain))
-                        if args.dryrun:
-                            continue
-                        if not batch_download_facts:
-                            s = add_webpage(s, year, month)
-                        submissions.append(s)
-                        sys.stdout.flush()
-                        sys.stderr.flush()
-                        i += 1
-                        if i == args.nsubmissions:
-                            break
-                    else:
-                        print("skipping: subreddit=%s\tdomain=%s (%s %s)" % (subreddit, domain, scheck, dcheck))
-                        pass
-            except json.decoder.JSONDecodeError:
-                pass
-            except Exception:
-                traceback.print_exc()
-                pass
+
+    with open(rs_file, 'rb') as fh:
+        dctx = zstd.ZstdDecompressor(max_window_size=max_window_size)
+        with dctx.stream_reader(fh) as reader:
+            i = 0
+            for line in io.TextIOWrapper(io.BufferedReader(reader), encoding='utf-8'):
+                try:
+                    submission = json.loads(line)
+                    if not filter_submission(submission):
+                        subreddit = get_subreddit(submission)
+                        domain = get_domain(submission)
+                        scheck = subreddit_dic == None or subreddit in subreddit_dic
+                        dcheck = domain_dic == None or domain in domain_dic
+                        if scheck and dcheck:
+                            s = dict([ (f, submission[f]) for f in fields ])
+                            print("keeping: subreddit=%s\tdomain=%s" % (subreddit, domain))
+                            if args.dryrun:
+                                continue
+                            if not batch_download_facts:
+                                s = add_webpage(s, year, month)
+                            submissions.append(s)
+                            sys.stdout.flush()
+                            sys.stderr.flush()
+                            i += 1
+                            if i == args.nsubmissions:
+                                break
+                        else:
+                            print("skipping: subreddit=%s\tdomain=%s (%s %s)" % (subreddit, domain, scheck, dcheck))
+                            pass
+                except json.decoder.JSONDecodeError:
+                    pass
+                except Exception:
+                    traceback.print_exc()
+                    pass
     if batch_download_facts:
         submissions = add_webpages(submissions)
     else:
@@ -271,16 +276,18 @@ def get_comments(rc_file, submissions):
     """Return all conversation triples from rc_file (RC_*.bz2),
        restricted to given submissions."""
     comments = {}
-    with bz2.open(rc_file, 'rt', encoding="utf-8") as f:
-        for line in f:
-            try:
-                comment = json.loads(line)
-                sid = get_linked_submission_id(comment)
-                if sid in submissions.keys():
-                    comments[get_comment_id(comment)] = comment
-            except Exception:
-                traceback.print_exc()
-                pass
+    with open(rc_file, 'rb') as fh:
+        dctx = zstd.ZstdDecompressor(max_window_size=max_window_size)
+        with dctx.stream_reader(fh) as reader:
+            for line in io.TextIOWrapper(io.BufferedReader(reader), encoding='utf-8'):
+                try:
+                    comment = json.loads(line)
+                    sid = get_linked_submission_id(comment)
+                    if sid in submissions.keys():
+                        comments[get_comment_id(comment)] = comment
+                except Exception:
+                    traceback.print_exc()
+                    pass
     return comments
 
 def load_data():

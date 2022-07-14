@@ -4,7 +4,7 @@ Task 2 uses conversational data extracted from Reddit. Each conversation in this
 
 (Note: the older and now obsolete setup to create the "trial" data can be found [here](https://github.com/DSTC-MSR/DSTC7-End-to-End-Conversation-Modeling/tree/master/data_extraction/trial).)
 
-If you run into any problem creating the data, please check the [FAQ](https://github.com/DSTC-MSR-NLP/DSTC7-End-to-End-Conversation-Modeling/tree/master/data_extraction#FAQ) section below. Otherwise, feel free to contact us at: <dstc7-task2@microsoft.com> (if so, please email us a zip file of all the log files in the `logs` directory).
+If you run into any problem creating the data, please check the [FAQ](https://github.com/mgalley/DSTC7-End-to-End-Conversation-Modeling/tree/master/data_extraction#FAQ) section below.
 
 ## Requirements
 
@@ -18,7 +18,7 @@ This page assumes you are running a UNIX environment (Linux, macOS, etc.) If you
 
 To install the above Python modules, you can run:
 
-```pip install -r src\requirements.txt```
+```pip install -r src/requirements.txt```
 
 Please also run set `PYTHONIOENCODING=UTF-8` in your environment, e.g., by running this in bash:
 ```export PYTHONIOENCODING=UTF-8``
@@ -39,7 +39,7 @@ This will run the extraction pipeline with 4 processes. Depending on your number
 
 The data is generated from Reddit and the web, so some of it is noisy and occasionally contains offensive language. While we mostly selected Reddit boards (i.e., "subreddits") and web domains that are mostly "safe for work", explicit and offensive language sometimes appears in the data and we did not attempt to eliminate it further (for the sake of simplicity and reproducibility of our pipeline).
 
-Note: if you set a large number of processes, the server hosting the Reddit data (`files.pushshift.io`) might complain about "too many open connections". If so, you might want to use the makefile to first create all `reddit\*.bz2` files and only then run e.g. `make -j7`.
+Note: if you set a large number of processes, the server hosting the Reddit data (`files.pushshift.io`) might complain about "too many open connections". If so, you might want to use the makefile to first create all `reddit/*.zst` files and only then run e.g. `make -j7`.
 
 Generated data files (see data description below):
 1. `train.convos.txt`: Conversations of the training set
@@ -135,9 +135,9 @@ Maps to:
 <a name="FAQ"></a>
 ## FAQ
 
-**Q:** `make` crashed and returned some non-zero code(s), e.g.: `make: *** [reddit/RC_2013-05.bz2] Error 8`
+**Q:** `make` crashed and returned some non-zero code(s), e.g.: `make: *** [reddit/RC_2013-05.zst] Error 8`
 <br>
-**A:** It might be a temporary network connection problem. If you rerun the same `make` command, the scripts will resume data download and creation from where it left off. If restarting multiple times doesn't solve your problem, you can email us at <dstc7-task2@microsoft.com> (if so, please email us a zip file of all the log files in the `logs` directory).
+**A:** It might be a temporary network connection problem. If you rerun the same `make` command, the scripts will resume data download and creation from where it left off. 
 <br>
 **A:** Alternatively, it might be because you ran `make` with a large number of processes (> 4). The server hosting the Reddit data doesn't allow more than 4 simultaneous connections from the same IP address.
 
