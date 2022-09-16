@@ -14,11 +14,12 @@ This page assumes you are running a UNIX environment (Linux, macOS, etc.) If you
    * `nltk`
    * `beautifulsoup4`
    * `chardet`
+   * `zstandard`
 * `make`
 
 To install the above Python modules, you can run:
 
-```pip install -r src/requirements.txt```
+```pip install -r requirements.txt```
 
 Please also run set `PYTHONIOENCODING=UTF-8` in your environment, e.g., by running this in bash:
 ```export PYTHONIOENCODING=UTF-8``

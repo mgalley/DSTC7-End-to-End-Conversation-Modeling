@@ -5,7 +5,6 @@ create_official_data.py
 A script to turn extract:
 (1) conversation from Reddit file dumps (originally downloaded from https://files.pushshift.io/reddit/daily/)
 (2) grounded data ("facts") extracted from the web, respecting robots.txt
-Author: Michel Galley, Microsoft Research NLP Group (dstc7-task2@microsoft.com)
 """
 
 import sys
@@ -52,6 +51,7 @@ parser.add_argument("--tokenize", help="Whether to tokenize facts and conversati
 parser.add_argument("--anchoronly", help="Filter out URLs with no named anchors.", default=False, type=bool)
 parser.add_argument("--use_robots_txt", help="Whether to respect robots.txt (disable this only if urls have been previously checked by other means!)", default=True, type=bool)
 parser.add_argument("--use_cc", help="Whether to download pages from Common Crawl.", default=False, type=bool)
+parser.add_argument("--cc_match", help="tsv file containing the precomputation of [url, submission month] -> [cc month]", default='lists/cc-match.tsv', type=str)
 parser.add_argument("--dryrun", help="Just collect stats about data; don't create any data.", default=False, type=bool)
 parser.add_argument("--blind", help="Don't print out responses.", default=False, type=bool)
 args = parser.parse_args()
@@ -66,7 +66,10 @@ max_window_size = 2**31
 batch_download_facts = False
 robotparsers = {}
 tokenizer = TweetTokenizer(preserve_case=False)
-cc = CommonCrawl(-2)
+if args.cc_match:
+    cc = CommonCrawl(0)
+else:
+    cc = CommonCrawl(-2)
 
 def get_subreddit(submission):
     return submission["subreddit"]
@@ -150,24 +153,31 @@ def norm_sentence(t):
         t = t.replace('[ deleted ]','[deleted]');
     return t
 
-def add_webpage(submission, year, month):
+def add_webpage(submission, year, month, cc_match=None):
     """Retrive sentences ('facts') from submission["url"]. """
     if args.use_cc:
-        return add_cc_webpage(submission, year, month)
+        return add_cc_webpage(submission, year, month, cc_match)
     return add_live_webpage(submission)
 
-def add_cc_webpage(submission, year, month):
+def add_cc_webpage(submission, year, month, cc_match=None):
     url = get_url(submission)
-    src, date = cc.download(url, year, month, False)
+    kstr = cc.get_key(url, month, year)
+    if cc_match and kstr not in cc_match:
+        print("Can't fetch (precomputed): [%s] submission month: [%s-%s]" % (url, year, month))
+        sys.stdout.flush()
+        return None
+    src, month_id, date = cc.download(url, year, month, False, cc_match=cc_match)
     sys.stdout.flush()
     if src == None:
-        src, date = cc.download(url, year, month, True)
+        src, month_id, date = cc.download(url, year, month, True, cc_match=cc_match)
         sys.stdout.flush()
         if src == None:
             print("Can't fetch: [%s] submission month: [%s-%s]" % (url, year, month))
             sys.stdout.flush()
             return None
-    print("Fetching url: [%s] submission month: [%s-%s] commoncrawl date: [%s]" % (url, year, month, str(date)))
+    print("Fetching url: [%s] submission month: [%s-%s] -> [%s] commoncrawl date: [%s]" % (url, year, month, month_id, str(date)))
+    print("FETCH\t%s\t%s-%s\t%s" % (url, year, month, month_id))
+    sys.stdout.flush()
     submission["source"] = src
     return submission
 
@@ -219,7 +229,7 @@ def get_date(file_name):
     month = m.group(2)
     return year, month
 
-def get_submissions(rs_file, subreddit_file, domain_file):
+def get_submissions(rs_file, subreddit_file, domain_file, cc_match=None):
     """Return all submissions from a dump submission file rs_file (RS_*.zst),
        restricted to the subreddit+domain listed in filter_file."""
     submissions = []
@@ -251,7 +261,7 @@ def get_submissions(rs_file, subreddit_file, domain_file):
                             if args.dryrun:
                                 continue
                             if not batch_download_facts:
-                                s = add_webpage(s, year, month)
+                                s = add_webpage(s, year, month, cc_match=cc_match)
                             submissions.append(s)
                             sys.stdout.flush()
                             sys.stderr.flush()
@@ -290,11 +300,11 @@ def get_comments(rc_file, submissions):
                     pass
     return comments
 
-def load_data():
+def load_data(cc_match=None):
     """Load data either from a pickle file if it exists,
        and otherwise from RC_* RS_* and directly from the web."""
     if not os.path.isfile(args.pickle):
-        submissions = get_submissions(args.rsinput, args.subreddit_filter, args.domain_filter)
+        submissions = get_submissions(args.rsinput, args.subreddit_filter, args.domain_filter, cc_match=cc_match)
         comments = get_comments(args.rcinput, submissions)
         with open(args.pickle, 'wb') as f:
             pickle.dump([submissions, comments], f, protocol=pickle.HIGHEST_PROTOCOL)
@@ -423,10 +433,22 @@ def read_test_hashes(hash_file):
             hashes[hash_str] = 1
     return hashes
 
+def load_cc_match(match_file):
+    cc_match = {}
+    with open(match_file, 'r') as f:
+        for line in f:
+            els = line.strip().split('\t')
+            k = cc.get_key(els[0], els[1])
+            cc_match[k] = els[2]
+    return cc_match
+
 if __name__== "__main__":
     test_hashes = None
     if args.test != "":
         test_hashes = read_test_hashes(args.test)
-    submissions, comments = load_data()
+    cc_match = None
+    if args.cc_match != '':
+        cc_match = load_cc_match(args.cc_match)
+    submissions, comments = load_data(cc_match=cc_match)
     submissions = save_facts(submissions)
     save_tuples(submissions, comments, test_hashes)

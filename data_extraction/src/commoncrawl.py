@@ -23,8 +23,10 @@ class CommonCrawl:
     index_url_prefix = 'http://index.commoncrawl.org/CC-MAIN-'
     data_url = 'https://data.commoncrawl.org/'
     index_url_suffix = '%2F&output=json'
-    error_service_unavailable = 503
+    error_internal_server = 500
     error_bad_gateway = 502
+    error_service_unavailable = 503
+    error_gateway_timeout = 504
     error_not_found = 404
     max_retry = 5
     retry_wait = 3
@@ -32,6 +34,16 @@ class CommonCrawl:
     def __init__(self, month_offset):
         self.month_keys_dic = dict([ (self.month_keys[i], i) for i in range(0, len(self.month_keys))])
         self.month_offset = month_offset
+
+
+    def get_key(self, url, month, year=None):
+        if year == None:
+            return f"{url}|{month}"
+        return f"{url}|{year}-{month}"
+
+    def get_match(self, cc_match, url, month_id):
+        k = self.get_key(url, month_id)
+        return cc_match[k]
 
     def _get_month_id(self, year, month):
         k = year + "-" + month
@@ -48,7 +60,7 @@ class CommonCrawl:
         idx += self.month_offset
         return max(0, min(idx, len(self.month_keys)-1))
 
-    def download(self, url, year=None, month=None, backward=True):
+    def download(self, url, year=None, month=None, backward=True, cc_match=None):
         """
         Returns html from a url using Common Crawl (CC).
             url = identifies page to retrieve
@@ -59,6 +71,11 @@ class CommonCrawl:
             was originally retrieved (datetime object).
         """
         idx = 0
+        if cc_match:
+            old_date = f'{year}-{month}'
+            year, month = self.get_match(cc_match, url, year + '-' + month).split('-')
+            new_date = f'{year}-{month}'
+            print(f'MATCH\t{url}\t{old_date}\t{new_date}')
         if year != None and month != None:
             idx = self._get_month_id(year, month)
         step = int(backward)*2-1
@@ -93,11 +110,14 @@ class CommonCrawl:
                 else:
                     warc, header, response = els
                     date = datetime.strptime(page['timestamp'],'%Y%m%d%H%M%S')
-                    return response, date
+                    return response, self.month_keys[idx], date
             except UnicodeDecodeError:
                 idx = idx + step
             except urllib.error.HTTPError as err:
-                if err.code == self.error_service_unavailable or err.code == self.error_bad_gateway:
+                if err.code == self.error_service_unavailable or \
+                   err.code == self.error_gateway_timeout or \
+                   err.code == self.error_bad_gateway or \
+                   err.code == self.error_internal_server:
                     if retry >= self.max_retry:
                         idx = idx + step
                         retry = 0
@@ -116,10 +136,10 @@ class CommonCrawl:
                     print("Unexpected error code: %d" % err.code, file=sys.stderr)
                     sys.stderr.flush()
             except Exception as err:
-                    print("Unexpected error: %s" % err, file=sys.stderr)
+                    print("Unexpected error: %s, waiting %d seconds" % (err, self.retry_wait), file=sys.stderr)
                     sys.stderr.flush()
                     time.sleep(self.retry_wait)
-        return None, None
+        return None, None, None
 
 if __name__== "__main__":
     cc = CommonCrawl(-2)

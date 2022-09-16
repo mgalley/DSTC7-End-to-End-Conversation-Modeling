@@ -1,1 +1,9 @@
 __pycache__
+tmp
+src/tmp
+data_extraction/logs
+data_extraction/reddit
+data_extraction/data-official
+data_extraction/data-official-test
+data_extraction/data-official-valid
+*.log
